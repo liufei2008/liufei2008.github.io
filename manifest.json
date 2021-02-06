@@ -1,0 +1,1201 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/UnrealProjects/LGUI_DOC",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/Button.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/Button.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GetStarted/CustomButton/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "GetStarted/CustomButton/index.html",
+          "hash": "+EsEddkSru7F1vwU9a+e+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step10.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step11.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step12.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step13.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step14.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step14.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step15.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step15.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step16.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step16.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step17.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step17.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step18.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step18.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step19.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step19.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step2.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step20.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step20.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step21.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step21.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step22.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step22.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step3.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step4.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step4_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step4_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step4_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step4_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step5.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step6.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step7.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step8.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/CustomButton/step9.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/CustomButton/step9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GetStarted/Font/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "GetStarted/Font/index.html",
+          "hash": "nyRTcmUW5q46mzl3Exl75A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step1.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step2.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step3.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step4.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step5.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step6.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step7.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step8.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Font/step9.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Font/step9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world1.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world10.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world11.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world12.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world13.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world14.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world14.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world2.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world3.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world4.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world5.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world6.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world7.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world8.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/hello_world9.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/hello_world9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/HelloWorld/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/HelloWorld/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "GetStarted/HelloWorld/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "GetStarted/HelloWorld/index.html",
+          "hash": "+q0N6VNihSgKRa5k5r2NKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/github.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/github.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/github1.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/github1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/github2.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/github2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/github3.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/github3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/github4.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/github4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GetStarted/Install/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "GetStarted/Install/index.html",
+          "hash": "iNWbMMerVnmsh2hnBu570g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/install_complete.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/install_complete.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Install/marketplace.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Install/marketplace.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GetStarted/Prefab/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "GetStarted/Prefab/index.html",
+          "hash": "CHLGLz+1lX0LxSOvd5BpkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step1.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step10.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step11.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step12.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step13.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step14.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step14.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step15.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step15.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step16.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step16.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step17.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step17.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step18.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step18.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step19.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step19.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step2.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step20.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step20.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step21.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step21.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step22.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step22.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step23.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step23.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step24.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step24.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step25.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step25.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step26.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step26.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step27.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step27.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step28.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step28.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step29.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step29.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step3.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step30.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step30.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step4.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step5.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step6.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step7.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step8.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/Prefab/step9.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/Prefab/step9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "GetStarted/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "GetStarted/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GetStarted/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "GetStarted/index.html",
+          "hash": "xBX3/3mB6WuB4Tfce4sd0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI_Mannual.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI_Mannual.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "SampleProjects/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "SampleProjects/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "SampleProjects/icon2.png",
+      "output": {
+        "resource": {
+          "relative_path": "SampleProjects/icon2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "SampleProjects/icon3.png",
+      "output": {
+        "resource": {
+          "relative_path": "SampleProjects/icon3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "SampleProjects/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "SampleProjects/index.html",
+          "hash": "i7ZAQTGpIlZ0dyKd6A9f6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "UIElementsAndControls/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "UIElementsAndControls/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "UIElementsAndControls/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "UIElementsAndControls/index.html",
+          "hash": "NJFIPDCpG4uJNkYRqq4UCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "fUJDztbj3dNYYZuxeMCapA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
