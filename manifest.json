@@ -14,10 +14,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/Button.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/Button.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/Button.png"
+          "relative_path": "Manual/GetStarted/CustomButton/Button.png"
         }
       },
       "is_incremental": false,
@@ -25,10 +25,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/icon.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/icon.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/icon.png"
+          "relative_path": "Manual/GetStarted/CustomButton/icon.png"
         }
       },
       "is_incremental": false,
@@ -36,11 +36,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "GetStarted/CustomButton/index.md",
+      "source_relative_path": "Manual/GetStarted/CustomButton/index.md",
       "output": {
         ".html": {
-          "relative_path": "GetStarted/CustomButton/index.html",
-          "hash": "+EsEddkSru7F1vwU9a+e+g=="
+          "relative_path": "Manual/GetStarted/CustomButton/index.html",
+          "hash": "XHA4EgDGqxDSerf2LQBwjA=="
         }
       },
       "is_incremental": false,
@@ -48,10 +48,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step10.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step10.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step10.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step10.png"
         }
       },
       "is_incremental": false,
@@ -59,10 +59,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step11.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step11.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step11.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step11.png"
         }
       },
       "is_incremental": false,
@@ -70,10 +70,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step12.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step12.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step12.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step12.png"
         }
       },
       "is_incremental": false,
@@ -81,10 +81,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step13.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step13.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step13.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step13.png"
         }
       },
       "is_incremental": false,
@@ -92,10 +92,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step14.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step14.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step14.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step14.png"
         }
       },
       "is_incremental": false,
@@ -103,10 +103,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step15.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step15.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step15.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step15.png"
         }
       },
       "is_incremental": false,
@@ -114,10 +114,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step16.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step16.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step16.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step16.png"
         }
       },
       "is_incremental": false,
@@ -125,10 +125,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step17.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step17.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step17.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step17.png"
         }
       },
       "is_incremental": false,
@@ -136,10 +136,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step18.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step18.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step18.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step18.png"
         }
       },
       "is_incremental": false,
@@ -147,10 +147,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step19.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step19.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step19.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step19.png"
         }
       },
       "is_incremental": false,
@@ -158,10 +158,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step2.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step2.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step2.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step2.png"
         }
       },
       "is_incremental": false,
@@ -169,10 +169,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step20.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step20.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step20.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step20.png"
         }
       },
       "is_incremental": false,
@@ -180,10 +180,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step21.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step21.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step21.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step21.png"
         }
       },
       "is_incremental": false,
@@ -191,10 +191,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step22.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step22.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step22.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step22.png"
         }
       },
       "is_incremental": false,
@@ -202,10 +202,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step3.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step3.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step3.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step3.png"
         }
       },
       "is_incremental": false,
@@ -213,10 +213,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step4.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step4.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step4.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step4.png"
         }
       },
       "is_incremental": false,
@@ -224,10 +224,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step4_1.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step4_1.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step4_1.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step4_1.png"
         }
       },
       "is_incremental": false,
@@ -235,10 +235,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step4_2.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step4_2.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step4_2.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step4_2.png"
         }
       },
       "is_incremental": false,
@@ -246,10 +246,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step5.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step5.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step5.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step5.png"
         }
       },
       "is_incremental": false,
@@ -257,10 +257,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step6.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step6.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step6.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step6.png"
         }
       },
       "is_incremental": false,
@@ -268,10 +268,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step7.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step7.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step7.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step7.png"
         }
       },
       "is_incremental": false,
@@ -279,10 +279,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step8.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step8.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step8.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step8.png"
         }
       },
       "is_incremental": false,
@@ -290,10 +290,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/CustomButton/step9.png",
+      "source_relative_path": "Manual/GetStarted/CustomButton/step9.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/CustomButton/step9.png"
+          "relative_path": "Manual/GetStarted/CustomButton/step9.png"
         }
       },
       "is_incremental": false,
@@ -301,11 +301,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "GetStarted/Font/index.md",
+      "source_relative_path": "Manual/GetStarted/Font/index.md",
       "output": {
         ".html": {
-          "relative_path": "GetStarted/Font/index.html",
-          "hash": "nyRTcmUW5q46mzl3Exl75A=="
+          "relative_path": "Manual/GetStarted/Font/index.html",
+          "hash": "RW2WomFkkkFbXe2IKHzJiQ=="
         }
       },
       "is_incremental": false,
@@ -313,10 +313,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step1.png",
+      "source_relative_path": "Manual/GetStarted/Font/step1.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step1.png"
+          "relative_path": "Manual/GetStarted/Font/step1.png"
         }
       },
       "is_incremental": false,
@@ -324,10 +324,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step2.png",
+      "source_relative_path": "Manual/GetStarted/Font/step2.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step2.png"
+          "relative_path": "Manual/GetStarted/Font/step2.png"
         }
       },
       "is_incremental": false,
@@ -335,10 +335,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step3.png",
+      "source_relative_path": "Manual/GetStarted/Font/step3.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step3.png"
+          "relative_path": "Manual/GetStarted/Font/step3.png"
         }
       },
       "is_incremental": false,
@@ -346,10 +346,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step4.png",
+      "source_relative_path": "Manual/GetStarted/Font/step4.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step4.png"
+          "relative_path": "Manual/GetStarted/Font/step4.png"
         }
       },
       "is_incremental": false,
@@ -357,10 +357,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step5.png",
+      "source_relative_path": "Manual/GetStarted/Font/step5.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step5.png"
+          "relative_path": "Manual/GetStarted/Font/step5.png"
         }
       },
       "is_incremental": false,
@@ -368,10 +368,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step6.png",
+      "source_relative_path": "Manual/GetStarted/Font/step6.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step6.png"
+          "relative_path": "Manual/GetStarted/Font/step6.png"
         }
       },
       "is_incremental": false,
@@ -379,10 +379,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step7.png",
+      "source_relative_path": "Manual/GetStarted/Font/step7.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step7.png"
+          "relative_path": "Manual/GetStarted/Font/step7.png"
         }
       },
       "is_incremental": false,
@@ -390,10 +390,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step8.png",
+      "source_relative_path": "Manual/GetStarted/Font/step8.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step8.png"
+          "relative_path": "Manual/GetStarted/Font/step8.png"
         }
       },
       "is_incremental": false,
@@ -401,10 +401,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Font/step9.png",
+      "source_relative_path": "Manual/GetStarted/Font/step9.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Font/step9.png"
+          "relative_path": "Manual/GetStarted/Font/step9.png"
         }
       },
       "is_incremental": false,
@@ -412,10 +412,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world1.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world1.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world1.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world1.png"
         }
       },
       "is_incremental": false,
@@ -423,10 +423,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world10.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world10.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world10.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world10.png"
         }
       },
       "is_incremental": false,
@@ -434,10 +434,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world11.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world11.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world11.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world11.png"
         }
       },
       "is_incremental": false,
@@ -445,10 +445,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world12.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world12.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world12.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world12.png"
         }
       },
       "is_incremental": false,
@@ -456,10 +456,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world13.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world13.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world13.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world13.png"
         }
       },
       "is_incremental": false,
@@ -467,10 +467,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world14.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world14.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world14.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world14.png"
         }
       },
       "is_incremental": false,
@@ -478,10 +478,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world2.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world2.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world2.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world2.png"
         }
       },
       "is_incremental": false,
@@ -489,10 +489,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world3.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world3.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world3.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world3.png"
         }
       },
       "is_incremental": false,
@@ -500,10 +500,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world4.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world4.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world4.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world4.png"
         }
       },
       "is_incremental": false,
@@ -511,10 +511,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world5.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world5.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world5.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world5.png"
         }
       },
       "is_incremental": false,
@@ -522,10 +522,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world6.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world6.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world6.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world6.png"
         }
       },
       "is_incremental": false,
@@ -533,10 +533,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world7.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world7.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world7.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world7.png"
         }
       },
       "is_incremental": false,
@@ -544,10 +544,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world8.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world8.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world8.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world8.png"
         }
       },
       "is_incremental": false,
@@ -555,10 +555,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/hello_world9.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world9.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/hello_world9.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/hello_world9.png"
         }
       },
       "is_incremental": false,
@@ -566,10 +566,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/HelloWorld/icon.png",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/icon.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/HelloWorld/icon.png"
+          "relative_path": "Manual/GetStarted/HelloWorld/icon.png"
         }
       },
       "is_incremental": false,
@@ -580,11 +580,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "GetStarted/HelloWorld/index.md",
+      "source_relative_path": "Manual/GetStarted/HelloWorld/index.md",
       "output": {
         ".html": {
-          "relative_path": "GetStarted/HelloWorld/index.html",
-          "hash": "+q0N6VNihSgKRa5k5r2NKg=="
+          "relative_path": "Manual/GetStarted/HelloWorld/index.html",
+          "hash": "GEQ7zaD1itEAE3ZR+jFn1w=="
         }
       },
       "is_incremental": false,
@@ -592,10 +592,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/github.png",
+      "source_relative_path": "Manual/GetStarted/Install/github.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/github.png"
+          "relative_path": "Manual/GetStarted/Install/github.png"
         }
       },
       "is_incremental": false,
@@ -603,10 +603,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/github1.png",
+      "source_relative_path": "Manual/GetStarted/Install/github1.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/github1.png"
+          "relative_path": "Manual/GetStarted/Install/github1.png"
         }
       },
       "is_incremental": false,
@@ -614,10 +614,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/github2.png",
+      "source_relative_path": "Manual/GetStarted/Install/github2.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/github2.png"
+          "relative_path": "Manual/GetStarted/Install/github2.png"
         }
       },
       "is_incremental": false,
@@ -625,10 +625,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/github3.png",
+      "source_relative_path": "Manual/GetStarted/Install/github3.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/github3.png"
+          "relative_path": "Manual/GetStarted/Install/github3.png"
         }
       },
       "is_incremental": false,
@@ -636,10 +636,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/github4.png",
+      "source_relative_path": "Manual/GetStarted/Install/github4.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/github4.png"
+          "relative_path": "Manual/GetStarted/Install/github4.png"
         }
       },
       "is_incremental": false,
@@ -647,10 +647,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/icon.png",
+      "source_relative_path": "Manual/GetStarted/Install/icon.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/icon.png"
+          "relative_path": "Manual/GetStarted/Install/icon.png"
         }
       },
       "is_incremental": false,
@@ -658,11 +658,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "GetStarted/Install/index.md",
+      "source_relative_path": "Manual/GetStarted/Install/index.md",
       "output": {
         ".html": {
-          "relative_path": "GetStarted/Install/index.html",
-          "hash": "iNWbMMerVnmsh2hnBu570g=="
+          "relative_path": "Manual/GetStarted/Install/index.html",
+          "hash": "zGd8WlWuw6XmLpjdYtpFvA=="
         }
       },
       "is_incremental": false,
@@ -670,10 +670,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/install_complete.png",
+      "source_relative_path": "Manual/GetStarted/Install/install_complete.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/install_complete.png"
+          "relative_path": "Manual/GetStarted/Install/install_complete.png"
         }
       },
       "is_incremental": false,
@@ -681,10 +681,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Install/marketplace.png",
+      "source_relative_path": "Manual/GetStarted/Install/marketplace.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Install/marketplace.png"
+          "relative_path": "Manual/GetStarted/Install/marketplace.png"
         }
       },
       "is_incremental": false,
@@ -692,10 +692,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Interaction/icon.png",
+      "source_relative_path": "Manual/GetStarted/Interaction/icon.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Interaction/icon.png"
+          "relative_path": "Manual/GetStarted/Interaction/icon.png"
         }
       },
       "is_incremental": false,
@@ -703,11 +703,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "GetStarted/Interaction/index.md",
+      "source_relative_path": "Manual/GetStarted/Interaction/index.md",
       "output": {
         ".html": {
-          "relative_path": "GetStarted/Interaction/index.html",
-          "hash": "6oZDw7ew1WPoswgzQXZlKw=="
+          "relative_path": "Manual/GetStarted/Interaction/index.html",
+          "hash": "soGPApfeTYgWl3k4jmaPBg=="
         }
       },
       "is_incremental": false,
@@ -715,11 +715,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "GetStarted/Prefab/index.md",
+      "source_relative_path": "Manual/GetStarted/Prefab/index.md",
       "output": {
         ".html": {
-          "relative_path": "GetStarted/Prefab/index.html",
-          "hash": "CHLGLz+1lX0LxSOvd5BpkQ=="
+          "relative_path": "Manual/GetStarted/Prefab/index.html",
+          "hash": "YLTapiyH9MNEbq2f2lhwtQ=="
         }
       },
       "is_incremental": false,
@@ -727,10 +727,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step1.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step1.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step1.png"
+          "relative_path": "Manual/GetStarted/Prefab/step1.png"
         }
       },
       "is_incremental": false,
@@ -738,10 +738,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step10.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step10.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step10.png"
+          "relative_path": "Manual/GetStarted/Prefab/step10.png"
         }
       },
       "is_incremental": false,
@@ -749,10 +749,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step11.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step11.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step11.png"
+          "relative_path": "Manual/GetStarted/Prefab/step11.png"
         }
       },
       "is_incremental": false,
@@ -760,10 +760,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step12.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step12.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step12.png"
+          "relative_path": "Manual/GetStarted/Prefab/step12.png"
         }
       },
       "is_incremental": false,
@@ -771,10 +771,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step13.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step13.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step13.png"
+          "relative_path": "Manual/GetStarted/Prefab/step13.png"
         }
       },
       "is_incremental": false,
@@ -782,10 +782,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step14.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step14.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step14.png"
+          "relative_path": "Manual/GetStarted/Prefab/step14.png"
         }
       },
       "is_incremental": false,
@@ -793,10 +793,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step15.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step15.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step15.png"
+          "relative_path": "Manual/GetStarted/Prefab/step15.png"
         }
       },
       "is_incremental": false,
@@ -804,10 +804,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step16.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step16.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step16.png"
+          "relative_path": "Manual/GetStarted/Prefab/step16.png"
         }
       },
       "is_incremental": false,
@@ -815,10 +815,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step17.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step17.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step17.png"
+          "relative_path": "Manual/GetStarted/Prefab/step17.png"
         }
       },
       "is_incremental": false,
@@ -826,10 +826,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step18.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step18.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step18.png"
+          "relative_path": "Manual/GetStarted/Prefab/step18.png"
         }
       },
       "is_incremental": false,
@@ -837,10 +837,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step19.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step19.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step19.png"
+          "relative_path": "Manual/GetStarted/Prefab/step19.png"
         }
       },
       "is_incremental": false,
@@ -848,10 +848,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step2.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step2.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step2.png"
+          "relative_path": "Manual/GetStarted/Prefab/step2.png"
         }
       },
       "is_incremental": false,
@@ -859,10 +859,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step20.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step20.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step20.png"
+          "relative_path": "Manual/GetStarted/Prefab/step20.png"
         }
       },
       "is_incremental": false,
@@ -870,10 +870,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step21.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step21.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step21.png"
+          "relative_path": "Manual/GetStarted/Prefab/step21.png"
         }
       },
       "is_incremental": false,
@@ -881,10 +881,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step22.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step22.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step22.png"
+          "relative_path": "Manual/GetStarted/Prefab/step22.png"
         }
       },
       "is_incremental": false,
@@ -892,10 +892,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step23.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step23.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step23.png"
+          "relative_path": "Manual/GetStarted/Prefab/step23.png"
         }
       },
       "is_incremental": false,
@@ -903,10 +903,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step24.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step24.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step24.png"
+          "relative_path": "Manual/GetStarted/Prefab/step24.png"
         }
       },
       "is_incremental": false,
@@ -914,10 +914,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step25.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step25.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step25.png"
+          "relative_path": "Manual/GetStarted/Prefab/step25.png"
         }
       },
       "is_incremental": false,
@@ -925,10 +925,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step26.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step26.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step26.png"
+          "relative_path": "Manual/GetStarted/Prefab/step26.png"
         }
       },
       "is_incremental": false,
@@ -936,10 +936,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step27.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step27.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step27.png"
+          "relative_path": "Manual/GetStarted/Prefab/step27.png"
         }
       },
       "is_incremental": false,
@@ -947,10 +947,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step28.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step28.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step28.png"
+          "relative_path": "Manual/GetStarted/Prefab/step28.png"
         }
       },
       "is_incremental": false,
@@ -958,10 +958,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step29.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step29.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step29.png"
+          "relative_path": "Manual/GetStarted/Prefab/step29.png"
         }
       },
       "is_incremental": false,
@@ -969,10 +969,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step3.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step3.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step3.png"
+          "relative_path": "Manual/GetStarted/Prefab/step3.png"
         }
       },
       "is_incremental": false,
@@ -980,10 +980,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step30.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step30.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step30.png"
+          "relative_path": "Manual/GetStarted/Prefab/step30.png"
         }
       },
       "is_incremental": false,
@@ -991,10 +991,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step4.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step4.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step4.png"
+          "relative_path": "Manual/GetStarted/Prefab/step4.png"
         }
       },
       "is_incremental": false,
@@ -1002,10 +1002,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step5.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step5.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step5.png"
+          "relative_path": "Manual/GetStarted/Prefab/step5.png"
         }
       },
       "is_incremental": false,
@@ -1013,10 +1013,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step6.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step6.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step6.png"
+          "relative_path": "Manual/GetStarted/Prefab/step6.png"
         }
       },
       "is_incremental": false,
@@ -1024,10 +1024,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step7.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step7.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step7.png"
+          "relative_path": "Manual/GetStarted/Prefab/step7.png"
         }
       },
       "is_incremental": false,
@@ -1035,10 +1035,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step8.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step8.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step8.png"
+          "relative_path": "Manual/GetStarted/Prefab/step8.png"
         }
       },
       "is_incremental": false,
@@ -1046,10 +1046,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/Prefab/step9.png",
+      "source_relative_path": "Manual/GetStarted/Prefab/step9.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/Prefab/step9.png"
+          "relative_path": "Manual/GetStarted/Prefab/step9.png"
         }
       },
       "is_incremental": false,
@@ -1057,10 +1057,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "GetStarted/icon.png",
+      "source_relative_path": "Manual/GetStarted/icon.png",
       "output": {
         "resource": {
-          "relative_path": "GetStarted/icon.png"
+          "relative_path": "Manual/GetStarted/icon.png"
         }
       },
       "is_incremental": false,
@@ -1068,11 +1068,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "GetStarted/index.md",
+      "source_relative_path": "Manual/GetStarted/index.md",
       "output": {
         ".html": {
-          "relative_path": "GetStarted/index.html",
-          "hash": "XZO12o9i6ajN3pOM8Epi6g=="
+          "relative_path": "Manual/GetStarted/index.html",
+          "hash": "vUet8UuTtXb48im2cFLIXw=="
         }
       },
       "is_incremental": false,
@@ -1080,11 +1080,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "LGUIDrawableEvent/index.md",
+      "source_relative_path": "Manual/LGUIDrawableEvent/index.md",
       "output": {
         ".html": {
-          "relative_path": "LGUIDrawableEvent/index.html",
-          "hash": "gBvd5uloibAw3hP1U5FaLA=="
+          "relative_path": "Manual/LGUIDrawableEvent/index.html",
+          "hash": "vM8XHJ6p8QUvfCl3VI+mvQ=="
         }
       },
       "is_incremental": false,
@@ -1092,11 +1092,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "LGUIPointerEvent/index.md",
+      "source_relative_path": "Manual/LGUIPointerEvent/index.md",
       "output": {
         ".html": {
-          "relative_path": "LGUIPointerEvent/index.html",
-          "hash": "gBvd5uloibAw3hP1U5FaLA=="
+          "relative_path": "Manual/LGUIPointerEvent/index.html",
+          "hash": "vM8XHJ6p8QUvfCl3VI+mvQ=="
         }
       },
       "is_incremental": false,
@@ -1104,10 +1104,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "LGUIPrefab/icon.png",
+      "source_relative_path": "Manual/LGUIPrefab/icon.png",
       "output": {
         "resource": {
-          "relative_path": "LGUIPrefab/icon.png"
+          "relative_path": "Manual/LGUIPrefab/icon.png"
         }
       },
       "is_incremental": false,
@@ -1115,11 +1115,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "LGUIPrefab/index.md",
+      "source_relative_path": "Manual/LGUIPrefab/index.md",
       "output": {
         ".html": {
-          "relative_path": "LGUIPrefab/index.html",
-          "hash": "gBvd5uloibAw3hP1U5FaLA=="
+          "relative_path": "Manual/LGUIPrefab/index.html",
+          "hash": "vM8XHJ6p8QUvfCl3VI+mvQ=="
         }
       },
       "is_incremental": false,
@@ -1127,10 +1127,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "LGUI_Mannual.png",
+      "source_relative_path": "Manual/LGUI_Manual.png",
       "output": {
         "resource": {
-          "relative_path": "LGUI_Mannual.png"
+          "relative_path": "Manual/LGUI_Manual.png"
         }
       },
       "is_incremental": false,
@@ -1138,11 +1138,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "LTween/index.md",
+      "source_relative_path": "Manual/LTween/index.md",
       "output": {
         ".html": {
-          "relative_path": "LTween/index.html",
-          "hash": "gBvd5uloibAw3hP1U5FaLA=="
+          "relative_path": "Manual/LTween/index.html",
+          "hash": "vM8XHJ6p8QUvfCl3VI+mvQ=="
         }
       },
       "is_incremental": false,
@@ -1150,11 +1150,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "ReleaseNotes/index.md",
+      "source_relative_path": "Manual/ReleaseNotes/index.md",
       "output": {
         ".html": {
-          "relative_path": "ReleaseNotes/index.html",
-          "hash": "GsmDfKqErUkEDxi9OwJZGw=="
+          "relative_path": "Manual/ReleaseNotes/index.html",
+          "hash": "gwEDarPNnBk0KpgXCx5nlg=="
         }
       },
       "is_incremental": false,
@@ -1162,10 +1162,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "SampleProjects/icon.png",
+      "source_relative_path": "Manual/SampleProjects/icon.png",
       "output": {
         "resource": {
-          "relative_path": "SampleProjects/icon.png"
+          "relative_path": "Manual/SampleProjects/icon.png"
         }
       },
       "is_incremental": false,
@@ -1173,10 +1173,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "SampleProjects/icon2.png",
+      "source_relative_path": "Manual/SampleProjects/icon2.png",
       "output": {
         "resource": {
-          "relative_path": "SampleProjects/icon2.png"
+          "relative_path": "Manual/SampleProjects/icon2.png"
         }
       },
       "is_incremental": false,
@@ -1184,10 +1184,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "SampleProjects/icon3.png",
+      "source_relative_path": "Manual/SampleProjects/icon3.png",
       "output": {
         "resource": {
-          "relative_path": "SampleProjects/icon3.png"
+          "relative_path": "Manual/SampleProjects/icon3.png"
         }
       },
       "is_incremental": false,
@@ -1195,11 +1195,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "SampleProjects/index.md",
+      "source_relative_path": "Manual/SampleProjects/index.md",
       "output": {
         ".html": {
-          "relative_path": "SampleProjects/index.html",
-          "hash": "i7ZAQTGpIlZ0dyKd6A9f6A=="
+          "relative_path": "Manual/SampleProjects/index.html",
+          "hash": "8NzMl8K0bENG+SZqfflQww=="
         }
       },
       "is_incremental": false,
@@ -1207,11 +1207,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "UIElementsAndControls/Button/index.md",
+      "source_relative_path": "Manual/UIElementsAndControls/Button/index.md",
       "output": {
         ".html": {
-          "relative_path": "UIElementsAndControls/Button/index.html",
-          "hash": "9DiGipyFb7xc/8Q6OlsBoQ=="
+          "relative_path": "Manual/UIElementsAndControls/Button/index.html",
+          "hash": "oxk64Jrfejrw9d0DHpKQ3g=="
         }
       },
       "is_incremental": false,
@@ -1219,11 +1219,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "UIElementsAndControls/Canvas/index.md",
+      "source_relative_path": "Manual/UIElementsAndControls/Canvas/index.md",
       "output": {
         ".html": {
-          "relative_path": "UIElementsAndControls/Canvas/index.html",
-          "hash": "/8XyBbIhF+IUTFA8tmvLkw=="
+          "relative_path": "Manual/UIElementsAndControls/Canvas/index.html",
+          "hash": "gF79x9pCdBZA7r4vIAmf5w=="
         }
       },
       "is_incremental": false,
@@ -1231,11 +1231,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "UIElementsAndControls/CanvasScaler/index.md",
+      "source_relative_path": "Manual/UIElementsAndControls/CanvasScaler/index.md",
       "output": {
         ".html": {
-          "relative_path": "UIElementsAndControls/CanvasScaler/index.html",
-          "hash": "/8XyBbIhF+IUTFA8tmvLkw=="
+          "relative_path": "Manual/UIElementsAndControls/CanvasScaler/index.html",
+          "hash": "gF79x9pCdBZA7r4vIAmf5w=="
         }
       },
       "is_incremental": false,
@@ -1243,10 +1243,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "UIElementsAndControls/UIContainer/1.png",
+      "source_relative_path": "Manual/UIElementsAndControls/UIContainer/1.png",
       "output": {
         "resource": {
-          "relative_path": "UIElementsAndControls/UIContainer/1.png"
+          "relative_path": "Manual/UIElementsAndControls/UIContainer/1.png"
         }
       },
       "is_incremental": false,
@@ -1254,10 +1254,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "UIElementsAndControls/UIContainer/2.png",
+      "source_relative_path": "Manual/UIElementsAndControls/UIContainer/2.png",
       "output": {
         "resource": {
-          "relative_path": "UIElementsAndControls/UIContainer/2.png"
+          "relative_path": "Manual/UIElementsAndControls/UIContainer/2.png"
         }
       },
       "is_incremental": false,
@@ -1265,11 +1265,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "UIElementsAndControls/UIContainer/index.md",
+      "source_relative_path": "Manual/UIElementsAndControls/UIContainer/index.md",
       "output": {
         ".html": {
-          "relative_path": "UIElementsAndControls/UIContainer/index.html",
-          "hash": "c0p3Pi47GBKVkO4wkCfEvA=="
+          "relative_path": "Manual/UIElementsAndControls/UIContainer/index.html",
+          "hash": "NJSrAw5dMpHTLO4HWPRk3g=="
         }
       },
       "is_incremental": false,
@@ -1277,10 +1277,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "UIElementsAndControls/icon.png",
+      "source_relative_path": "Manual/UIElementsAndControls/icon.png",
       "output": {
         "resource": {
-          "relative_path": "UIElementsAndControls/icon.png"
+          "relative_path": "Manual/UIElementsAndControls/icon.png"
         }
       },
       "is_incremental": false,
@@ -1291,11 +1291,35 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "UIElementsAndControls/index.md",
+      "source_relative_path": "Manual/UIElementsAndControls/index.md",
       "output": {
         ".html": {
-          "relative_path": "UIElementsAndControls/index.html",
-          "hash": "orcM7DOk6yA8Yjnz1EP07g=="
+          "relative_path": "Manual/UIElementsAndControls/index.html",
+          "hash": "ukl/Solor09lK3+RJcx+ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/index.html",
+          "hash": "a6UE3h0QEmILor+E1SmQZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Manual/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/toc.html",
+          "hash": "yck/L0g6RxpN3+SWaDVjhg=="
         }
       },
       "is_incremental": false,
@@ -1307,7 +1331,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "NX1ZgYuYPgS9MOVwUQe8qA=="
+          "hash": "N76JKnJ/MKhzE6HHwcQcZg=="
         }
       },
       "is_incremental": false,
@@ -1334,23 +1358,39 @@
       },
       "is_incremental": false,
       "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "udgfp5KPJ1Dv7QkUrLBjlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     }
   ],
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }

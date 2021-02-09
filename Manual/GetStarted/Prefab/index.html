@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Prefab workflow | LGUI Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Prefab workflow | LGUI Documentation ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    <meta property="docfx:newtab" content="true">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-88357703-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-88357703-2');
+    </script>
+  </head>	  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://www.unrealengine.com/marketplace/en-US/product/lgui-lex-gui-3d-ui-system-for-ue4">
+        		<div style="text-align:center; line-height:45px">
+        	    <img id="logo" height="40" width="40" src="../../../logo.png" alt="">
+        		</div>
+        	  </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="prefab-workflow">Prefab workflow</h2>
+
+<p>In this section, we will learn how to use LGUIPrefab to reuse our UI content.</p>
+<h4 id="1-prepare-a-lgui-screenspaceui">1. Prepare a LGUI ScreenSpaceUI.</h4>
+<p>Follow the <a href="../HelloWorld/index.html">HelloWorld</a> section to create a base ScreenSpaceUI.</p>
+<h4 id="2-create-a-button-as-prefab-source">2. Create a button as prefab source.</h4>
+<p>Select &quot;ScreenSpaceUIRoot&quot; actor, right click on the down arrow button, and choose &quot;Create UI Element&quot;-&gt;&quot;Button&quot;:
+<img src="step1.png" alt="step1"></p>
+<p>Rename the button actor to &quot;MyPrefabButton&quot;, set &quot;AnchorOffsetY&quot; to -100, &quot;Color&quot; to green:
+<img src="step2.png" alt="step2"></p>
+<h4 id="3-create-prefab">3. Create prefab.</h4>
+<p>Select &quot;MyPrefabButton&quot; actor, right click on the down arrow button, and choose &quot;Create Prefab&quot;:
+<img src="step3.png" alt="step3"></p>
+<p>Now a save file window will showup:
+<img src="step4.png" alt="step4"></p>
+<p>Click &quot;Save&quot; or &quot;保存&quot; button, then a prefab asset will appear in &quot;Content&quot; folder:
+<img src="step5.png" alt="step5"></p>
+<p>And notice the &quot;MyPrefabButton&quot; actor in the &quot;World Outliner&quot;, the down arrow button icon become a prefab icon, and a temp prefab actor will appear in &quot;--LGUIPrefabActor--&quot; folder:
+<img src="step6.png" alt="step6"></p>
+<p>Select &quot;MyPrefabButton&quot; actor, right click on the prefab icon and choose &quot;Destroy Actors&quot;:
+<img src="step7.png" alt="step7"></p>
+<p>Notice the &quot;MyPrefabButton&quot; actor and it&#39;s children are all destroyed, and the &quot;--LGUIPrefabActor--&quot; folder become empty:
+<img src="step8.png" alt="step8"></p>
+<h4 id="4-reuse-prefab-in-editor">4. Reuse prefab in editor.</h4>
+<p>Select &quot;ScreenSpaceUIRoot&quot; actor, drag &quot;MyPrefabButton_Prefab&quot; asset and drop to anywhre on viewport:
+<img src="step9.png" alt="step9"></p>
+<p>See a &quot;MyPrefabButton&quot; actor is created in viewport and world outliner:
+<img src="step10.png" alt="step10"></p>
+<p>Select &quot;Info&quot; actor, drag &quot;MyPrefabButton_Prefab&quot; asset and drop to anywhre on viewport, then a new &quot;MyPrefabButton&quot; will be created (you may need to move it off to see in viewport):
+<img src="step11.png" alt="step11"></p>
+<p>Notice different prefab have different color on prefab icon:
+<img src="step12.png" alt="step12"></p>
+<p>Select both &quot;MyPrefabButton&quot; actor by hold &quot;Ctrl&quot; key and click it:
+<img src="step13.png" alt="step13"></p>
+<p>Choose &quot;LGUI Tools&quot;-&gt;&quot;Destroy Actors&quot; to destroy both actors and all it&#39;s children:
+<img src="step14.png" alt="step14"></p>
+<h4 id="5-reuse-prefab-in-runtime">5. Reuse prefab in runtime.</h4>
+<p>Right click in empty area of &quot;Content&quot; and choose &quot;Blueprints&quot;-&gt;&quot;BlueprintClass&quot;:
+<img src="step15.png" alt="step15"></p>
+<p>Select &quot;Actor Component&quot;:
+<img src="step16.png" alt="step16"></p>
+<p>Name the created ActorComponent class to &quot;PrefabLoader&quot;:
+<img src="step17.png" alt="step17"></p>
+<p>Double click &quot;PrefabLoader&quot; to open blueprint editor:
+<img src="step18.png" alt="step18"></p>
+<p>Drag out &quot;Event Begin Play&quot; and add a &quot;Load Prefab&quot; node:
+<img src="step19.png" alt="step19"></p>
+<p>Drag &quot;MyPrefabButton_Prefab&quot; to &quot;In Prefab&quot; of &quot;Load Prefab&quot; node:
+<img src="step20.png" alt="step20"></p>
+<p>Connect &quot;Get Owner&quot; and &quot;Root Component&quot; node to &quot;In Parent&quot; of &quot;Load Prefab&quot; node:
+<img src="step21.png" alt="step21"></p>
+<p>Click &quot;Compile&quot; and then close the blueprint editor:
+<img src="step22.png" alt="step22"></p>
+<p>Select &quot;ScreenSpaceUIRoot&quot; actor in &quot;World Outliner&quot;, and drag &quot;PrefabLoader&quot; to it&#39;s component stack:
+<img src="step23.png" alt="step23"></p>
+<p>Hit play, notice a prefab button is created:
+<img src="step24.png" alt="step24"></p>
+<p>Notice the button&#39;s color become white, because it is override by UIButton component, now let&#39;s modify the prefab to fix it.</p>
+<h4 id="6-modify-prefab">6. Modify prefab.</h4>
+<p>Exit play mode by click stop button. Select &quot;ScreenSpaceUIRoot&quot; actor, drag &quot;MyPrefabButton_Prefab&quot; to viewport, so that will create the prefab instance.
+<img src="step25.png" alt="step25"></p>
+<p>Select &quot;MyPrefabButton&quot; actor, select &quot;UIButton&quot; component. UIButton use &quot;ColorTint&quot; on &quot;Transition&quot; property, it will override the TransitionActor&#39;s color with &quot;Normal Color&quot;:
+<img src="step26.png" alt="step26"></p>
+<p>Change the &quot;Normal Color&quot; to red, notice the button in viewport become red too:
+<img src="step27.png" alt="step27"></p>
+<p>Right click on the prefab icon, and choose &quot;Apply Prefab&quot;, so that the prefab asset is modified:
+<img src="step28.png" alt="step28"></p>
+<p>Right click on the prefab icon, and choose &quot;Delete This Prefab Instance&quot;, that will delete the prefab instance:
+<img src="step29.png" alt="step29"></p>
+<p>Now hit play, see the loaded button have a red color:
+<img src="step30.png" alt="step30"></p>
+<p><em>See Prev <a href="../Font/index.html">LGUIFont</a></em> | <em><a href="../../index.html">MainPage</a></em></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2018-2021 LexLiu
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
