@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>LGUICanvas | LGUI Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="LGUICanvas | LGUI Documentation ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    <meta property="docfx:newtab" content="true">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-88357703-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-88357703-2');
+    </script>
+  </head>	  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://www.unrealengine.com/marketplace/en-US/product/lgui-lex-gui-3d-ui-system-for-ue4">
+        		<div style="text-align:center; line-height:45px">
+        	    <img id="logo" height="40" width="40" src="../../../logo.png" alt="">
+        		</div>
+        	  </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="lguicanvas">LGUICanvas</h2>
+
+<p>Any UI elements that need render and update must be placed under a LGUICanvas in hierarchy.<br><strong>Draw order of elements</strong>
+UI elements in canvas are drawn by order of &quot;Depth&quot; property, which is a property of each UI elements. Larger &quot;Depth&quot; render on top of lower one.<br>And there is a &quot;Sort Order&quot; property of LGUICanvas, &quot;Sort Order&quot; always have top priority then &quot;Depth&quot;.</p>
+<p>Lets learn by create a UI from scratch.</p>
+<h4 id="1-create-a-lguicanvas">1. Create a LGUICanvas</h4>
+<p>LGUICanvas must stay on a actor which have a UIItem as RootComponent.
+Create a new empty level, drag a UIContainerActor to viewport:
+<img src="1.png" alt=""></p>
+<p>Rename the UIContainer to &quot;RootCanvas&quot;, set the &quot;LGUI Transform&quot; parameters like this (rotation:-90,0,90):
+<img src="2.png" alt=""></p>
+<p>Add a LGUICanvas component to &quot;RootCanvas&quot;, notice a icon and a &quot;0&quot; appear beside &quot;RootCanvas&quot; in World Outliner:
+<img src="3.png" alt="">
+Move your mouse over the icon, a tooltip will appear:
+<img src="4.png" alt=""></p>
+<p>Right click on the down arrow button and choose &quot;Create UI Element&quot;-&gt;&quot;UISprite&quot;:
+<img src="5.png" alt=""></p>
+<p>A new UISpriteActor will be created, see a white rectangle appear in viewport, and number of drawcall become 1 in &quot;RootCanvas&quot;. Rename the UISpriteActor to &quot;Sprite&quot;:
+<img src="6.png" alt=""></p>
+<p>Right click on the down arrow button and choose &quot;Create UI Element&quot;-&gt;&quot;UIText&quot;:
+<img src="7.png" alt=""></p>
+<p>Rename the UITextActor to &quot;Text&quot;, &quot;Color&quot; to black, &quot;Depth&quot; to 1. See &quot;New Text&quot; appear on viewport, and drawcall count become 2:
+<img src="8.png" alt=""></p>
+<h4 id="2-use-rect-clip">2. Use rect clip</h4>
+<p>Select &quot;Sprite&quot;, change width to 1920, height to 1080, see the white rectangle exceed canvas area:
+<img src="9.png" alt=""></p>
+<p>Select LGUICanvas component from &quot;RootCanvas&quot; actor, change &quot;Clip Type&quot; to &quot;Rect&quot;, see the Sprite being clipped with canvas&#39;s rect area:
+<img src="10.png" alt=""></p>
+<p><strong>LGUICanvas support hierarchy nested RectClip</strong><br>Lets add a sub canvas: create a UIContainer, name it &quot;SubCanvas&quot;, add a LGUICanvas component to it. Then drag &quot;Sprite&quot; and &quot;Text&quot; to &quot;SubCanvas&quot; as children, now the hierarchy should be like this:
+<img src="11.png" alt=""></p>
+<p>And the &quot;Sprite&quot; is clipped by &quot;SubCanvas&quot; area:
+<img src="12.png" alt=""></p>
+<p>Change the &quot;SubCanvas&quot; with to 640, height to 360, drag it to see the clip effect:
+<img src="13.png" alt=""></p>
+<p>Select LGUICanvas from &quot;SubCanvas&quot; actor, see the sub canvas parameter is much less than the parent one. Acturally only the top-most canvas can show the full parameters, <strong>sub canvas will automatically inherit parent parameters</strong>.<br>But we do have the chance to change sub canvas parameter, by check the &quot;Override Parameters&quot; flags:
+<img src="14.png" alt=""></p>
+<p>If we check &quot;ClipType&quot; flag, then the &quot;ClipType&quot; parameter will appear. Then we can set &quot;None&quot; clip to disable clip:
+<img src="15.png" alt=""></p>
+<h4 id="3-default-materials">3. Default Materials</h4>
+<p>Select LGUICanvas from &quot;RootCanvas&quot;, expend &quot;Default Materials&quot; and 3 material appears:
+<img src="16.png" alt=""></p>
+<p>LGUICanvas use these 3 materials to render all UI elements, you can replace any of it with your own implemented material, eg: change shading model to receive light, add emissive glow.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2018-2021 LexLiu
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
