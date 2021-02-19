@@ -13,6 +13,18 @@
       "is_incremental": false
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/GetStarted/CreateButton/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/GetStarted/CreateButton/index.html",
+          "hash": "augfkjqDOchqoAr4YAuGvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "Manual/GetStarted/CustomButton/Button.png",
       "output": {
@@ -707,7 +719,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/GetStarted/Interaction/index.html",
-          "hash": "soGPApfeTYgWl3k4jmaPBg=="
+          "hash": "8Eu6mUF9N51rm40a05EY9A=="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/GetStarted/index.html",
-          "hash": "vUet8UuTtXb48im2cFLIXw=="
+          "hash": "R8IPDlN0/cF2ag154VZlHg=="
         }
       },
       "is_incremental": false,
@@ -1554,7 +1566,195 @@
       "output": {
         ".html": {
           "relative_path": "Manual/ReleaseNotes/index.html",
-          "hash": "3CQM0rMivPk9Ojc/51DaSg=="
+          "hash": "D1A7J2ekhkyz0Y7AqLCLig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/10.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/11.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/12.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/13.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/14.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/14.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/7.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/8.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/9.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/CommonEffect/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/CommonEffect/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Rendering/CommonEffect/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Rendering/CommonEffect/index.html",
+          "hash": "1HCm0iAQHN8WiKnYj8u+UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/LGUICanvas/0.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/LGUICanvas/0.png"
         }
       },
       "is_incremental": false,
@@ -1742,7 +1942,41 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Rendering/LGUICanvas/index.html",
-          "hash": "eur7N6+RmIKs2SHbEecc9g=="
+          "hash": "t5+wN6DYF9Vagq7WI8Sr/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/RichTextReference/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/RichTextReference/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/RichTextReference/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/RichTextReference/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Rendering/RichTextReference/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Rendering/RichTextReference/index.html",
+          "hash": "Dlwc3nyBKiXNDs2Ju0G2Fw=="
         }
       },
       "is_incremental": false,
@@ -1821,6 +2055,207 @@
         ".html": {
           "relative_path": "Manual/Rendering/ScreenSpaceUI/index.html",
           "hash": "ZdyN6PkJNjc1X+imjoq9pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/10.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/7.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/8.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/9.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/TextAnimation/TextAnimation.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/TextAnimation/TextAnimation.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Rendering/TextAnimation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Rendering/TextAnimation/index.html",
+          "hash": "esHFGQW5x8jiPVHLSygPfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIItem/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIItem/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIItem/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIItem/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Rendering/UIItem/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Rendering/UIItem/index.html",
+          "hash": "jkB7rbkISbCr2sMxOwwvTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIText/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIText/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIText/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIText/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Rendering/UIText/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Rendering/UIText/index.html",
+          "hash": "9T6vB6MsOtbfwDvzTEnEgg=="
         }
       },
       "is_incremental": false,
@@ -1968,7 +2403,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Rendering/index.html",
-          "hash": "ktdSDf6FpzqwJJkBB4pSTA=="
+          "hash": "EASvHHNrh6f6GTbMcof7jQ=="
         }
       },
       "is_incremental": false,
@@ -2013,103 +2448,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/SampleProjects/index.html",
-          "hash": "8NzMl8K0bENG+SZqfflQww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "Manual/UIElementsAndControls/Button/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Manual/UIElementsAndControls/Button/index.html",
-          "hash": "oxk64Jrfejrw9d0DHpKQ3g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "Manual/UIElementsAndControls/Canvas/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Manual/UIElementsAndControls/Canvas/index.html",
-          "hash": "gF79x9pCdBZA7r4vIAmf5w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "Manual/UIElementsAndControls/CanvasScaler/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Manual/UIElementsAndControls/CanvasScaler/index.html",
-          "hash": "gF79x9pCdBZA7r4vIAmf5w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/UIElementsAndControls/UIContainer/1.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/UIElementsAndControls/UIContainer/1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/UIElementsAndControls/UIContainer/2.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/UIElementsAndControls/UIContainer/2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "Manual/UIElementsAndControls/UIContainer/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Manual/UIElementsAndControls/UIContainer/index.html",
-          "hash": "NJSrAw5dMpHTLO4HWPRk3g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/UIElementsAndControls/icon.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/UIElementsAndControls/icon.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "Manual/UIElementsAndControls/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Manual/UIElementsAndControls/index.html",
-          "hash": "ukl/Solor09lK3+RJcx+ww=="
+          "hash": "PSnrmDLHX8/TJfLmCBIOTw=="
         }
       },
       "is_incremental": false,
@@ -2139,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "7/04H9BXgQHnkMJChaJKwQ=="
+          "hash": "aP+Ke/Wt586dNeLXP4DAAw=="
         }
       },
       "is_incremental": false,
@@ -2195,22 +2534,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }
