@@ -95,25 +95,18 @@
 <p>Attach &quot;TweenAnimation&quot; component to cube:
 <img src="step3.png" alt=""></p>
 <p>Drag out from &quot;Event Begin Play&quot; and add &quot;Rotator To&quot; node:
-<img src="step4.png" alt="">
-See the parameter &quot;Getter&quot; and &quot;Setter&quot; of &quot;Rotator To&quot; node.</p>
-<h4 id="2-setup-node-with-getter">2. Setup node with Getter</h4>
-<p><strong>&quot;Getter&quot; and &quot;Setter&quot; is LTween&#39;s delegate, LTween will use &quot;Getter&quot; to get start value, then calculate result value from start value and &quot;End Value&quot;, and use &quot;Setter&quot; to pass the result value.</strong></p>
-<p>Drag out &quot;Getter&quot; and select &quot;EventDispatchers&quot;-&gt;&quot;CreateEvent&quot; (since unreal&#39;s event cannot have return value, we need to use a function instead):
+<img src="step4.png" alt=""></p>
+<h4 id="2-setup-setter-parameters">2. Setup &quot;Setter&quot; parameters</h4>
+<p><strong>&quot;Setter&quot; is LTween&#39;s delegate, LTween will calculate interpolated value from &quot;Start Value&quot; and &quot;End Value&quot;, and use &quot;Setter&quot; to pass the interpolated value.</strong></p>
+<p>Drag out &quot;Setter&quot; and choose &quot;Add Event&quot;-&gt;&quot;Add Custom Event&quot;, then a event with value of rotator type will be created:
 <img src="step5.png" alt=""></p>
-<p>In &quot;CreateEvent&quot; node, choose &quot;Create a matching function&quot;:
-<img src="step6.png" alt=""></p>
-<p>That will automatically create a function with return value. Change the function like this:
-<img src="step7.png" alt=""></p>
-<p>Back to &quot;Rotator To&quot; node, drag out &quot;Setter&quot; and choose &quot;Add Event&quot;-&gt;&quot;Add Custom Event&quot;, then a event with value of rotator type will be created:
-<img src="step8.png" alt=""></p>
 <p>Setup the &quot;CustomEvent_0&quot; like this:
-<img src="step9.png" alt=""></p>
-<h4 id="3-setup-node-parameter">3. Setup node parameter</h4>
-<p>Drag out &quot;End Value&quot; from &quot;Rotator To&quot; and choose &quot;Make Rotator&quot;, change &quot;Z(Yaw)&quot; to 90:
-<img src="step10.png" alt=""></p>
-<p>Set &quot;Duration&quot; to 3.0, set delay to 1.0:
-<img src="step11.png" alt=""></p>
+<img src="step6.png" alt=""></p>
+<h4 id="3-setup-other-parameter">3. Setup other parameter</h4>
+<p>Drag out &quot;Root Component&quot; and select &quot;Get Relative Rotation&quot;, and connect to start value:
+<img src="step7.png" alt=""></p>
+<p>Set &quot;End Value&quot; to (0, 0, 90), &quot;Duration&quot; to 3.0, set delay to 1.0:
+<img src="step8.png" alt=""></p>
 <p>Now the setup is complete, hit play to see the animation.</p>
 </article>
           </div>

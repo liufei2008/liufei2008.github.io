@@ -1107,7 +1107,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/LTween/Custom/index.html",
-          "hash": "+lx1lRypBRrtzu1g08mSQg=="
+          "hash": "Q6E4ZHyAt4AP3PzCrKpgmA=="
         }
       },
       "is_incremental": false,
@@ -1119,28 +1119,6 @@
       "output": {
         "resource": {
           "relative_path": "Manual/LTween/Custom/step1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step10.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/LTween/Custom/step10.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step11.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/LTween/Custom/step11.png"
         }
       },
       "is_incremental": false,
@@ -1218,17 +1196,6 @@
       "output": {
         "resource": {
           "relative_path": "Manual/LTween/Custom/step8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step9.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/LTween/Custom/step9.png"
         }
       },
       "is_incremental": false,
@@ -1566,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/ReleaseNotes/index.html",
-          "hash": "D1A7J2ekhkyz0Y7AqLCLig=="
+          "hash": "48kk92XwhlOOLUiFycZFqw=="
         }
       },
       "is_incremental": false,
@@ -2534,23 +2501,22 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
