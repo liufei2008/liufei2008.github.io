@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "E:/UnrealProjects/LGUI_Document_Source",
+  "source_base_path": "C:/Users/LEX/Desktop/Work/UE4Project/LGUI_Document_Source",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1529,11 +1529,38 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Manual/Layout/UIHorizontalLayout/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Layout/UIHorizontalLayout/index.html",
+          "hash": "d1vsl9gIBs6zNas28ASqsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Layout/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Layout/index.html",
+          "hash": "Ku+4wNWMfnbYtLG0k6y4rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Manual/ReleaseNotes/index.md",
       "output": {
         ".html": {
           "relative_path": "Manual/ReleaseNotes/index.html",
-          "hash": "48kk92XwhlOOLUiFycZFqw=="
+          "hash": "4jJLk/jqkaGabbCq6KiXfA=="
         }
       },
       "is_incremental": false,
@@ -2162,6 +2189,96 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIBackgroundBlur/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIBackgroundBlur/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIBackgroundBlur/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Rendering/UIBackgroundBlur/index.html",
+          "hash": "Kt2t54ghsd+qawYr0nPecA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIBackgroundPixelate/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIBackgroundPixelate/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/Rendering/UIBackgroundPixelate/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Rendering/UIBackgroundPixelate/index.html",
+          "hash": "G0Y6X6qJubuiXY35cwLtYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Manual/Rendering/UIItem/1.png",
       "output": {
         "resource": {
@@ -2370,7 +2487,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Rendering/index.html",
-          "hash": "EASvHHNrh6f6GTbMcof7jQ=="
+          "hash": "lpSBL6HhCbOGzUy/V4PuUg=="
         }
       },
       "is_incremental": false,
@@ -2430,7 +2547,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/index.html",
-          "hash": "J8reWPRDZIlGZcFfCT9Mjw=="
+          "hash": "JnhOERUKxG5ZzxEnc9yELw=="
         }
       },
       "is_incremental": false,
@@ -2445,7 +2562,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "aP+Ke/Wt586dNeLXP4DAAw=="
+          "hash": "rJcjwbhk7nZ/a4IrHjy70w=="
         }
       },
       "is_incremental": false,
@@ -2510,13 +2627,13 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
