@@ -1092,6 +1092,197 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/1.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/1.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/1.2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/1.2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/1.3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/1.3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/2.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/2.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/2.2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/2.2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/2.3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/2.3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/2.4.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/2.4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/HowTos/CustomMaterial/index.html",
+          "hash": "xEmhC5bVztVG0ge1UambcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/index.html",
+          "hash": "QBZIN6yRW6kaLOTvkbzI/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/ProjectWorldToScreen/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/ProjectWorldToScreen/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/ProjectWorldToScreen/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/HowTos/ProjectWorldToScreen/index.html",
+          "hash": "biGd2pRqbyEqk8ONXY3WEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/HowTos/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/HowTos/index.html",
+          "hash": "Ijf/xNllC1ezuZKA8hMezw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Manual/LGUI_Manual.png",
       "output": {
         "resource": {
@@ -1560,7 +1751,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/ReleaseNotes/index.html",
-          "hash": "4jJLk/jqkaGabbCq6KiXfA=="
+          "hash": "3zRk2QXn3StLBxyPZgZBcg=="
         }
       },
       "is_incremental": false,
@@ -2547,7 +2738,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/index.html",
-          "hash": "JnhOERUKxG5ZzxEnc9yELw=="
+          "hash": "fRTE/LqAkybHq2Xs2LClnw=="
         }
       },
       "is_incremental": false,
@@ -2562,7 +2753,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "rJcjwbhk7nZ/a4IrHjy70w=="
+          "hash": "iQLHUkL+IbQStEfwhk8MVg=="
         }
       },
       "is_incremental": false,
@@ -2618,22 +2809,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
