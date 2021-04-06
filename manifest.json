@@ -1168,12 +1168,67 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/3.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/3.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/3.2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/3.2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/3.3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/3.3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/3.4.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/3.4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/CustomMaterial/3.5.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/CustomMaterial/3.5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "Manual/HowTos/CustomMaterial/index.md",
       "output": {
         ".html": {
           "relative_path": "Manual/HowTos/CustomMaterial/index.html",
-          "hash": "sW0vxJuosd5rI1GIidJ7Rg=="
+          "hash": "BTqkj95v9QuaRxg1Q2F75A=="
         }
       },
       "is_incremental": false,
@@ -1238,6 +1293,40 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Manual/HowTos/FindChildByDisplayName/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/FindChildByDisplayName/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Manual/HowTos/FindChildByDisplayName/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Manual/HowTos/FindChildByDisplayName/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/HowTos/FindChildByDisplayName/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/HowTos/FindChildByDisplayName/index.html",
+          "hash": "/mD+ae1ltkvGiI1qOKe+YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/1.png",
       "output": {
         "resource": {
@@ -1287,7 +1376,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/HowTos/index.html",
-          "hash": "BJWTHdsRIsvEkyeGEY8RDQ=="
+          "hash": "Vjif0XEbGYRQrX5aiMSqlQ=="
         }
       },
       "is_incremental": false,
@@ -2852,7 +2941,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/index.html",
-          "hash": "EoyvFEk3prIUR6py6HFu7w=="
+          "hash": "9BcpCaapXlgXig/TrnBYlg=="
         }
       },
       "is_incremental": false,
@@ -2867,7 +2956,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "weAyTBt6ffngwQuhcTf+fA=="
+          "hash": "kKZ+2vsUG9yWFwpHgmLiig=="
         }
       },
       "is_incremental": false,

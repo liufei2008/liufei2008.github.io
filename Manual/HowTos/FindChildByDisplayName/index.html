@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Use custom material for UI elements | LGUI Documentation </title>
+    <title>Find Child by DisplayName | LGUI Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Use custom material for UI elements | LGUI Documentation ">
+    <meta name="title" content="Find Child by DisplayName | LGUI Documentation ">
     <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -83,41 +83,33 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="use-custom-material-for-ui-elements">Use custom material for UI elements</h2>
+<h2 id="find-child-by-displayname">Find Child by DisplayName</h2>
 
-<p>LGUI can use custom material to change the look of our UI elements.<br>LGUI support <em>Surface</em> material domain.  </p>
-<h4 id="examples-1-use-a-emissive-material-to-make-our-text-glow">Examples 1, use a emissive material to make our text glow.</h4>
-<p>Note: Glow is a world space post process effect, so only world space UI can do this, and post process setting must enable glow.  </p>
-<ol>
-<li>First of all, copy material <em>LGUI_Standard</em> from <em>LGUI Content</em> folder (You may need to check <em>Show Plugin Content</em> if it is not visible). And paste it to your project content directory.  </li>
-<li>Change the material node like the image below:<br><img src="1.1.png" alt=""></li>
-<li>Select a UIText, and drag the material you just modified to <em>Custom Material</em> slot:<br><img src="1.2.png" alt="">
-Now the text should look glow:
-<img src="1.3.png" alt=""></li>
-</ol>
-<h4 id="example-2-use-texture-to-maskout-our-sprite">Example 2, use texture to maskout our sprite.</h4>
-<p>Note: UISprite render a UISpriteData. UISpriteData contains the info of a small area from a packed atlas texture.  </p>
-<ol>
-<li>First of all, copy material <em>LGUI_Standard</em> from <em>LGUI Content</em> folder (You may need to check <em>Show Plugin Content</em> if it is not visible). And paste it to your project content directory.  </li>
-<li>Change the material node like the image below (note the mask texture&#39;s <em>TexCoord[1]</em>, and don&#39;t forget to select a mask texture for <em>Texture Sample</em> node):<br><img src="2.1.png" alt=""></li>
-<li>Select a UISprite, and drag the material you just modifyed to <em>Custom Material</em> slot:<br><img src="2.2.png" alt=""></li>
-<li>Now the UISprite look not right, because we have not tell LGUI to setup the data for <em>TexCoord[1]</em>. Select LGUICanvas component from WorldSpaceUIRoot actor, in the <em>Additional Shader Channels</em> property, check on <em>UV1</em>.<br><img src="2.3.png" alt=""> 
-Now the result should be good:<br><img src="2.4.png" alt=""></li>
-</ol>
-<h4 id="example-3-use-rect-clip-and-texture-clip-to-clip-our-sprite">Example 3, use rect-clip and texture-clip to clip our sprite.</h4>
-<p>Let&#39;s start with the result of <em>Example 2</em>.</p>
-<ol>
-<li>Open the copied material, find <em>LGUIRectClip</em> node from <em>LGUI Content</em> folder, and drag it to material editor window:
-<img src="3.1.png" alt=""></li>
-<li>Break original Opacity link, and link like the image below:
-<img src="3.2.png" alt=""></li>
-<li>Select LGUICanvas component from WorldSpaceUIRoot actor, change <em>Clip Type</em> to <em>Rect</em>:
-<img src="3.3.png" alt=""></li>
-<li>Now drag the UISprite actor to the edge of WorldSpaceUIRoot, see it is clipped:
-<img src="3.4.png" alt=""></li>
-<li>texture-clip is the same thing, just repace the <em>LGUIRectClip</em> with node <em>LGUITextureClip</em>:
-<img src="3.5.png" alt=""></li>
-</ol>
+<h4 id="1-uiitems-displayname">1. UIItem&#39;s DisplayName</h4>
+<p>UE4&#39;s actor don&#39;t have a persistent name, the name displayed in <em>World Outliner</em> is editor only. But sometimes we need a persistent name to find a UI item. LGUI&#39;s UIItem component provide a run-time valid property <strong>DisplayName</strong>, which is the same value as the actor displayed in <em>World Outliner</em>:
+<img src="1.png" alt=""></p>
+<h4 id="2-functions-to-use-the-displayname">2. Functions to use the <em>DisplayName</em>:</h4>
+<p><img src="2.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Function:</th>
+<th style="text-align:left">Description:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Find Child by Display Name (In Name)</td>
+<td style="text-align:left">Search in children and return the first UIItem that the displayName match input name. Support hierarchy nested search, eg: InName = &quot;Content/ListItem/NameLabel&quot;. Parameter <em>In Name</em> is case sensitive.</td>
+</tr>
+<tr>
+<td style="text-align:left">Find Child Array by Display Name (In Name)</td>
+<td style="text-align:left">Like &quot;FindChildByDisplayName&quot;, but return all children that match the case.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="3-change-uiitems-displayname">3. Change UIItem&#39;s DisplayName</h4>
+<p>Like descripted before, UIItem&#39;s <em>DisplayName</em> the same as actor&#39;s label displayed in <em>World Outliner</em>, so just change the actor label in editor.<br>And in runtime, call function <em>SetDisplayName</em> to change it.</p>
 </article>
           </div>
           
@@ -126,7 +118,7 @@ Now the result should be good:<br><img src="2.4.png" alt=""></li>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/Manual/HowTos/CustomMaterial/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/Manual/HowTos/FindChildByDisplayName/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
