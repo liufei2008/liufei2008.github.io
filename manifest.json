@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/LEX/Desktop/Work/UE4Project/LGUI_Document_Source",
+  "source_base_path": "E:/UnrealProjects/LGUI_Document_Source",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1372,11 +1372,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Manual/HowTos/UpdateTo2.13.0/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/HowTos/UpdateTo2.13.0/index.html",
+          "hash": "uF7B0i49JC6cVCfmbmmarQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
       "source_relative_path": "Manual/HowTos/index.md",
       "output": {
         ".html": {
           "relative_path": "Manual/HowTos/index.html",
-          "hash": "Vjif0XEbGYRQrX5aiMSqlQ=="
+          "hash": "/gsTgXDH7MXcscrlyU8fug=="
         }
       },
       "is_incremental": false,
@@ -1957,7 +1972,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/ReleaseNotes/index.html",
-          "hash": "UaZkRPSHqwCjNGWqc8Pyww=="
+          "hash": "3bZTY0o8VD1dfuCnwBL6oA=="
         }
       },
       "is_incremental": false,
@@ -2941,7 +2956,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/index.html",
-          "hash": "9BcpCaapXlgXig/TrnBYlg=="
+          "hash": "80FlJLzkCq3ZIa/3Blt9eQ=="
         }
       },
       "is_incremental": false,
@@ -2956,7 +2971,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "kKZ+2vsUG9yWFwpHgmLiig=="
+          "hash": "ZT3AnJqpqY6dqTuvs/yuaA=="
         }
       },
       "is_incremental": false,
@@ -3016,14 +3031,14 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
