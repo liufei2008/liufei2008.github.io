@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "E:/UnrealProjects/LGUI_Document_Source",
+  "source_base_path": "C:/Users/LEX/Desktop/Work/UE4Project/LGUI_Document_Source",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1972,7 +1972,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/ReleaseNotes/index.html",
-          "hash": "CLKd4XmAyZoYUfGGR25MtA=="
+          "hash": "yRfmlzXdUkcZmzOdP+LgQw=="
         }
       },
       "is_incremental": false,
