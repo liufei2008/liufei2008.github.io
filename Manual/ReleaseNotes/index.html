@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>2.15.3 | LGUI Documentation </title>
+    <title>2.15.4 | LGUI Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="2.15.3 | LGUI Documentation ">
+    <meta name="title" content="2.15.4 | LGUI Documentation ">
     <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -83,11 +83,14 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="2153">2.15.3</h2>
+<h2 id="2154">2.15.4</h2>
 
+<h4 id="fix">Fix:</h4>
+<p>Fix UIStaticMesh crash game after package. Turns out we can&#39;t access mesh&#39;s vertex/index data after package, so I use <em>LGUIStaticMeshCacheData</em> to store mesh&#39;s data in editor, then pass to UIStaticMesh in packaged game(Just like UMG does with SMeshWidget).  </p>
+<h2 id="2153">2.15.3</h2>
 <h4 id="modify">Modify:</h4>
 <p>LGUIMeshComponent now use multiple mesh sections, this is good for LGUICanvas to manage drawcall, so multiple drawcall mesh can sit inside one LGUIMeshComponent.<br>CustomMaterial: MaterialInstanceDynamic will check parameter then decide if it need to create, if the CustomMaterial have LGUI needed parameter (eg. MainTexture, RectClipOffsetAndSize, RectClipFeather ...), then MaterialInstanceDynamic will be created for the CustomMaterial.<br>UIItem now can update independently without LGUICanvas.<br>Rename LGUIPrefabActor to LGUIPrefabHelperActor.<br><em>RaycastComplex</em> property move to UIBaseRenderable.  </p>
-<h4 id="fix">Fix:</h4>
+<h4 id="fix-1">Fix:</h4>
 <p>Fix drawcall split &amp; combine error, which cause wrong rendering order.<br>UIPostProcess effect removed if change parameter in editor.<br>Fix a potential crash caused by LGUIUtils::EditorNotifacation.<br>Fix <em>SetScrollValue</em> function in UIScrollView.  </p>
 <h4 id="newfeature">NewFeature:</h4>
 <p>Add static function <em>ForceUpdateLayout</em> in LGUIManagerActor which is useful when you need to refrsh layout multiple times in one frame.<br>Add function <em>ForceUpdate</em> in LGUICanvasScaler.<br>Add function <em>SetScrollProgress</em> in UIScrollView.  </p>
@@ -96,49 +99,49 @@
 <p>LGUISpriteData add <em>padding</em> property, which is compatible for <em>TexturePacker</em>&#39;s trim mode.<br>StandaloneInputModule now support multiple mouse input in one frame.  </p>
 <h4 id="modify-1">Modify:</h4>
 <p>Use ILGUICultureChangeInterface to implement culture change.  </p>
-<h4 id="fix-1">Fix:</h4>
+<h4 id="fix-2">Fix:</h4>
 <p>UISprite render wrong when fill mode set to radial360.<br>Crash when use LGUITools/CopyActor.  </p>
 <h2 id="2151">2.15.1</h2>
 <h4 id="newfeature-2">NewFeature:</h4>
 <p>LGUIDrawableEvent now support FText and FName.<br>Add LGUIDrawableEvent_Name and LGUIDrawableEvent_Text.  </p>
 <h2 id="2150">2.15.0</h2>
-<h4 id="fix-2">Fix:</h4>
+<h4 id="fix-3">Fix:</h4>
 <p>Crash caused by UIItemEditorHelperComp.<br>Fix a potential crash in LGUIRenderer.<br>Wrong layout after SetIsUIActive in some case.  </p>
 <h4 id="newfeature-3">NewFeature:</h4>
 <p>UIText now use FText to support <strong>localization</strong>. Check <em>TheDivision</em> demo of <a href="https://github.com/liufei2008/LGUI_Tutorial.git">LGUI Tutorial</a> Projects.<br>New render mode: <strong>World Space - LGUI Renderer</strong>. Render 3D UI in world space by LGUI&#39;s renderer, so it will not affect by UE&#39;s post process, and LGUI&#39;s post process will work(eg. UIBackgroundBlur).<br>Editor: Add a toggle <strong>Show LGUI column in SceneOutliner</strong> in <em>LGUI Tools</em>, which can show or hide LGUI&#39;s functions column in SceneOutliner.  </p>
 <h4 id="modify-2">Modify:</h4>
 <p>LTween: LTweener&#39;s outer use binded UObject.<br>Editor: Show a message if there are multiple ScreenSpaceUI, which is not allowed.<br>UIStaticMesh more stable.<br>LGUIPrefab: Now use &quot;ActorGUID&quot; property as actor&#39;s key, so UE4.25 will not support anymore.<br>LGUIPrefab: When click &quot;CreatePrefab&quot; or &quot;Apply&quot; button, other prefabs won&#39;t saved to current prefab.<br>LGUIPrefab: When click &quot;Revert&quot; button, LGUI will keep created actors and apply values to the them, the old method is just delete and recreate them all.<br>LGUIPrefab: Automaticlly cleanup useless LGUIPrefabActor.<br>Remove &quot;ComboBox&quot; and &quot;FlyoutMenu&quot;.<br>Remove &quot;ViewportUITexture&quot; and &quot;UITextureBox&quot;.<br>Show UIBaseActor&#39;s &quot;Actor&quot; and &quot;Rendering&quot; category.<br>Add <em>PriorityInScenViewExtension</em> to renderer. Because LGUI&#39;s renderer use UE&#39;s view extension, so this value can help LGUI&#39;s renderer to sort with other view extensions, higher comes first.<br>UIItem: Rename <em>SetUIActive</em> to <em>SetIsUIActive</em>, <em>IsUIActiveSelf</em> to <em>GetIsUIActiveSelf</em>, <em>IsUIActiveInHierarchy</em> to <em>GetIsUIActiveInHierarchy</em>.<br>Rename LGUI_XXXRayEmiter to LGUI_XXXRayemitter.  </p>
 <h2 id="2143">2.14.3</h2>
-<h4 id="fix-3">Fix:</h4>
+<h4 id="fix-4">Fix:</h4>
 <p>SetCustomUIMaterial not working.<br>Render order issue.<br>RectClip not working in children canvas.  </p>
 <h4 id="modify-3">Modify:</h4>
 <p>ClipType behaviour: If not use OverrideClipType, then child canvas will use parent&#39;s clip parameter.  </p>
 <h2 id="2142">2.14.2</h2>
-<h4 id="fix-4">Fix:</h4>
+<h4 id="fix-5">Fix:</h4>
 <p>SetWidth/SetHeight/SetAnchorOffsetX/SetAnchorOffsetY error when not in preferred anchor mode. eg: SetWidth when HorizontalAnchor is Stretch.<br>Crash if UIGeometryModifier not attached to a UIBatchGeometryRenderable.<br>UITextInputComponent now can input negative number.<br>Errors in compiled engine version.  </p>
 <h2 id="2141">2.14.1</h2>
-<h4 id="fix-5">Fix:</h4>
+<h4 id="fix-6">Fix:</h4>
 <p>Shader error in particle material.<br>Editor: UIItem&#39;s detail panel not valid in blueprint editor.  </p>
 <h2 id="2140">2.14.0</h2>
 <h4 id="modify-4">Modify:</h4>
 <p>Rename UIRenderable to UIBatchGeometryRenderable.<br>Rename UIPostProcess to UIPostProcessRenderable.<br><strong>Remove</strong> <em>AutoManageDepth</em>, because it&#39;s not working well but take a lot effort to maintain it.  </p>
 <h4 id="newfeature-4">NewFeature:</h4>
 <p>Add new class UIDirectMeshRenderable, for directly modify mesh data for render. Currently it has been used for <a href="https://github.com/liufei2008/LGUI_ParticleSystem">Niagara ParticleSystem Renderer for LGUI</a>.  </p>
-<h4 id="fix-6">Fix:</h4>
+<h4 id="fix-7">Fix:</h4>
 <p>MultiSample not working without post process.  </p>
 <h4 id="improve">Improve:</h4>
 <p>Optimize drawcall management, improve performance, reduce memory usage, minimize drawcall rebuild times.  </p>
 <h2 id="2132">2.13.2</h2>
 <h4 id="modify-5">Modify:</h4>
 <p>Optimize UIGridLayout.  </p>
-<h4 id="fix-7">Fix:</h4>
+<h4 id="fix-8">Fix:</h4>
 <p><em>DynamicPixelsPerUnit</em> not working in world space UI.<br>UISprite and UIText display wrong uv when atlas texture change.<br>LGUICanvas: Drawcall sort incorrect in some case.  </p>
 <h2 id="2131">2.13.1</h2>
 <h4 id="newfeature-5">NewFeature:</h4>
 <p>LGUIFont support UE4 build-in font, and support font&#39;s subface.<br>Support 32-bit indexbuffer, default is off, turn it on by modify LGUI.Build.cs.<br>Show tip text when indexbuffer out of range.<br>Add <em>SetScrollDelta</em> and <em>SetScrollValue</em> for UIScrollView, so we can mannually scroll it.<br><strong>UICustomDepthMask</strong> component provide us the ability to mask out screen-space-UI with custom depth stencil. So that a character can stand <em>before</em> UI elements.  </p>
 <h4 id="modify-6">Modify:</h4>
 <p>Improve UIText render and memory.  </p>
-<h4 id="fix-8">Fix:</h4>
+<h4 id="fix-9">Fix:</h4>
 <p>UIScrollView: Default created scrollview&#39;s scrollbar cannot interact.<br>ThumbnailRenderer: Pure virtual call caused crash.  </p>
 <h2 id="2130">2.13.0</h2>
 <h4 id="notes">Notes:</h4>
@@ -147,52 +150,52 @@
 <p>Add tip text for LGUICanvas&#39;s <em>SortOrder</em> property.<br>UITextInput can use a function to verify input.<br>Add tip text if anchor is controlled by multiple layout, which is not allowed.<br>Add <em>KillAllTweens</em> function for LTween.<br>Improve performance when packing atlas texture for LGUIFont.<br>Add <strong>LGUIFontData_BaseObject</strong> and <strong>LGUISpriteData_BaseObject</strong>, so we can implement our own font or sprite.<br>Add hit text if there are multiple screen-space-UI in a world.<br>Layout animation now support size and position animation, check <em>DragDrop</em> exsample.<br>Improve LGUIPrefab editor.  </p>
 <h4 id="modify-7">Modify:</h4>
 <p>Layout update will execute late then LGUIBehaviours.<br>Change canvas icon&#39;s transparency in LGUIColumn.  </p>
-<h4 id="fix-9">Fix:</h4>
+<h4 id="fix-10">Fix:</h4>
 <p>LGUICanvas: <em>RenderTarget</em> mode renders wrong area.<br>UITextInput: Register submit event but called in changed condition.<br>Dropdown: Default dropdown&#39;s scrollbar not interactable.<br>LGUICanvas: <em>AutoManageDepth</em> not sort correct when use custom material.<br>UIItem: UI render not update when change pivot in editor.  </p>
 <h2 id="2127">2.12.7</h2>
 <h4 id="newfeature-7">NewFeature:</h4>
 <p><strong>Auto Manage Depth!</strong>(Experimental) Automatically manage UI element&#39;s depth and drawcall, so we don&#39;t need to set <em>depth</em> property. Just check <em>autoManageDepth</em> property in LGUICanvas to make it work. This property will be made to true by default in future release.<br>Change anchor now can preserve relative UI position.  </p>
 <h4 id="modify-8">Modify:</h4>
 <p>Add <em>Outer</em> parameter for <em>CreateLGUISpriteData</em> function.<br>Add <em>SetMinValue</em> <em>SetMaxValue</em> for UISlider.<br>LGUICanvas now can pool material when rebuild drawcall.<br>Add <em>Fix it</em> and <em>Fix all</em> button for LGUIPrefab if the prefab&#39;s version is older than current.<br>Add <em>Fix it</em> button for UIItem if the UIItem&#39;s <em>displayName</em> not equal to actor label.<br>Add <em>Preview</em> property for UISpriteSequencePlayer and UISpriteSheetTexturePlayer, so we can preview the sequence in editor.<br>Add <em>Project3DToScreen</em> function for LGUICanvasScaler, so we can project a screen-space 3D UI element&#39;s position to screen-space 2D.<br>Add hint text if there are multiple LGUIBaseRaycaster with similar parameter.  </p>
-<h4 id="fix-10">Fix:</h4>
+<h4 id="fix-11">Fix:</h4>
 <p>UIItem: Anchor calculation wrong.<br>UIDropdown: Update selections after <em>SetValue</em>.<br>LGUICanvas: <em>PixelPerfect</em> not update properly.<br>UITexture: If <em>SetTexture</em> with nullptr parameter then use default white texture.<br>Editor: <em>Focus to Screen-Space-UI</em> now take consider the UI&#39;s fov angle.<br>UIText: Render size now fit with screen size when LGUICanvasScaler scales canvas.  </p>
 <h2 id="2126">2.12.6</h2>
 <h4 id="modify-9">Modify:</h4>
 <p><strong>PrefabSystem Update!</strong> Now prefab can cook automatically. We don&#39;t need to <em>Recreate</em> the prefab if property field changed or version change, or any other reason.<br>Adjust LGUIComponentReference&#39;s <em>Get</em> node in blueprint.  </p>
-<h4 id="fix-11">Fix:</h4>
+<h4 id="fix-12">Fix:</h4>
 <p>Correct calculate the Clip-Rect-Offset property in LGUICanvas.<br>UIDropdown&#39;s automatic pisition will take consider canvas&#39;s rect clip property.<br>Enter/Exit event bubble not execute as expected when there is an empty UI-element(no enter/exit interface component) between the hierarchy.  </p>
 <h2 id="2125">2.12.5</h2>
 <h4 id="newfeature-8">NewFeature:</h4>
 <p>Level editor camera focus and align to Screen-Space-UI by <em>LGUI Tools</em> or keyboard shotcut.  </p>
 <h4 id="modify-10">Modify:</h4>
 <p>Remake anchor calculation, now we can use SetRelativeLocation/Rotation instead of SetUIRelativeLocation/Rotation, and anchor will be calculated automatically.  </p>
-<h4 id="fix-12">Fix:</h4>
+<h4 id="fix-13">Fix:</h4>
 <p>Crash caused by layout calculation(new calculation method in version 2.12.4).<br>Fix compile error in source-build-engine version.  </p>
 <h2 id="2124">2.12.4</h2>
 <h4 id="newfeature-9">NewFeature:</h4>
 <p>Add <em>IncludeChildren</em> parameter in FindChildByDisplayName and FindChildArrayByDisplayName function.<br>Add <em>Use8Direction</em> property in UIEffectOutline.<br>Add <em>OwnerNoSee</em> and <em>OnlyOwnerSee</em> property in LGUICanvas.<br>Optimize anchor calculation in UIItem. Remove SetUIRelativeLocation(and similar SetUIXXX) function, instead use native SetRelativeLocation.  </p>
 <h4 id="modify-11">Modify:</h4>
 <p>Access dropdown in blueprint.<br>Remove <em>ClearEvent</em> when switch left/right mouse button input.<br>UIToggleGroupComponent callback use index instead of UIToggleComponent.<br>Add version number for LGUIPrefab.<br>Add more check when create atlas.<br>Lock move if UIItem&#39;s anchor is locked by layout in editor.  </p>
-<h4 id="fix-13">Fix:</h4>
+<h4 id="fix-14">Fix:</h4>
 <p>Crash if change <em>enable</em> property in LGUIBehaviour.<br>Shader error when package in android.<br>Crash caused by UIScrollViewWithScrollbarComponent, when change Horizontal or Vertical after delete scrollbar.<br>StaticMesh render issue when spawn from prefab.<br>LGUIPrefab set initial transform fail.<br>Crash caused by LGUIDrawableEvent, if assign different type of actor.  </p>
 <h2 id="2123">2.12.3</h2>
 <h4 id="newfeature-10">NewFeature:</h4>
 <p>Add <strong>DisplayName</strong> property for UIItem, so we can use <strong>FindChildByDisplayName</strong> to find a child of provided name, and <strong>FindChildArrayByDisplayName</strong> to find child collection of same name.<br>UIBackgroundBlur and UIBackgroundPixelate now support rect-clip and texture-clip.<br>Add <em>CanScollInSmallSize</em> property in UIScollView, controls: when content size is smaller than it&#39;s parent size, can scoll it or not.<br>Add callback event to UIToggleGroup.<br>Add <em>UnlinkPrefab</em> function for <em>LGUI Tools</em>.<br>Add <strong>Dropdown</strong> control, deprecate <strong>FlyoutMenu</strong> and <strong>ComboBox</strong>.  </p>
 <h4 id="modify-12">Modify:</h4>
 <p>Split out clip function from material.<br>Texture clip use red channel as clip input.<br>Editor: Confirm before delete prefab instance.  </p>
-<h4 id="fix-14">Fix:</h4>
+<h4 id="fix-15">Fix:</h4>
 <p>UIBackgroundBlur not work in condition: upper actor have LGUICanvas (not root canvas), if turn the canvas off and on, then UIBackgroundBlur will not work.<br>Directly set UIItem&#39;s position.z not work.<br>Copy actor mark the actors not valid.<br>Missing component when create from LGUI&#39;s prefab system. Turns out I put the component in wrong place.<br>Text render with a tiny black edge when in small size.<br>Nested canvas with rect clip, but sub canvas&#39;s clip value not update when position change.<br>--Thanks to &quot;陈靖中&quot;, he helped on debug/test/new-feature.  </p>
 <h2 id="2122">2.12.2</h2>
 <h4 id="newfeature-11">NewFeature:</h4>
 <p>Add tween function MeshMaterialScalarPrameterTo/ MeshMaterialVectorParameterTo, directly set tween animation for MeshComponent&#39;s material.<br>If <em>selfRender</em> set to true for UIRenderable elements, then set depth can change Translucent Sort Priority.<br>Add editor button:Set depth forward or backward with children.<br>UITexture now support <em>Filled</em> type, just like UISprite.<br>Expose blueprint function for LTween: DisableTick, EnableTick, CustomTick, so we can control our tween&#39;s tick behaviour in blueprint.<br>Add Layout menu in <em>LGUI Tools</em>.  </p>
-<h4 id="fix-15">Fix:</h4>
+<h4 id="fix-16">Fix:</h4>
 <p>SetUIActive(false) in Awake, but OnEnable still be called.<br>Awake called in editor.<br>Editor: Lock scale ratio can work with UI elements.<br>ScrollView won&#39;t work if deactive at start, and later active again.  </p>
 <h4 id="modify-13">Modify:</h4>
 <p>Editor: Confirm before delete actor.<br>Hide UIItemEditorHelperComp, and make it editor only.</p>
 <h2 id="2121">2.12.1</h2>
 <h4 id="newfeature-12">NewFeature:</h4>
 <p>Add tween function: AnchorOffsetTo.  </p>
-<h4 id="fix-16">Fix:</h4>
+<h4 id="fix-17">Fix:</h4>
 <p>Fix screen space UI flicking issue.<br>Fix post process update issue.  </p>
 <h4 id="modify-14">Modify:</h4>
 <p>SetDepth can propagate to children.<br>Preserver hierarchy state data stored in a hidden actor.  </p>
@@ -201,17 +204,17 @@
 <p>Editor: Cross level copy/paste actor with hierarchy.<br>Editor: Revert prefab will not modify root ui item&#39;s anchor.<br>Editor: If create UIItem in sublevel, then automatic make the sub level as current level.<br>Split UIRenderable to UIBaseRenderable, UIRenderable, UIPostProcess.<br>UIRenderable can do self render, means it can create-drawcall/ render/ sort by it self.<br>Split out RenderProxy from PostProcess, render thread more stable.<br>ScreenSpaceUI material now support wireframe.  </p>
 <h4 id="modify-15">Modify:</h4>
 <p>Remove LGUIBehaviourExecuteOrder.  </p>
-<h4 id="fix-17">Fix:</h4>
+<h4 id="fix-18">Fix:</h4>
 <p>Reconstruct LGUIBehaviour lifecycle functions.  </p>
 <h2 id="2117">2.11.7</h2>
-<h4 id="fix-18">Fix:</h4>
+<h4 id="fix-19">Fix:</h4>
 <p>Fix bug: Click LGUI scene outliner menu cause deselect actor.<br>Fix bug: Drag root UIItem result in wrong AnchorOffset value.<br>Fix LTween ease animation error: InOutElastic, InOutBack, InBounce, InOutBounce.  </p>
 <h4 id="modify-16">Modify:</h4>
 <p>Remove LGUIEditHelper.<br>Add more blueprint function for LGUIPlayTween.<br>Editor detail appearance change: display thumbnail = false.<br>Rename text animation related objects. Previours names are easily missunderstanding.<br>These class move to namespace &quot;LGUIPrefabSystem&quot;: ActorSerializer, ActorCopier, ActorReplaceTool.<br>Make LTween blueprint functions easier: FloatTo, IntTo, VectorTo, ColorTo...<br>Cleanup editor code. Check <a href="../LTween/Custom/index.html">this doc</a>.  </p>
 <h4 id="newfeature-14">NewFeature:</h4>
 <p>Auto refresh UI when: reimport sprite texture; change border value.<br>Support &quot;Num Customized UVs&quot; in hud material.<br>Add image sequence player for easily play image sequence, 2 new component: UISpriteSequencePlayer, UISpriteSheetTexturePlayer.<br>Add copy/paste on custom editor. Now we can copy/paste anchor of LGUITransform.  </p>
 <h2 id="2116">2.11.6</h2>
-<h4 id="fix-19">Fix:</h4>
+<h4 id="fix-20">Fix:</h4>
 <p>Fix a crash caused by RangeSelector and RichTextTagSelector when check flipDirection.
 Fix custom tag unfunctional when the tag mark followed by empty character.
 Fix bug: text pixelperfect mode affect character width, result in different layout.</p>
@@ -223,29 +226,29 @@ Add more color name in RichText, check <a href="../Rendering/RichTextReference/i
 <h2 id="2115">2.11.5</h2>
 <h4 id="newfeature-15">NewFeature:</h4>
 <p>RichText support custom tag.<br>TextAnimation selector get a new selector: RichTextTag, for easily select char by custom tag.  </p>
-<h4 id="fix-20">Fix:</h4>
+<h4 id="fix-21">Fix:</h4>
 <p>LTween: Fix OnComplete callback for Incremental looptype.<br>TextAnimation more stable.  </p>
 <h4 id="modify-18">Modify:</h4>
 <p>MSAA disabled by default(not compatible with UIBackgroundXXX in DX12).<br>Cleanup LTween Register/UnregisterUpdateEvent.<br>Adjust detail panels display.  </p>
 <h2 id="2114">2.11.4</h2>
 <h4 id="newfeature-16">NewFeature:</h4>
 <p>Add new Incremental loop type for LTween.<br>Add loop count limit for LTween.<br>Add OnCycleComplete callback function for LTween, called when every loop cycle complete.  </p>
-<h4 id="fix-21">Fix:</h4>
+<h4 id="fix-22">Fix:</h4>
 <p>Fix a potential crash when sort priority in canvas.  </p>
 <h4 id="modify-19">Modify:</h4>
 <p>Modify some editor appearance.<br>Shared depth count info now split to Renderable and RaycastTarget.  </p>
 <h2 id="2113">2.11.3</h2>
-<h4 id="fix-22">Fix:</h4>
+<h4 id="fix-23">Fix:</h4>
 <p>Fix update layout issue when IsUIActive=false.<br>Fix memory leak caused by LGUIEditorManagerObject referencing UIItem.<br>Fix a crash: Crash when use navigation input but there is no UISelectable.  </p>
 <h4 id="modify-20">Modify:</h4>
 <p>Add right and middle mouse button trigger event to PresetEventSystemActor.<br>Menu &quot;Create UI Extension Elements&quot; remove post process actors.<br>Add lambda function for RegisterEvent of interaction components.<br>Add more blueprint function for LGUIXXXInteraction.  </p>
 <h2 id="2112">2.11.2</h2>
 <h4 id="newfeature-17">NewFeature:</h4>
 <p>Add controller input support.<br>Custom mouse position input.  </p>
-<h4 id="fix-23">Fix:</h4>
+<h4 id="fix-24">Fix:</h4>
 <p>Fix useNativeParameter issue when copy event in LGUIDrawableEvent.  </p>
 <h2 id="2111">2.11.1</h2>
-<h4 id="fix-24">Fix:</h4>
+<h4 id="fix-25">Fix:</h4>
 <p>Fix a shader compiler error X3504 caused by LGUIHudShader.usf.<br>Fix buildin prefab not loaded in packaged game.<br>Fix UITexture&#39;s UVRect issue.  </p>
 <h4 id="newfeature-18">NewFeature:</h4>
 <p><strong>Support MultiSampleAntiAliasing!!!(MSAA)</strong> Turn on MSAA in ProjectSettins/LGUI/Renderging/AntiAliasing.<br>UIBackgroundBlur and UIBackgroundPixelate now support on mobile.  </p>
@@ -254,53 +257,53 @@ Add more color name in RichText, check <a href="../Rendering/RichTextReference/i
 <p>Layout support animation when change item position.<br>Add more blueprint functions in UIItem: GetRenderCanvas GetRootCanvas GetCanvasScaler IsScreenSpaceOverlayUI IsRenderTargetUI IsWorldSpaceUI.<br>OnPointerEnter/Exit event more reasonable: parent enter/exit will execute only once if pointer enter/exit any child.<br>LGUIEventFireType add new enum: OnlyTargetActor.<br>Play/Stop mark as UFUNCTION in LGUIPlayTween.  </p>
 <h4 id="modify-21">Modify:</h4>
 <p>Remove OnPointerDragEnter/Exit interface because it is not needed, we can instead use isDragging and enterComponent from LGUIPointerEventData.<br>Rename DeleteActor to DestroyActorWithHierarchy.<br>Simplify LGUIPointerInputModule&#39;s event handle.  </p>
-<h4 id="fix-25">Fix:</h4>
+<h4 id="fix-26">Fix:</h4>
 <p>Select canvas on SceneOutliner may change selection.<br>UIItem depth info wrong.<br>RichText may display &quot;&lt;&quot; if end with symbol.<br>Fix sort issue when use LGUI hierarchy sort.<br>Fix bug: delay not working in some LTweenBPLibrary.<br>Fix bug: If sprite have none packingTag, then uv get wrong.<br>Fix bug: if LTween&#39;s duration = 0, then nothing happen.  </p>
 <h2 id="2101">2.10.1</h2>
-<h4 id="fix-26">Fix:</h4>
+<h4 id="fix-27">Fix:</h4>
 <p>Fix bug: UIEventTrigger parameter become (Actor) type.  </p>
 <h2 id="2100">2.10.0</h2>
 <h4 id="modify-22">Modify:</h4>
 <p>Rename UISector to UIPolygon, remake it so it is much handy now. (You may need UE&#39;s &quot;redirect&quot; if you use UISector before, but some properties may need to manually setup).<br>Remake UIRing, based on UI2DLineRenderer. Now UIRing and UI2DLine is more powerfull. (You may need UE&#39;s &quot;redirect&quot; if you use UIMesh before).<br>Rename UIMesh to UIStaticMesh. (You may need UE&#39;s &quot;redirect&quot; if you use UIMesh before).<br>LGUIPrefab will not crash editor, but give an error message if something wrong happen.  </p>
 <h4 id="newfeature-20">NewFeature:</h4>
 <p>Add UIPolygonLine(a line/frame version of UIPolygon).<br>Material now support WorldPositionOffset.  </p>
-<h4 id="fix-27">Fix:</h4>
+<h4 id="fix-28">Fix:</h4>
 <p>Click to select UI elements, now is much stable.<br>Fix drawcall collection info display error.<br>Lot of bugs fixed.  </p>
 <h2 id="2910">2.9.10</h2>
-<h4 id="fix-28">Fix:</h4>
+<h4 id="fix-29">Fix:</h4>
 <p>UIBackgroundPixelate flipped.  </p>
 <h4 id="modify-23">Modify:</h4>
 <p>UIBackgroundBlur and UIBackgroundPixelate now become stable, but not support mobile.<br>Simplify post process shader.  </p>
 <h2 id="299">2.9.9</h2>
-<h4 id="fix-29">Fix:</h4>
+<h4 id="fix-30">Fix:</h4>
 <p>Fix a crash caused by LGUI&#39;s scene outliner extension.<br>Fix a crash when package android platform.  </p>
 <h4 id="newfeature-21">NewFeature:</h4>
 <p>New type of UI element: UIMesh, allow to use a UStaticMesh to render in screen space UI.  </p>
 <h4 id="modify-24">Modify:</h4>
 <p>Simplify post process shader.  </p>
 <h2 id="298">2.9.8</h2>
-<h4 id="fix-30">Fix:</h4>
+<h4 id="fix-31">Fix:</h4>
 <p>Fix a crash when click RecreateThis in prefab.<br>Fix a issue in UIScrollViewWithScrollbar, add more hints.  </p>
 <h2 id="297">2.9.7</h2>
-<h4 id="fix-31">Fix:</h4>
+<h4 id="fix-32">Fix:</h4>
 <p>Fix a crash when destroy UIBackgroundBlur and UIBackgroundPixelate.<br>Fix bug: UITexture not update when click snap size.  </p>
 <h4 id="change">Change:</h4>
 <p>When select a actor and copy/paste use LGUI&#39;s method, the new actors will use selected actor as parent.<br>--Thanks to &quot;四青&quot;, he helped testing this plugin.  </p>
 <h4 id="newfeature-22">NewFeature:</h4>
 <p>Support material masked blend mode for screen space UI&#39;s custom material.  </p>
 <h2 id="296">2.9.6</h2>
-<h4 id="fix-32">Fix:</h4>
+<h4 id="fix-33">Fix:</h4>
 <p>Fix ScrollViewWithScrollbar issue.<br>Fix Start call issue in LGUIBehaviour.  </p>
 <h4 id="newfeature-23">NewFeature:</h4>
 <p>Add a blueprint function for runtime create LGUISpriteData.  </p>
 <h2 id="295">2.9.5</h2>
-<h4 id="fix-33">Fix:</h4>
+<h4 id="fix-34">Fix:</h4>
 <p>Fix a crash caused by Raycaster.<br>Fix problems with undo system.<br>--Thanks to &quot;刘量&quot;, he helped testing this plugin.  </p>
 <h2 id="294">2.9.4</h2>
-<h4 id="fix-34">Fix:</h4>
+<h4 id="fix-35">Fix:</h4>
 <p>Duplicated screen space UI on viewport, when PIE with multiplayer(player count more than 1).  </p>
 <h2 id="293">2.9.3</h2>
-<h4 id="fix-35">Fix:</h4>
+<h4 id="fix-36">Fix:</h4>
 <p>Avoid GWorld for LTweenActor creation, so LTween related code should provide a object to get world.  </p>
 <h2 id="292">2.9.2</h2>
 <h4 id="newfeature-24">NewFeature:</h4>
@@ -308,23 +311,23 @@ Add more color name in RichText, check <a href="../Rendering/RichTextReference/i
 <h2 id="291">2.9.1</h2>
 <h4 id="newfeature-25">NewFeature:</h4>
 <p>LGUIDrawableEvent now have preset parameter struct, like LGUIDrawableEvent_Float/ LGUIDrawableEvent_Int32...  </p>
-<h4 id="fix-36">Fix;</h4>
+<h4 id="fix-37">Fix;</h4>
 <p>Fix UIPlayTween&#39;s loop issue.<br>Fix LGUIDrawableEvent&#39;s editor issue when use Vector2/Vector3/Vector4/Color/LinearColor/Rotator as parameter.  </p>
 <h2 id="29">2.9</h2>
 <h4 id="newfeature-26">NewFeature:</h4>
 <p>TextAnimation, WOW!!! You can use UIEffectTextAnimation to customize it.<br>LGUIDrawableEvent now support multiple component of same type on actor, use component name to identify.<br>LGUIDrawableEvent now get a very clean and clear editor interface.<br>LGUIPlayTween, for quick setup tween animation.<br>LGUIComponentReference now get a specific blueprint node, that you can get component directly.  </p>
-<h4 id="fix-37">Fix:</h4>
+<h4 id="fix-38">Fix:</h4>
 <p>Fix LGUICanvasScaler scale and size issue.<br>Fix Layout update issue, when there is hierarchy nested LGUICanvas exist.  </p>
 <h2 id="286">2.8.6</h2>
-<h4 id="fix-38">Fix:</h4>
+<h4 id="fix-39">Fix:</h4>
 <p>Fix ScreenSpaceUI preview in editor viewport.<br>Other fix: crash caused by LGUICanvas, pixel perfect render of UIText.  </p>
 <h2 id="285">2.8.5</h2>
-<h4 id="fix-39">Fix:</h4>
+<h4 id="fix-40">Fix:</h4>
 <p>Fix a crash when delete LGUICanvas.<br>Fix pixel perfect calculation issue caused by 2.8.2 version.<br>Fix: add or remove canvas not update correctly.  </p>
 <h4 id="change-1">Change:</h4>
 <p>Change LGUICanvas&#39;s update methold. Basicall the old methold will update hierarchy multiple times in one frame, new method will update in multiple frames, this is more stable.  </p>
 <h2 id="284">2.8.4</h2>
-<h4 id="fix-40">Fix:</h4>
+<h4 id="fix-41">Fix:</h4>
 <p>Fix alpha not update correctly issue, caused by 2.8.3 version.<br>Fix a crash when unload current level after use &quot;Copy Component Values&quot;.<br>Fix drawcall count error.<br>Fix a crash when deserialize actor from prefab.<br>Fix hierarchyIndex sort error.  </p>
 <h4 id="newfeature-27">NewFeature:</h4>
 <p>Add SCOPE_CYCLE_COUNTER to LGUIBehaviour&#39;s update function.  </p>
@@ -333,28 +336,28 @@ Add more color name in RichText, check <a href="../Rendering/RichTextReference/i
 <p>Increase performance.  </p>
 <h4 id="newfeature-28">NewFeature:</h4>
 <p>Now we can preview screen space UI in edit mode, just choose a viewport(which you can find in &quot;Window/Viewports/&quot;) and click the button &quot;LGUI Tools/Active Viewport as LGUI Preview&quot;.  </p>
-<h4 id="fix-41">Fix:</h4>
+<h4 id="fix-42">Fix:</h4>
 <p>Duplicate actor or generate a prefab in edit mode will also create a LGUIManagerActor, this is incorrect, fixed.<br>Click and select UI element in viewport more stable now.  </p>
 <h2 id="282">2.8.2</h2>
 <h4 id="newfeature-29">NewFeature:</h4>
 <p>LGUICanvas support render to custom RenderTarget2D.(Experimental)  </p>
 <h4 id="improve-2">Improve:</h4>
 <p>Performance improve.  </p>
-<h4 id="fix-42">Fix:</h4>
+<h4 id="fix-43">Fix:</h4>
 <p>UISprite&#39;s fill type in pixel perfect mode.  </p>
 <h2 id="281">2.8.1</h2>
 <h4 id="change-2">Change:</h4>
 <p>Remove UIPanel.  </p>
 <h4 id="newfeature-30">NewFeature:</h4>
 <p>Add Canvas and drawcall count tip info in scene outliner.  </p>
-<h4 id="fix-43">Fix:</h4>
+<h4 id="fix-44">Fix:</h4>
 <p>Fix basic setup not interactable issue.<br>Fix UIText disappear when second time input from UITextInputComponent in some special case.  </p>
 <h2 id="28">2.8</h2>
 <h4 id="change-3">Change:</h4>
 <p>LGUIEventSystem&#39;s RegisterGlobalListener now use FLGUIBaseEventDelegate/FLGUIBaseEventDynamicDelegate. After your delegate is called, you can cast ULGUIBaseEventData to ULGUIPointerEventData if you need.<br>LGUI_Saved_Data.json file now save to project intermediate folder.<br>Move LGUISettings to DefaultEngine.ini.<br>LGUIPointerXXXInterface.h file move to Event/Interface/ folder.  </p>
 <h4 id="newfeature-31">NewFeature:</h4>
 <p>EventSystem now user InputModule to handle input events, this should be more extensible for us to make different input for different platform, such as mobile.<br>Add dragToHold parameter to LGUIXXXRayemitter.<br>LGUIXXXInputMobule and LGUIXXXRaycaster now can use ActorComponent&#39;s Activate/Deactivate.  </p>
-<h4 id="fix-44">Fix:</h4>
+<h4 id="fix-45">Fix:</h4>
 <p>Fix a crash caused by UIText&#39;s OverflowType=ClampContent.<br>Fix UITexture&#39;s UVRect issue.<br>Fix LGUIBehaviour execute order error.  </p>
 <h2 id="272">2.7.2</h2>
 <h4 id="change-4">Change:</h4>
@@ -366,7 +369,7 @@ Add more color name in RichText, check <a href="../Rendering/RichTextReference/i
 <p>UISprite add fill type: Horizontal/ Vertical/ Radial90/ Radial180/ Radial360, all these type can flip fill direction and support several origin type.<br>Editor can preview canvas resolution scale of LGUICanvasScaler.<br>UISizeControlByAspectRatio now support FitInParent/ EnvelopeParent.  </p>
 <h4 id="improve-4">Improve:</h4>
 <p>Improve UISelectableTransitionComponent.<br>Improve layout editor.  </p>
-<h4 id="fix-45">Fix:</h4>
+<h4 id="fix-46">Fix:</h4>
 <p>Fix virtual cameram draw issue of LGUICanvasScaler.<br>Fix a build warning of bind none const function.  </p>
 <h2 id="27">2.7</h2>
 <h4 id="modify-25">Modify:</h4>
@@ -379,7 +382,7 @@ c.Add these lines under [/Script/Engine.Engine]:
 </code></pre><p>UIBackgroundBlur now use maskTexture to acturally mask out blur area. add strengthTexture to control blur strength.  </p>
 <h4 id="new-feature-1">New feature:</h4>
 <p>LGUIBehaviour is a totally remaked class, all I want is trying to make it more like Unity&#39;s MonoBehaviour. Because I think Unity&#39;s interfaces are more normative.<br>LGUIBehaviour can control event execute order by changing LGUIBehaviourExecuteOrder in LGUISettings.  </p>
-<h4 id="fix-46">Fix:</h4>
+<h4 id="fix-47">Fix:</h4>
 <p>UISlider&#39;s handle&#39;s position issue when DirectionType=RightToLeft/TopToBottom.  </p>
 <h2 id="263">2.6.3</h2>
 <h4 id="new-feature-2">New feature:</h4>
@@ -395,22 +398,22 @@ c.Add these lines under [/Script/Engine.Engine]:
 <h2 id="26">2.6</h2>
 <h4 id="new-feature-4">New feature:</h4>
 <p>Add UIPostProcess UI element type, now we can extend our own post process on UI.<br>Add UIBackgroundBlur effect, which is based on UIPostProcess.  </p>
-<h4 id="fix-47">Fix:</h4>
+<h4 id="fix-48">Fix:</h4>
 <p>Fix a compile error in some specific condition(inline function xxx not defined)<br>Improve pixel perfect and dynamic pixel scale of UIText render<br>Fix a bug: If a UProperty is SceneComponent and AttachParent property have value, then endless loop will occur.  </p>
 <h4 id="modify-26">Modify:</h4>
 <p>Recreate UIFlyoutMenu and UIComboBox.<br>Change LGUIPointerEventData&#39;s property &quot;hitComponent&quot; to &quot;currentComponent&quot;.  </p>
 <h2 id="25">2.5</h2>
 <h4 id="new-feature-5">New feature:</h4>
 <p>Add rich text support in UIText. Check &quot;Rich Text&quot; property to see more.<br>LGUICanvasScaler now provides more options for users to control UI&#39;adaptive behaviour.  </p>
-<h4 id="fix-48">Fix:</h4>
+<h4 id="fix-49">Fix:</h4>
 <p>Fix a crash on LGUIPrefab when hit revert button.<br>Fix a crash when change level, caused by UIItem.<br>Fix a UIText texture display error.  </p>
 <h2 id="241">2.4.1</h2>
 <h4 id="modify-27">Modify:</h4>
 <p>Delete actor will also check delete prefab.<br>Add engine version to prefab, so prefab made by different engine version will show a warning.  </p>
-<h4 id="fix-49">Fix:</h4>
+<h4 id="fix-50">Fix:</h4>
 <p>Fix a crash when use UIText in blueprint actor editor, although work in blueprint actor is not recommaded for LGUI.  </p>
 <h2 id="24">2.4</h2>
-<h4 id="fix-50">Fix:</h4>
+<h4 id="fix-51">Fix:</h4>
 <p>Fix a crash when compile blueprint that inherit from UIItem.<br>Fix a compile warning in UIItem.  </p>
 <h4 id="new-feature-6">New feature:</h4>
 <p>Add UISpriteBase_BP and UITextureBase_BP for blueprint extend custom UI element.<br>LTween add blueprint tween for some basic types, eg. FloatTo/IntTo/Vector2To/Vector3To...  </p>
@@ -420,32 +423,32 @@ c.Add these lines under [/Script/Engine.Engine]:
 <h4 id="new-feature-7">New feature:</h4>
 <p>Add UIRenderable_BP for blueprint can extend custom UI element.  </p>
 <h2 id="233">2.3.3</h2>
-<h4 id="fix-51">Fix:</h4>
+<h4 id="fix-52">Fix:</h4>
 <p>Fix a fatal error after shutdown, caused by LGUIFontData.<br>Fix a pontential link error caused by UI2DLineRendererBase.  </p>
 <h2 id="232">2.3.2</h2>
-<h4 id="fix-52">Fix:</h4>
+<h4 id="fix-53">Fix:</h4>
 <p>Recreate default plugin&#39;s prefab assets.<br>Fix a bug for LGUIDrawableEvent when recompile blueprint.<br>Add more check to LGUIDrawableEvent to prevent crash.  </p>
 <h4 id="new-feature-8">New feature:</h4>
 <p>Add lambda function to LTween&#39;s RegisterUpdateEvent, it&#39;s just a quick entry and not for blueprint.  </p>
 <h2 id="231">2.3.1</h2>
-<h4 id="fix-53">Fix:</h4>
+<h4 id="fix-54">Fix:</h4>
 <p>Fix crash when redo from Prefab instance.  </p>
 <h4 id="new-feature-9">New feature:</h4>
 <p>Add &quot;Browser to Prefab asset&quot; to prefab edit.  </p>
 <h2 id="23">2.3:</h2>
-<h4 id="fix-54">Fix:</h4>
+<h4 id="fix-55">Fix:</h4>
 <p>Fix crash when add LGUICanvas in blueprint actor. But blueprint actor for LGUI is still not recommended.  </p>
 <h4 id="modify-29">Modify:</h4>
 <p>Rename LTween&#39;s XXXGetterFunction to LTweenXXXGetterFunction, and same change to XXXSettterFunction.  </p>
 <h4 id="new-feature-10">New feature:</h4>
 <p>LGUIFont now can pack font texture into UISprite&#39;s atlas texture! This can be very helpful to reduce drawcall. All we need to do is to change LGUIFont&#39;s packingTag property to a UISprite&#39;s packingTag.<br>Create folder for LGUIPrefab actor in SceneOutliner.  </p>
 <h2 id="22">2.2：</h2>
-<h4 id="fix-55">Fix:</h4>
+<h4 id="fix-56">Fix:</h4>
 <p>Fix a bug of UITextInputComponent multi line edit.<br>Screen space UI render issue.  </p>
 <h4 id="new-feature-11">New feature:</h4>
 <p>Navigation support, eg: use tab key to navigate to next UISelectableComponent. Call NavigationXXX function in LGUIEventSystem.<br>UITextInputComponent support ignore keys, canbe useful for navigation.<br>LGUIComponentReference now support multiple component of same type on same actor, all we need to do is just click and select a component.  </p>
 <h2 id="21">2.1:</h2>
-<h4 id="fix-56">Fix:</h4>
+<h4 id="fix-57">Fix:</h4>
 <p>Screen space UI sort order problem.<br>UITextInputComponent more stable.  </p>
 <h4 id="update">Update:</h4>
 <p>Change default rotate from (-90, 0, 90) to (-90, 0, 0).<br>Replace LGUIEventSystemActor with LGUIEventSystem component.<br>Modify for 2DLineRendererBase, remove CurrentPointArray property, add UseGrowValue to determin whether or not use grow value.  </p>
@@ -454,19 +457,19 @@ c.Add these lines under [/Script/Engine.Engine]:
 <h2 id="20">2.0:</h2>
 <p>Screen space UI (Or HUD) not get a huge performance update. The 1.x version use SceneCapture2D, which is vary bad on performance. But now the new 2.x version of LGUI&#39;s HUD, is render direct on screen, no additional performance cost!<br>Remove UIPanel, use LGUICanvas to render all UI elements.<br>Remove UIRoot, LGUICanvas and LGUICanvasScaler will do the job.  </p>
 <h2 id="114">1.14:</h2>
-<h4 id="fix-57">Fix:</h4>
+<h4 id="fix-58">Fix:</h4>
 <p>button &quot;Create Prefab&quot; not create content.<br>some crash fixed.  </p>
 <h4 id="update-1">Update:</h4>
 <p>change UIItem&#39;s base class UPrimitiveComponent to USceneComponent, this can save a lot of disk space and memory. But!!!!! You Need To Recreate Your Prefab Which Contains LGUI Elemnt.<br>add RenderTargetSizeMultiply for UIRoot, increase this value can perform a supersampleing thing.  </p>
 <h4 id="new-feature-13">New feature:</h4>
 <p>(still under develop)Add a button to UIRoot component named &quot;Open Screen Space UI Viewer&quot;, which can open a window to preview Screen Space UI.<br>Save scene outliner&#39;s hierarchy state now support save and open map. </p>
 <h2 id="113">1.13:</h2>
-<h4 id="fix-58">Fix:</h4>
+<h4 id="fix-59">Fix:</h4>
 <p>material&#39;s IsFontTexture property not set correctly.  </p>
 <h4 id="new-feature-14">New feature:</h4>
 <p>save scene outliner&#39;s hierarchy state(actor&#39;s folder) before play, and restore it after end play.  </p>
 <h2 id="112">1.12:</h2>
-<h4 id="fix-59">Fix:</h4>
+<h4 id="fix-60">Fix:</h4>
 <p>screen space UI alpha blend problem.  </p>
 <h4 id="upgrade">Upgrade:</h4>
 <p>prefab: when select a actor, drag to create prefab will attach to that actor.<br>editor: ReplaceUIElement now can keep and replace object reference.  </p>
