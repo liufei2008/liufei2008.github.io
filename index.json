@@ -9,11 +9,6 @@
     "title": "RichText | LGUI Documentation",
     "keywords": "RichText Check \"Rich Text\" property in UIText to make it work: Suported tags Tag Description Example b Renders the text in boldface. This is a <b>LGUI</b> example. i Renders the text in italics. This is a <i>LGUI</i> example. u Renders the text with underline. This is a <u>LGUI</u> example. s Renders the text with strikethrough. This is a <s>LGUI</s> example. size Sets the size of the text according to the parameter value. This is a <size=18>LGUI</size> example. This is a <size=+4>LGUI</size> example. This is a <size=-4>LGUI</size> example. color Sets the color of the text according to the parameter value. The color can be specified in the traditional HTML format. #rrggbbaa ...where the letters correspond to pairs of hexadecimal digits denoting the red, green, blue and alpha (transparency) values for the color. For example, cyan at full opacity would be specified by color=#00ffffff... Another option is to use the name of the color, This is easier to understand but naturally, the range of colors is limited and full opacity is always assumed. The sheet blow shows supported color name. This is a <color=#ff000000>LGUI</color> example. This is a <color=red>LGUI</color> example. sup Renders the text with superscript. This is a <sup>LGUI</sup> example. sub Renders the text with subscript. This is a <sub>LGUI</sub> example. CustomTag This is useful when you need to select a range of text. This is a <MyTag>LGUI</MyTag> example. Suported color names Collor name Hex value Swatch black #000000ff white #ffffffff gray #808080ff silver #c0c0c0ff red #ff0000ff green #008000ff blue #0000ffff orange #ffa500ff purple #800080ff yellow #ffff00ff"
   },
-  "CurvyText/index.html": {
-    "href": "CurvyText/index.html",
-    "title": "Introduction | LGUI Documentation",
-    "keywords": "Introduction This is Curvy-Text effect made for LGUI of UnrealEngine. This content need LGUI plugin version 3.1 and upwards. Setup Install newest LGUI plugin from EpicLauncher. Open map SampleLevel/CurvyText and hit Play, this map contains all these effects Open folder Blueprint and see all these how these effects work in blueprints. The above examples can be copied and modified according to your needs, but the premise is that you already have basic blueprint and LGUI knowledge, and understand how to use this plugin. Useage You can select a LGUI's UIText and drag any of these effect and drop on the UIText actor's component stack Then change the parameters and make the effects you want You can combine these effects with any other LGUI's build-in effects just by add them to the component stack, just be careful with the Execute Order property which defines the order of these effects These is a parameter called Scale Curve , it is define how the characters will be scaled along with the spline/circle/helix, and the parameter Affect Scale Strength can control the weight of the scale"
-  },
   "LGUI/Rendering/UIText/index.html": {
     "href": "LGUI/Rendering/UIText/index.html",
     "title": "UIText | LGUI Documentation",
@@ -33,11 +28,6 @@
     "href": "LGUI/InteractionAndControls/index.html",
     "title": "Interaction and Controls | LGUI Documentation",
     "keywords": "Interaction and Controls <!-- ## LGUICanvas --> UISelectable UISelectable component is the base class for most Interaction components UIInteractionGroup UIInteractionGroup component can control if the interaction component can take effect UIEventBlocker UIEventBlocker component can stop event from bubble up UIEventTrigger UIEventTrigger component provide all LGUI interaction interface event"
-  },
-  "index.html": {
-    "href": "index.html",
-    "title": "LGUI Documentation | LGUI Documentation",
-    "keywords": "LGUI Documentation LGUI Manual Learn how to use LGUI in UnrealEngine CurvyText Manual Introduce to CurvyText for LGUI"
   },
   "LGUI/ReleaseNotes/v2/index.html": {
     "href": "LGUI/ReleaseNotes/v2/index.html",
@@ -218,5 +208,20 @@
     "href": "LGUI/GetStarted/CreateButton/index.html",
     "title": "Button from scratch | LGUI Documentation",
     "keywords": "Button from scratch This video will show us how to create our own button from scratch. Bilibili: Youtube:"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "LGUI Documentation | LGUI Documentation",
+    "keywords": "LGUI Documentation LGUI Manual Learn how to use LGUI in UnrealEngine CurvyText Manual Introduce to CurvyText for LGUI Effect Manual Introduce to Blueprint implemented effects for LGUI"
+  },
+  "CurvyText/index.html": {
+    "href": "CurvyText/index.html",
+    "title": "Introduction | LGUI Documentation",
+    "keywords": "Introduction This is Curvy-Text effect made for LGUI of UnrealEngine. This content need LGUI plugin version 3.1 and upwards. Setup Install newest LGUI plugin from EpicLauncher. Open map SampleLevel/CurvyText and hit Play, this map contains all these effects Open folder Blueprint and see how these effects work in blueprints. The above examples can be copied and modified according to your needs, but the premise is that you already have basic blueprint and LGUI knowledge, and understand how to use this plugin. Useage You can select a LGUI's UIText and drag any of these effect and drop on the UIText actor's component stack Then change the parameters and make the effects you want You can combine these effects with any other LGUI's build-in effects just by add them to the component stack, just be careful with the Execute Order property which defines the order of these effects These is a parameter called Scale Curve , it is define how the characters will be scaled along with the spline/circle/helix, and the parameter Affect Scale Strength can control the weight of the scale Tip here, if you want to interact your curved text with actual geometry (default is just the UIText's rect area), you can select the UIText and change Raycast Type to Geometry , and don't foget to check Raycast Target"
+  },
+  "Effect/index.html": {
+    "href": "Effect/index.html",
+    "title": "Introduction | LGUI Documentation",
+    "keywords": "Introduction This is preset blueprint implemented effects made for LGUI of UnrealEngine. This content need LGUI plugin version 3.1 and upwards. Setup Install newest LGUI plugin from EpicLauncher. Open map SampleLevel/SampleLevel and hit Play, this map contains all these effects Open folder Blueprint and see how these effects work in blueprints. The above examples can be copied and modified according to your needs, but the premise is that you already have basic blueprint and LGUI knowledge, and understand how to use this plugin. Useage You can select a LGUI's UIText/UISprite/UITexture, then drag any of these effect and drop on the UI actor's component stack Then change the parameters and make the effects you want"
   }
 }

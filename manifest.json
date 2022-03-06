@@ -80,6 +80,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "CurvyText/8.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "CurvyText/8.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "CurvyText/icon.jpg",
       "output": {
         "resource": {
@@ -95,7 +106,74 @@
       "output": {
         ".html": {
           "relative_path": "CurvyText/index.html",
-          "hash": "b3Pm0axIKyKHHtdcvRHaew=="
+          "hash": "9O+pALihjIeqA78ni+yFOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Effect/2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "Effect/2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Effect/3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "Effect/3.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Effect/4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "Effect/4.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Effect/5.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "Effect/5.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Effect/icon.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "Effect/icon.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Effect/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Effect/index.html",
+          "hash": "4YsUUOjgpblp4dS0mAJK8w=="
         }
       },
       "is_incremental": false,
@@ -3114,7 +3192,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "k8/S2MoW2s6gB9+0HXt/Pw=="
+          "hash": "J4w4y7stWwVtJPljSrs/kA=="
         }
       },
       "is_incremental": false,
@@ -3148,7 +3226,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "OZJir00HSIEOYUT3QR+GYw=="
+          "hash": "BFSipgVNXAEb3ewRCSRnfA=="
         }
       },
       "is_incremental": false,
@@ -3162,14 +3240,14 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
