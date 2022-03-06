@@ -4,19 +4,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>LGUI Documentation | LGUI Documentation </title>
+    <title>WorldSpaceUI | LGUI Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="LGUI Documentation | LGUI Documentation ">
+    <meta name="title" content="WorldSpaceUI | LGUI Documentation ">
     <meta name="generator" content="docfx 2.40.4.0">
     
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/docfx.vendor.css">
-    <link rel="stylesheet" href="styles/docfx.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <meta property="docfx:navrel" content="toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
-    <meta property="docfx:rel" content="">
+    <meta property="docfx:rel" content="../../../">
     <meta property="docfx:newtab" content="true">
     
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-88357703-2"></script>
@@ -40,7 +40,7 @@
               </button>
               <a class="navbar-brand" href="https://www.unrealengine.com/marketplace/en-US/product/lgui-lex-gui-3d-ui-system-for-ue4">
         		<div style="text-align:center; line-height:45px">
-        	    <img id="logo" height="40" width="40" src="logo.png" alt="">
+        	    <img id="logo" height="40" width="40" src="../../../logo.png" alt="">
         		</div>
         	  </a>
             </div>
@@ -73,26 +73,42 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="lgui-documentation">LGUI Documentation</h1>
+<h2 id="worldspaceui">WorldSpaceUI</h2>
 
-<p><hr>
-<div class="frontpage"><p>
-<div class="frontpage-section">
-<a href="LGUI/index.html"><img src="LGUI/SampleProjects/icon2.png"></a>
-<h3><a href="LGUI/index.html">LGUI Manual</a></h3>
-<p>Learn how to use LGUI in UnrealEngine</p>
-</div>
-
-<div class="frontpage-section">
-<a href="CurvyText/index.html"><img src="CurvyText/icon.jpg"></a>
-<h3><a href="CurvyText/index.html">CurvyText Manual</a></h3>
-<p>Introduce to CurvyText for LGUI</p>
-</div>
-
-<p></div></p>
+<p>WorldSpaceUI use engine&#39;s default render pipeline to render UI elements, so no much fancy here.</p>
+<h4 id="1-create-worldspaceui">1. Create WorldSpaceUI</h4>
+<p>Select &quot;LGUI Tools&quot;-&gt;&quot;Basic Setup&quot;-&gt;&quot;World Space UI&quot;:
+<img src="1.png" alt=""></p>
+<p>Then a &quot;WorldSpaceUIRoot&quot; will be created:
+<img src="2.png" alt=""></p>
+<h4 id="2-use-lighting-and-normalmap">2. Use lighting and normalmap</h4>
+<p>Prepare a normal map:
+<img src="NormalMap.png" alt=""></p>
+<p>Drag the normal map to content folder:
+<img src="3.png" alt=""></p>
+<p>Delete &quot;Frame&quot; and &quot;Info&quot; actor, right click the down arrow button and choose &quot;Create UI Element&quot;-&gt;&quot;UISprite&quot;, and name it &quot;NormalMapUI&quot;:
+<img src="4.png" alt=""></p>
+<p>Create a new material, name it &quot;NormalMapUIMat&quot;, make it a very simple material like this:
+<img src="5.png" alt="">
+<strong>UISprite take texcoord0 as packed atlas uv</strong>, so we use texcoord1 as uv input.<br><strong>UISprite will use the atlas texture and set to MainTexture parameter in material</strong>.</p>
+<p>Select &quot;NormalMapUI&quot; actor, find &quot;Custom Material&quot; property, and drag the &quot;NormalMapUIMat&quot; to &quot;Custom Material&quot;:
+<img src="6.png" alt=""></p>
+<p>The &quot;NormalMapUI&quot; looks not right in the viewport. Because by default, LGUI only set the first texcoord and no normal or tangent data, so we need to tell LGUICanvas to provide more data, by check the &quot;Additional Shader Channels&quot; flags:
+<img src="7.png" alt=""></p>
+<p>Now adjust light angle and position, see the bumped surface on UI:
+<img src="8.png" alt=""></p>
+<p>Check <a href="https://github.com/liufei2008/LGUISampleProject">SampleProject</a> on github, you will find more infomation about lighing on 3D UI:
+<img src="10.png" alt=""></p>
 </article>
           </div>
           
@@ -101,7 +117,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/LGUI/Rendering/WorldSpaceUI/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -127,8 +143,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="styles/docfx.js"></script>
-    <script type="text/javascript" src="styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
   </body>
 </html>

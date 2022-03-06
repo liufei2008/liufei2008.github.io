@@ -13,12 +13,11 @@
       "is_incremental": false
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/CreateButton/index.md",
+      "type": "Resource",
+      "source_relative_path": "CurvyText/2.jpg",
       "output": {
-        ".html": {
-          "relative_path": "Manual/GetStarted/CreateButton/index.html",
-          "hash": "s5HXdTwvv84eyTYQ2PR4jw=="
+        "resource": {
+          "relative_path": "CurvyText/2.jpg"
         }
       },
       "is_incremental": false,
@@ -26,10 +25,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/Button.png",
+      "source_relative_path": "CurvyText/3.jpg",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/Button.png"
+          "relative_path": "CurvyText/3.jpg"
         }
       },
       "is_incremental": false,
@@ -37,22 +36,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/icon.png",
+      "source_relative_path": "CurvyText/4.jpg",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/icon.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/CustomButton/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Manual/GetStarted/CustomButton/index.html",
-          "hash": "/nX4KwyIjNz3lGolhK3R2w=="
+          "relative_path": "CurvyText/4.jpg"
         }
       },
       "is_incremental": false,
@@ -60,10 +47,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step10.png",
+      "source_relative_path": "CurvyText/5.jpg",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step10.png"
+          "relative_path": "CurvyText/5.jpg"
         }
       },
       "is_incremental": false,
@@ -71,10 +58,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step11.png",
+      "source_relative_path": "CurvyText/6.jpg",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step11.png"
+          "relative_path": "CurvyText/6.jpg"
         }
       },
       "is_incremental": false,
@@ -82,10 +69,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step12.png",
+      "source_relative_path": "CurvyText/7.jpg",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step12.png"
+          "relative_path": "CurvyText/7.jpg"
         }
       },
       "is_incremental": false,
@@ -93,219 +80,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step13.png",
+      "source_relative_path": "CurvyText/icon.jpg",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step13.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step14.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step14.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step15.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step15.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step16.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step16.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step17.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step17.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step18.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step18.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step19.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step19.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step2.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step20.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step20.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step21.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step21.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step22.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step22.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step3.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step4.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step4_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step4_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step4_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step4_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step5.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step6.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step7.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step8.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/CustomButton/step9.png",
-      "output": {
-        "resource": {
-          "relative_path": "Manual/GetStarted/CustomButton/step9.png"
+          "relative_path": "CurvyText/icon.jpg"
         }
       },
       "is_incremental": false,
@@ -313,11 +91,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/Font/index.md",
+      "source_relative_path": "CurvyText/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/GetStarted/Font/index.html",
-          "hash": "xFqslllP5WcnziGWP+BvbA=="
+          "relative_path": "CurvyText/index.html",
+          "hash": "b3Pm0axIKyKHHtdcvRHaew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LGUI/GetStarted/CreateButton/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "LGUI/GetStarted/CreateButton/index.html",
+          "hash": "GlFkf1oFXyQ4i/ZygLmL6Q=="
         }
       },
       "is_incremental": false,
@@ -325,10 +115,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step1.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/Button.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step1.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/Button.png"
         }
       },
       "is_incremental": false,
@@ -336,10 +126,22 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step2.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step2.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "LGUI/GetStarted/CustomButton/index.html",
+          "hash": "t0T0MPS8BEoJKXPsse+CNg=="
         }
       },
       "is_incremental": false,
@@ -347,10 +149,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step3.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step10.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step3.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step10.png"
         }
       },
       "is_incremental": false,
@@ -358,10 +160,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step4.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step11.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step4.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step11.png"
         }
       },
       "is_incremental": false,
@@ -369,10 +171,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step5.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step12.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step5.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step12.png"
         }
       },
       "is_incremental": false,
@@ -380,10 +182,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step6.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step13.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step6.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step13.png"
         }
       },
       "is_incremental": false,
@@ -391,10 +193,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step7.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step14.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step7.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step14.png"
         }
       },
       "is_incremental": false,
@@ -402,10 +204,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step8.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step15.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step8.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step15.png"
         }
       },
       "is_incremental": false,
@@ -413,10 +215,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Font/step9.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step16.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Font/step9.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step16.png"
         }
       },
       "is_incremental": false,
@@ -424,10 +226,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world1.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step17.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world1.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step17.png"
         }
       },
       "is_incremental": false,
@@ -435,10 +237,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world10.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step18.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world10.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step18.png"
         }
       },
       "is_incremental": false,
@@ -446,10 +248,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world11.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step19.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world11.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step19.png"
         }
       },
       "is_incremental": false,
@@ -457,10 +259,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world12.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world12.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step2.png"
         }
       },
       "is_incremental": false,
@@ -468,10 +270,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world13.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step20.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world13.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step20.png"
         }
       },
       "is_incremental": false,
@@ -479,10 +281,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world14.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step21.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world14.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step21.png"
         }
       },
       "is_incremental": false,
@@ -490,10 +292,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world2.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step22.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world2.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step22.png"
         }
       },
       "is_incremental": false,
@@ -501,10 +303,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world3.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world3.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step3.png"
         }
       },
       "is_incremental": false,
@@ -512,10 +314,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world4.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world4.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step4.png"
         }
       },
       "is_incremental": false,
@@ -523,10 +325,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world5.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step4_1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world5.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step4_1.png"
         }
       },
       "is_incremental": false,
@@ -534,10 +336,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world6.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step4_2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world6.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step4_2.png"
         }
       },
       "is_incremental": false,
@@ -545,10 +347,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world7.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world7.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step5.png"
         }
       },
       "is_incremental": false,
@@ -556,10 +358,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world8.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world8.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step6.png"
         }
       },
       "is_incremental": false,
@@ -567,10 +369,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/hello_world9.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/hello_world9.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step7.png"
         }
       },
       "is_incremental": false,
@@ -578,10 +380,297 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/icon.png",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/HelloWorld/icon.png"
+          "relative_path": "LGUI/GetStarted/CustomButton/step8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/CustomButton/step9.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/CustomButton/step9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LGUI/GetStarted/Font/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "LGUI/GetStarted/Font/index.html",
+          "hash": "NZTpD+jYRpMjEwwHFYtx2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step1.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step2.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step3.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step4.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step5.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step6.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step7.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step8.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/Font/step9.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/Font/step9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world1.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world10.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world11.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world12.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world13.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world14.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world14.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world2.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world3.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world4.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world5.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world6.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world7.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world8.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/hello_world9.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/hello_world9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/GetStarted/HelloWorld/icon.png"
         }
       },
       "is_incremental": false,
@@ -592,11 +681,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/HelloWorld/index.md",
+      "source_relative_path": "LGUI/GetStarted/HelloWorld/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/GetStarted/HelloWorld/index.html",
-          "hash": "MrA3uAM2AGr4ITSj857E0Q=="
+          "relative_path": "LGUI/GetStarted/HelloWorld/index.html",
+          "hash": "zkSNmpABBDOuzyf7bPxVgQ=="
         }
       },
       "is_incremental": false,
@@ -604,10 +693,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/github.png",
+      "source_relative_path": "LGUI/GetStarted/Install/github.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/github.png"
+          "relative_path": "LGUI/GetStarted/Install/github.png"
         }
       },
       "is_incremental": false,
@@ -615,10 +704,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/github1.png",
+      "source_relative_path": "LGUI/GetStarted/Install/github1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/github1.png"
+          "relative_path": "LGUI/GetStarted/Install/github1.png"
         }
       },
       "is_incremental": false,
@@ -626,10 +715,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/github2.png",
+      "source_relative_path": "LGUI/GetStarted/Install/github2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/github2.png"
+          "relative_path": "LGUI/GetStarted/Install/github2.png"
         }
       },
       "is_incremental": false,
@@ -637,10 +726,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/github3.png",
+      "source_relative_path": "LGUI/GetStarted/Install/github3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/github3.png"
+          "relative_path": "LGUI/GetStarted/Install/github3.png"
         }
       },
       "is_incremental": false,
@@ -648,10 +737,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/github4.png",
+      "source_relative_path": "LGUI/GetStarted/Install/github4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/github4.png"
+          "relative_path": "LGUI/GetStarted/Install/github4.png"
         }
       },
       "is_incremental": false,
@@ -659,10 +748,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/icon.png",
+      "source_relative_path": "LGUI/GetStarted/Install/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/icon.png"
+          "relative_path": "LGUI/GetStarted/Install/icon.png"
         }
       },
       "is_incremental": false,
@@ -670,11 +759,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/Install/index.md",
+      "source_relative_path": "LGUI/GetStarted/Install/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/GetStarted/Install/index.html",
-          "hash": "8afu0GClEXjSLKyn6LqKwg=="
+          "relative_path": "LGUI/GetStarted/Install/index.html",
+          "hash": "cY58OKSotA+uTFg0Pha5DA=="
         }
       },
       "is_incremental": false,
@@ -682,10 +771,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/install_complete.png",
+      "source_relative_path": "LGUI/GetStarted/Install/install_complete.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/install_complete.png"
+          "relative_path": "LGUI/GetStarted/Install/install_complete.png"
         }
       },
       "is_incremental": false,
@@ -693,10 +782,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Install/marketplace.png",
+      "source_relative_path": "LGUI/GetStarted/Install/marketplace.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Install/marketplace.png"
+          "relative_path": "LGUI/GetStarted/Install/marketplace.png"
         }
       },
       "is_incremental": false,
@@ -704,10 +793,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Interaction/icon.png",
+      "source_relative_path": "LGUI/GetStarted/Interaction/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Interaction/icon.png"
+          "relative_path": "LGUI/GetStarted/Interaction/icon.png"
         }
       },
       "is_incremental": false,
@@ -715,11 +804,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/Interaction/index.md",
+      "source_relative_path": "LGUI/GetStarted/Interaction/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/GetStarted/Interaction/index.html",
-          "hash": "I5M/4DHGMG+ugqIczORJcg=="
+          "relative_path": "LGUI/GetStarted/Interaction/index.html",
+          "hash": "IGYn4pa8yO35fjvWJsleyw=="
         }
       },
       "is_incremental": false,
@@ -727,11 +816,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/Prefab/index.md",
+      "source_relative_path": "LGUI/GetStarted/Prefab/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/GetStarted/Prefab/index.html",
-          "hash": "BhGVryFos2gO6PSuqXlW6Q=="
+          "relative_path": "LGUI/GetStarted/Prefab/index.html",
+          "hash": "z9VEWs7jRdUh52YMrn3Y/A=="
         }
       },
       "is_incremental": false,
@@ -739,10 +828,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step1.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step1.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step1.png"
         }
       },
       "is_incremental": false,
@@ -750,10 +839,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step10.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step10.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step10.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step10.png"
         }
       },
       "is_incremental": false,
@@ -761,10 +850,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step11.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step11.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step11.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step11.png"
         }
       },
       "is_incremental": false,
@@ -772,10 +861,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step12.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step12.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step12.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step12.png"
         }
       },
       "is_incremental": false,
@@ -783,10 +872,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step13.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step13.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step13.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step13.png"
         }
       },
       "is_incremental": false,
@@ -794,10 +883,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step14.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step14.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step14.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step14.png"
         }
       },
       "is_incremental": false,
@@ -805,10 +894,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step15.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step15.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step15.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step15.png"
         }
       },
       "is_incremental": false,
@@ -816,10 +905,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step16.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step16.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step16.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step16.png"
         }
       },
       "is_incremental": false,
@@ -827,10 +916,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step17.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step17.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step17.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step17.png"
         }
       },
       "is_incremental": false,
@@ -838,10 +927,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step18.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step18.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step18.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step18.png"
         }
       },
       "is_incremental": false,
@@ -849,10 +938,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step19.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step19.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step19.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step19.png"
         }
       },
       "is_incremental": false,
@@ -860,10 +949,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step2.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step2.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step2.png"
         }
       },
       "is_incremental": false,
@@ -871,10 +960,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step20.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step20.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step20.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step20.png"
         }
       },
       "is_incremental": false,
@@ -882,10 +971,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step21.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step21.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step21.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step21.png"
         }
       },
       "is_incremental": false,
@@ -893,10 +982,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step22.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step22.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step22.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step22.png"
         }
       },
       "is_incremental": false,
@@ -904,10 +993,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step23.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step23.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step23.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step23.png"
         }
       },
       "is_incremental": false,
@@ -915,10 +1004,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step24.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step24.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step24.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step24.png"
         }
       },
       "is_incremental": false,
@@ -926,10 +1015,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step25.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step25.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step25.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step25.png"
         }
       },
       "is_incremental": false,
@@ -937,10 +1026,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step26.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step26.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step26.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step26.png"
         }
       },
       "is_incremental": false,
@@ -948,10 +1037,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step27.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step27.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step27.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step27.png"
         }
       },
       "is_incremental": false,
@@ -959,10 +1048,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step28.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step28.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step28.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step28.png"
         }
       },
       "is_incremental": false,
@@ -970,10 +1059,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step29.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step29.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step29.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step29.png"
         }
       },
       "is_incremental": false,
@@ -981,10 +1070,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step3.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step3.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step3.png"
         }
       },
       "is_incremental": false,
@@ -992,10 +1081,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step30.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step30.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step30.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step30.png"
         }
       },
       "is_incremental": false,
@@ -1003,10 +1092,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step4.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step4.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step4.png"
         }
       },
       "is_incremental": false,
@@ -1014,10 +1103,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step5.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step5.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step5.png"
         }
       },
       "is_incremental": false,
@@ -1025,10 +1114,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step6.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step6.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step6.png"
         }
       },
       "is_incremental": false,
@@ -1036,10 +1125,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step7.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step7.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step7.png"
         }
       },
       "is_incremental": false,
@@ -1047,10 +1136,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step8.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step8.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step8.png"
         }
       },
       "is_incremental": false,
@@ -1058,10 +1147,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/Prefab/step9.png",
+      "source_relative_path": "LGUI/GetStarted/Prefab/step9.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/Prefab/step9.png"
+          "relative_path": "LGUI/GetStarted/Prefab/step9.png"
         }
       },
       "is_incremental": false,
@@ -1069,10 +1158,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/GetStarted/icon.png",
+      "source_relative_path": "LGUI/GetStarted/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/GetStarted/icon.png"
+          "relative_path": "LGUI/GetStarted/icon.png"
         }
       },
       "is_incremental": false,
@@ -1080,11 +1169,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/GetStarted/index.md",
+      "source_relative_path": "LGUI/GetStarted/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/GetStarted/index.html",
-          "hash": "hlm+1f/I6P3V3TPCD8k98Q=="
+          "relative_path": "LGUI/GetStarted/index.html",
+          "hash": "+wDLUsseULroTOyBGDnMew=="
         }
       },
       "is_incremental": false,
@@ -1092,10 +1181,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/1.1.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/1.1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/1.1.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/1.1.png"
         }
       },
       "is_incremental": false,
@@ -1103,10 +1192,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/1.2.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/1.2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/1.2.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/1.2.png"
         }
       },
       "is_incremental": false,
@@ -1114,10 +1203,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/1.3.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/1.3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/1.3.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/1.3.png"
         }
       },
       "is_incremental": false,
@@ -1125,10 +1214,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/2.1.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/2.1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/2.1.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/2.1.png"
         }
       },
       "is_incremental": false,
@@ -1136,10 +1225,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/2.2.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/2.2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/2.2.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/2.2.png"
         }
       },
       "is_incremental": false,
@@ -1147,10 +1236,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/2.3.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/2.3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/2.3.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/2.3.png"
         }
       },
       "is_incremental": false,
@@ -1158,10 +1247,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/2.4.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/2.4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/2.4.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/2.4.png"
         }
       },
       "is_incremental": false,
@@ -1169,10 +1258,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/3.1.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/3.1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/3.1.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/3.1.png"
         }
       },
       "is_incremental": false,
@@ -1180,10 +1269,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/3.2.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/3.2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/3.2.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/3.2.png"
         }
       },
       "is_incremental": false,
@@ -1191,10 +1280,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/3.3.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/3.3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/3.3.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/3.3.png"
         }
       },
       "is_incremental": false,
@@ -1202,10 +1291,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/3.4.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/3.4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/3.4.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/3.4.png"
         }
       },
       "is_incremental": false,
@@ -1213,10 +1302,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/3.5.png",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/3.5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/CustomMaterial/3.5.png"
+          "relative_path": "LGUI/HowTos/CustomMaterial/3.5.png"
         }
       },
       "is_incremental": false,
@@ -1224,11 +1313,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/HowTos/CustomMaterial/index.md",
+      "source_relative_path": "LGUI/HowTos/CustomMaterial/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/HowTos/CustomMaterial/index.html",
-          "hash": "BTqkj95v9QuaRxg1Q2F75A=="
+          "relative_path": "LGUI/HowTos/CustomMaterial/index.html",
+          "hash": "scAvAJfSqTOQuvbrCj37IQ=="
         }
       },
       "is_incremental": false,
@@ -1236,10 +1325,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/1.png",
+      "source_relative_path": "LGUI/HowTos/DeprojectScreenToWorld/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/1.png"
+          "relative_path": "LGUI/HowTos/DeprojectScreenToWorld/1.png"
         }
       },
       "is_incremental": false,
@@ -1247,10 +1336,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/2.png",
+      "source_relative_path": "LGUI/HowTos/DeprojectScreenToWorld/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/2.png"
+          "relative_path": "LGUI/HowTos/DeprojectScreenToWorld/2.png"
         }
       },
       "is_incremental": false,
@@ -1258,10 +1347,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/3.png",
+      "source_relative_path": "LGUI/HowTos/DeprojectScreenToWorld/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/3.png"
+          "relative_path": "LGUI/HowTos/DeprojectScreenToWorld/3.png"
         }
       },
       "is_incremental": false,
@@ -1269,11 +1358,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/HowTos/DeprojectScreenToWorld/index.md",
+      "source_relative_path": "LGUI/HowTos/DeprojectScreenToWorld/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/HowTos/DeprojectScreenToWorld/index.html",
-          "hash": "azgC0dZ2OIeRKwe0bj8X3Q=="
+          "relative_path": "LGUI/HowTos/DeprojectScreenToWorld/index.html",
+          "hash": "A5WbdheobXPT5SMwEOjACA=="
         }
       },
       "is_incremental": false,
@@ -1281,11 +1370,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/HowTos/DisableInteractionComponent/index.md",
+      "source_relative_path": "LGUI/HowTos/DisableInteractionComponent/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/HowTos/DisableInteractionComponent/index.html",
-          "hash": "YMOe1yj5eumXZXBr8ajpkA=="
+          "relative_path": "LGUI/HowTos/DisableInteractionComponent/index.html",
+          "hash": "0O7VBv4ZRPwU1ey7/A13AQ=="
         }
       },
       "is_incremental": false,
@@ -1293,10 +1382,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/FindChildByDisplayName/1.png",
+      "source_relative_path": "LGUI/HowTos/FindChildByDisplayName/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/FindChildByDisplayName/1.png"
+          "relative_path": "LGUI/HowTos/FindChildByDisplayName/1.png"
         }
       },
       "is_incremental": false,
@@ -1304,10 +1393,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/FindChildByDisplayName/2.png",
+      "source_relative_path": "LGUI/HowTos/FindChildByDisplayName/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/FindChildByDisplayName/2.png"
+          "relative_path": "LGUI/HowTos/FindChildByDisplayName/2.png"
         }
       },
       "is_incremental": false,
@@ -1315,11 +1404,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/HowTos/FindChildByDisplayName/index.md",
+      "source_relative_path": "LGUI/HowTos/FindChildByDisplayName/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/HowTos/FindChildByDisplayName/index.html",
-          "hash": "/mD+ae1ltkvGiI1qOKe+YQ=="
+          "relative_path": "LGUI/HowTos/FindChildByDisplayName/index.html",
+          "hash": "yruF9n4FQFkG/79jzBjbPw=="
         }
       },
       "is_incremental": false,
@@ -1327,10 +1416,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/1.png",
+      "source_relative_path": "LGUI/HowTos/ProjectWorldToScreen/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/ProjectWorldToScreen/1.png"
+          "relative_path": "LGUI/HowTos/ProjectWorldToScreen/1.png"
         }
       },
       "is_incremental": false,
@@ -1338,10 +1427,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/2.png",
+      "source_relative_path": "LGUI/HowTos/ProjectWorldToScreen/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/ProjectWorldToScreen/2.png"
+          "relative_path": "LGUI/HowTos/ProjectWorldToScreen/2.png"
         }
       },
       "is_incremental": false,
@@ -1349,10 +1438,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/3.png",
+      "source_relative_path": "LGUI/HowTos/ProjectWorldToScreen/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/HowTos/ProjectWorldToScreen/3.png"
+          "relative_path": "LGUI/HowTos/ProjectWorldToScreen/3.png"
         }
       },
       "is_incremental": false,
@@ -1360,11 +1449,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/HowTos/ProjectWorldToScreen/index.md",
+      "source_relative_path": "LGUI/HowTos/ProjectWorldToScreen/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/HowTos/ProjectWorldToScreen/index.html",
-          "hash": "+H+DSbSVii05J9raispEBg=="
+          "relative_path": "LGUI/HowTos/ProjectWorldToScreen/index.html",
+          "hash": "Ry0fVIHOOsIMG+6lnGw9jQ=="
         }
       },
       "is_incremental": false,
@@ -1372,11 +1461,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/HowTos/UpdateTo2.13.0/index.md",
+      "source_relative_path": "LGUI/HowTos/UpdateTo2.13.0/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/HowTos/UpdateTo2.13.0/index.html",
-          "hash": "uF7B0i49JC6cVCfmbmmarQ=="
+          "relative_path": "LGUI/HowTos/UpdateTo2.13.0/index.html",
+          "hash": "Xjo7J1yJlDmxlCNdgZXvxw=="
         }
       },
       "is_incremental": false,
@@ -1387,11 +1476,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/HowTos/index.md",
+      "source_relative_path": "LGUI/HowTos/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/HowTos/index.html",
-          "hash": "/gsTgXDH7MXcscrlyU8fug=="
+          "relative_path": "LGUI/HowTos/index.html",
+          "hash": "gv77nLVH+oqWU0/nifaTGA=="
         }
       },
       "is_incremental": false,
@@ -1399,10 +1488,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/InteractionAndControls/UIInteractionGroup/1.png",
+      "source_relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/InteractionAndControls/UIInteractionGroup/1.png"
+          "relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/1.png"
         }
       },
       "is_incremental": false,
@@ -1410,10 +1499,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/InteractionAndControls/UIInteractionGroup/2.png",
+      "source_relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/InteractionAndControls/UIInteractionGroup/2.png"
+          "relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/2.png"
         }
       },
       "is_incremental": false,
@@ -1421,10 +1510,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/InteractionAndControls/UIInteractionGroup/3.png",
+      "source_relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/InteractionAndControls/UIInteractionGroup/3.png"
+          "relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/3.png"
         }
       },
       "is_incremental": false,
@@ -1432,10 +1521,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/InteractionAndControls/UIInteractionGroup/4.png",
+      "source_relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/InteractionAndControls/UIInteractionGroup/4.png"
+          "relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/4.png"
         }
       },
       "is_incremental": false,
@@ -1443,10 +1532,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/InteractionAndControls/UIInteractionGroup/5.png",
+      "source_relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/InteractionAndControls/UIInteractionGroup/5.png"
+          "relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/5.png"
         }
       },
       "is_incremental": false,
@@ -1454,11 +1543,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/InteractionAndControls/UIInteractionGroup/index.md",
+      "source_relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/InteractionAndControls/UIInteractionGroup/index.html",
-          "hash": "f+BzJpSV1xnmY4eH287kjg=="
+          "relative_path": "LGUI/InteractionAndControls/UIInteractionGroup/index.html",
+          "hash": "3LRnjpp/3PYKQQswyNLUnA=="
         }
       },
       "is_incremental": false,
@@ -1466,11 +1555,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/InteractionAndControls/UISelectable/index.md",
+      "source_relative_path": "LGUI/InteractionAndControls/UISelectable/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/InteractionAndControls/UISelectable/index.html",
-          "hash": "S4zvq/lE+wvgM5j9vTkNiQ=="
+          "relative_path": "LGUI/InteractionAndControls/UISelectable/index.html",
+          "hash": "1b86W0Ysa0mCNtBPU6VXXw=="
         }
       },
       "is_incremental": false,
@@ -1478,10 +1567,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/InteractionAndControls/icon.png",
+      "source_relative_path": "LGUI/InteractionAndControls/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/InteractionAndControls/icon.png"
+          "relative_path": "LGUI/InteractionAndControls/icon.png"
         }
       },
       "is_incremental": false,
@@ -1492,11 +1581,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/InteractionAndControls/index.md",
+      "source_relative_path": "LGUI/InteractionAndControls/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/InteractionAndControls/index.html",
-          "hash": "7rMnedV2wU2b8OgKgrKm3w=="
+          "relative_path": "LGUI/InteractionAndControls/index.html",
+          "hash": "ZyU4ACW0F1Un+35XGO+glw=="
         }
       },
       "is_incremental": false,
@@ -1504,11 +1593,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/LGUIBehaviour/index.md",
+      "source_relative_path": "LGUI/LGUIBehaviour/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/LGUIBehaviour/index.html",
-          "hash": "MTkBx62FJdm9CZJp1atTvg=="
+          "relative_path": "LGUI/LGUIBehaviour/index.html",
+          "hash": "WBVCSI6E2+IplnBUu1Delg=="
         }
       },
       "is_incremental": false,
@@ -1516,11 +1605,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/LGUIRenderFlow/index.md",
+      "source_relative_path": "LGUI/LGUIRenderFlow/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/LGUIRenderFlow/index.html",
-          "hash": "J7LKABh9aZgDhyVsslvX4g=="
+          "relative_path": "LGUI/LGUIRenderFlow/index.html",
+          "hash": "gkP4xMUOJRBwIVPbkKzWuQ=="
         }
       },
       "is_incremental": false,
@@ -1528,10 +1617,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LGUI_Manual.png",
+      "source_relative_path": "LGUI/LGUI_Manual.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LGUI_Manual.png"
+          "relative_path": "LGUI/LGUI_Manual.png"
         }
       },
       "is_incremental": false,
@@ -1539,11 +1628,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/LTween/Custom/index.md",
+      "source_relative_path": "LGUI/LTween/Custom/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/LTween/Custom/index.html",
-          "hash": "jPi3Y+VNnOruXDgLxdxQzQ=="
+          "relative_path": "LGUI/LTween/Custom/index.html",
+          "hash": "Uw8BZ/chFLuXktUOwFG+Tg=="
         }
       },
       "is_incremental": false,
@@ -1551,10 +1640,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step1.png",
+      "source_relative_path": "LGUI/LTween/Custom/step1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step1.png"
+          "relative_path": "LGUI/LTween/Custom/step1.png"
         }
       },
       "is_incremental": false,
@@ -1562,10 +1651,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step2.png",
+      "source_relative_path": "LGUI/LTween/Custom/step2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step2.png"
+          "relative_path": "LGUI/LTween/Custom/step2.png"
         }
       },
       "is_incremental": false,
@@ -1573,10 +1662,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step3.png",
+      "source_relative_path": "LGUI/LTween/Custom/step3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step3.png"
+          "relative_path": "LGUI/LTween/Custom/step3.png"
         }
       },
       "is_incremental": false,
@@ -1584,10 +1673,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step4.png",
+      "source_relative_path": "LGUI/LTween/Custom/step4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step4.png"
+          "relative_path": "LGUI/LTween/Custom/step4.png"
         }
       },
       "is_incremental": false,
@@ -1595,10 +1684,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step5.png",
+      "source_relative_path": "LGUI/LTween/Custom/step5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step5.png"
+          "relative_path": "LGUI/LTween/Custom/step5.png"
         }
       },
       "is_incremental": false,
@@ -1606,10 +1695,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step6.png",
+      "source_relative_path": "LGUI/LTween/Custom/step6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step6.png"
+          "relative_path": "LGUI/LTween/Custom/step6.png"
         }
       },
       "is_incremental": false,
@@ -1617,10 +1706,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step7.png",
+      "source_relative_path": "LGUI/LTween/Custom/step7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step7.png"
+          "relative_path": "LGUI/LTween/Custom/step7.png"
         }
       },
       "is_incremental": false,
@@ -1628,10 +1717,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Custom/step8.png",
+      "source_relative_path": "LGUI/LTween/Custom/step8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Custom/step8.png"
+          "relative_path": "LGUI/LTween/Custom/step8.png"
         }
       },
       "is_incremental": false,
@@ -1639,11 +1728,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/LTween/Functions/index.md",
+      "source_relative_path": "LGUI/LTween/Functions/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/LTween/Functions/index.html",
-          "hash": "BZNYNt5kFMypAuXEeBD/+A=="
+          "relative_path": "LGUI/LTween/Functions/index.html",
+          "hash": "KnxwEYcBcpwALBw+7MYG4A=="
         }
       },
       "is_incremental": false,
@@ -1651,10 +1740,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Functions/step1.png",
+      "source_relative_path": "LGUI/LTween/Functions/step1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Functions/step1.png"
+          "relative_path": "LGUI/LTween/Functions/step1.png"
         }
       },
       "is_incremental": false,
@@ -1662,10 +1751,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Functions/step2.png",
+      "source_relative_path": "LGUI/LTween/Functions/step2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Functions/step2.png"
+          "relative_path": "LGUI/LTween/Functions/step2.png"
         }
       },
       "is_incremental": false,
@@ -1673,10 +1762,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Functions/step3.png",
+      "source_relative_path": "LGUI/LTween/Functions/step3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Functions/step3.png"
+          "relative_path": "LGUI/LTween/Functions/step3.png"
         }
       },
       "is_incremental": false,
@@ -1684,10 +1773,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/Functions/step4.png",
+      "source_relative_path": "LGUI/LTween/Functions/step4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/Functions/step4.png"
+          "relative_path": "LGUI/LTween/Functions/step4.png"
         }
       },
       "is_incremental": false,
@@ -1695,10 +1784,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/icon.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/icon.png"
+          "relative_path": "LGUI/LTween/GetStarted/icon.png"
         }
       },
       "is_incremental": false,
@@ -1706,11 +1795,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/LTween/GetStarted/index.md",
+      "source_relative_path": "LGUI/LTween/GetStarted/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/LTween/GetStarted/index.html",
-          "hash": "Mily+mmhy886E4l6BeQSMg=="
+          "relative_path": "LGUI/LTween/GetStarted/index.html",
+          "hash": "Gx6abY7HN9y5kMpYVT5mkg=="
         }
       },
       "is_incremental": false,
@@ -1718,10 +1807,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step1.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step1.png"
+          "relative_path": "LGUI/LTween/GetStarted/step1.png"
         }
       },
       "is_incremental": false,
@@ -1729,10 +1818,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step10.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step10.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step10.png"
+          "relative_path": "LGUI/LTween/GetStarted/step10.png"
         }
       },
       "is_incremental": false,
@@ -1740,10 +1829,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step11.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step11.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step11.png"
+          "relative_path": "LGUI/LTween/GetStarted/step11.png"
         }
       },
       "is_incremental": false,
@@ -1751,10 +1840,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step12.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step12.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step12.png"
+          "relative_path": "LGUI/LTween/GetStarted/step12.png"
         }
       },
       "is_incremental": false,
@@ -1762,10 +1851,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step13.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step13.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step13.png"
+          "relative_path": "LGUI/LTween/GetStarted/step13.png"
         }
       },
       "is_incremental": false,
@@ -1773,10 +1862,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step14.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step14.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step14.png"
+          "relative_path": "LGUI/LTween/GetStarted/step14.png"
         }
       },
       "is_incremental": false,
@@ -1784,10 +1873,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step15.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step15.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step15.png"
+          "relative_path": "LGUI/LTween/GetStarted/step15.png"
         }
       },
       "is_incremental": false,
@@ -1795,10 +1884,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step16.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step16.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step16.png"
+          "relative_path": "LGUI/LTween/GetStarted/step16.png"
         }
       },
       "is_incremental": false,
@@ -1806,10 +1895,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step17.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step17.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step17.png"
+          "relative_path": "LGUI/LTween/GetStarted/step17.png"
         }
       },
       "is_incremental": false,
@@ -1817,10 +1906,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step18.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step18.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step18.png"
+          "relative_path": "LGUI/LTween/GetStarted/step18.png"
         }
       },
       "is_incremental": false,
@@ -1828,10 +1917,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step2.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step2.png"
+          "relative_path": "LGUI/LTween/GetStarted/step2.png"
         }
       },
       "is_incremental": false,
@@ -1839,10 +1928,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step3.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step3.png"
+          "relative_path": "LGUI/LTween/GetStarted/step3.png"
         }
       },
       "is_incremental": false,
@@ -1850,10 +1939,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step4.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step4.png"
+          "relative_path": "LGUI/LTween/GetStarted/step4.png"
         }
       },
       "is_incremental": false,
@@ -1861,10 +1950,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step5.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step5.png"
+          "relative_path": "LGUI/LTween/GetStarted/step5.png"
         }
       },
       "is_incremental": false,
@@ -1872,10 +1961,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step6.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step6.png"
+          "relative_path": "LGUI/LTween/GetStarted/step6.png"
         }
       },
       "is_incremental": false,
@@ -1883,10 +1972,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step7.1.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step7.1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step7.1.png"
+          "relative_path": "LGUI/LTween/GetStarted/step7.1.png"
         }
       },
       "is_incremental": false,
@@ -1894,10 +1983,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step7.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step7.png"
+          "relative_path": "LGUI/LTween/GetStarted/step7.png"
         }
       },
       "is_incremental": false,
@@ -1905,10 +1994,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step8.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step8.png"
+          "relative_path": "LGUI/LTween/GetStarted/step8.png"
         }
       },
       "is_incremental": false,
@@ -1916,10 +2005,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/GetStarted/step9.png",
+      "source_relative_path": "LGUI/LTween/GetStarted/step9.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/GetStarted/step9.png"
+          "relative_path": "LGUI/LTween/GetStarted/step9.png"
         }
       },
       "is_incremental": false,
@@ -1927,11 +2016,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/LTween/LGUI/index.md",
+      "source_relative_path": "LGUI/LTween/LGUI/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/LTween/LGUI/index.html",
-          "hash": "q8N7hDLDZ0yHL5OULKcFNg=="
+          "relative_path": "LGUI/LTween/LGUI/index.html",
+          "hash": "LGApKDE3AK3iZyFDbRTLyg=="
         }
       },
       "is_incremental": false,
@@ -1939,10 +2028,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/LTween/LGUI/step1.png",
+      "source_relative_path": "LGUI/LTween/LGUI/step1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/LTween/LGUI/step1.png"
+          "relative_path": "LGUI/LTween/LGUI/step1.png"
         }
       },
       "is_incremental": false,
@@ -1953,11 +2042,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/LTween/index.md",
+      "source_relative_path": "LGUI/LTween/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/LTween/index.html",
-          "hash": "Et7HJv5FpIwEtL2P1SUpeQ=="
+          "relative_path": "LGUI/LTween/index.html",
+          "hash": "w+wHaLh4eluy8G9hJg+gBg=="
         }
       },
       "is_incremental": false,
@@ -1965,11 +2054,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Layout/UIHorizontalLayout/index.md",
+      "source_relative_path": "LGUI/Layout/UIHorizontalLayout/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Layout/UIHorizontalLayout/index.html",
-          "hash": "IWMCC3X8EvF65JJPkU0AWw=="
+          "relative_path": "LGUI/Layout/UIHorizontalLayout/index.html",
+          "hash": "MrIzkUVEpn4T0IgHJyUpCw=="
         }
       },
       "is_incremental": false,
@@ -1980,11 +2069,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/Layout/index.md",
+      "source_relative_path": "LGUI/Layout/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Layout/index.html",
-          "hash": "BvSigf7nFayyEzaOLbtnQA=="
+          "relative_path": "LGUI/Layout/index.html",
+          "hash": "+REkFAld87DlF/AEwITtCQ=="
         }
       },
       "is_incremental": false,
@@ -1995,11 +2084,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/ReleaseNotes/v2/index.md",
+      "source_relative_path": "LGUI/ReleaseNotes/v2/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/ReleaseNotes/v2/index.html",
-          "hash": "CqlxBB5V1Z+rknC9MgGaTg=="
+          "relative_path": "LGUI/ReleaseNotes/v2/index.html",
+          "hash": "OjtrEkv/J8GWQjicNQb/0w=="
         }
       },
       "is_incremental": false,
@@ -2007,11 +2096,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/ReleaseNotes/v3/index.md",
+      "source_relative_path": "LGUI/ReleaseNotes/v3/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/ReleaseNotes/v3/index.html",
-          "hash": "75yH4artGrfDRQYAncn4KA=="
+          "relative_path": "LGUI/ReleaseNotes/v3/index.html",
+          "hash": "lUJdHvbjq40N+w2TXYKgQQ=="
         }
       },
       "is_incremental": false,
@@ -2019,10 +2108,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/1.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/1.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/1.png"
         }
       },
       "is_incremental": false,
@@ -2030,10 +2119,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/10.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/10.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/10.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/10.png"
         }
       },
       "is_incremental": false,
@@ -2041,10 +2130,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/11.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/11.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/11.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/11.png"
         }
       },
       "is_incremental": false,
@@ -2052,10 +2141,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/12.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/12.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/12.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/12.png"
         }
       },
       "is_incremental": false,
@@ -2063,10 +2152,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/13.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/13.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/13.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/13.png"
         }
       },
       "is_incremental": false,
@@ -2074,10 +2163,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/14.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/14.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/14.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/14.png"
         }
       },
       "is_incremental": false,
@@ -2085,10 +2174,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/2.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/2.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/2.png"
         }
       },
       "is_incremental": false,
@@ -2096,10 +2185,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/3.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/3.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/3.png"
         }
       },
       "is_incremental": false,
@@ -2107,10 +2196,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/4.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/4.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/4.png"
         }
       },
       "is_incremental": false,
@@ -2118,10 +2207,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/5.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/5.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/5.png"
         }
       },
       "is_incremental": false,
@@ -2129,10 +2218,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/6.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/6.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/6.png"
         }
       },
       "is_incremental": false,
@@ -2140,10 +2229,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/7.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/7.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/7.png"
         }
       },
       "is_incremental": false,
@@ -2151,10 +2240,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/8.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/8.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/8.png"
         }
       },
       "is_incremental": false,
@@ -2162,10 +2251,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/9.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/9.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/9.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/9.png"
         }
       },
       "is_incremental": false,
@@ -2173,10 +2262,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/CommonEffect/icon.png",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/CommonEffect/icon.png"
+          "relative_path": "LGUI/Rendering/CommonEffect/icon.png"
         }
       },
       "is_incremental": false,
@@ -2184,11 +2273,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/CommonEffect/index.md",
+      "source_relative_path": "LGUI/Rendering/CommonEffect/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/CommonEffect/index.html",
-          "hash": "Bn7Qcqpourru5vssinWMbg=="
+          "relative_path": "LGUI/Rendering/CommonEffect/index.html",
+          "hash": "gpSBni9ZJicTr24H+oYEsw=="
         }
       },
       "is_incremental": false,
@@ -2196,10 +2285,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/0.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/0.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/0.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/0.png"
         }
       },
       "is_incremental": false,
@@ -2207,10 +2296,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/1.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/1.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/1.png"
         }
       },
       "is_incremental": false,
@@ -2218,10 +2307,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/10.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/10.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/10.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/10.png"
         }
       },
       "is_incremental": false,
@@ -2229,10 +2318,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/11.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/11.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/11.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/11.png"
         }
       },
       "is_incremental": false,
@@ -2240,10 +2329,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/12.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/12.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/12.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/12.png"
         }
       },
       "is_incremental": false,
@@ -2251,10 +2340,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/13.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/13.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/13.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/13.png"
         }
       },
       "is_incremental": false,
@@ -2262,10 +2351,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/14.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/14.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/14.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/14.png"
         }
       },
       "is_incremental": false,
@@ -2273,10 +2362,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/15.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/15.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/15.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/15.png"
         }
       },
       "is_incremental": false,
@@ -2284,10 +2373,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/16.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/16.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/16.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/16.png"
         }
       },
       "is_incremental": false,
@@ -2295,10 +2384,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/2.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/2.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/2.png"
         }
       },
       "is_incremental": false,
@@ -2306,10 +2395,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/3.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/3.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/3.png"
         }
       },
       "is_incremental": false,
@@ -2317,10 +2406,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/4.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/4.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/4.png"
         }
       },
       "is_incremental": false,
@@ -2328,10 +2417,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/5.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/5.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/5.png"
         }
       },
       "is_incremental": false,
@@ -2339,10 +2428,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/6.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/6.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/6.png"
         }
       },
       "is_incremental": false,
@@ -2350,10 +2439,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/7.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/7.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/7.png"
         }
       },
       "is_incremental": false,
@@ -2361,10 +2450,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/8.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/8.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/8.png"
         }
       },
       "is_incremental": false,
@@ -2372,10 +2461,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/9.png",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/9.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/LGUICanvas/9.png"
+          "relative_path": "LGUI/Rendering/LGUICanvas/9.png"
         }
       },
       "is_incremental": false,
@@ -2383,11 +2472,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/LGUICanvas/index.md",
+      "source_relative_path": "LGUI/Rendering/LGUICanvas/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/LGUICanvas/index.html",
-          "hash": "CUnJshamltqz/Tb0aLOCxw=="
+          "relative_path": "LGUI/Rendering/LGUICanvas/index.html",
+          "hash": "I9v58YapCvOlUFFlHfyChA=="
         }
       },
       "is_incremental": false,
@@ -2395,10 +2484,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/RichTextReference/1.png",
+      "source_relative_path": "LGUI/Rendering/RichTextReference/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/RichTextReference/1.png"
+          "relative_path": "LGUI/Rendering/RichTextReference/1.png"
         }
       },
       "is_incremental": false,
@@ -2406,10 +2495,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/RichTextReference/icon.png",
+      "source_relative_path": "LGUI/Rendering/RichTextReference/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/RichTextReference/icon.png"
+          "relative_path": "LGUI/Rendering/RichTextReference/icon.png"
         }
       },
       "is_incremental": false,
@@ -2417,11 +2506,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/RichTextReference/index.md",
+      "source_relative_path": "LGUI/Rendering/RichTextReference/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/RichTextReference/index.html",
-          "hash": "tlEl53QbSULDUZRB6rNRAQ=="
+          "relative_path": "LGUI/Rendering/RichTextReference/index.html",
+          "hash": "/TYIFn73lPP+INNzpcxh2w=="
         }
       },
       "is_incremental": false,
@@ -2429,10 +2518,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/ScreenSpaceUI/1.png",
+      "source_relative_path": "LGUI/Rendering/ScreenSpaceUI/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/ScreenSpaceUI/1.png"
+          "relative_path": "LGUI/Rendering/ScreenSpaceUI/1.png"
         }
       },
       "is_incremental": false,
@@ -2440,10 +2529,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/ScreenSpaceUI/2.png",
+      "source_relative_path": "LGUI/Rendering/ScreenSpaceUI/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/ScreenSpaceUI/2.png"
+          "relative_path": "LGUI/Rendering/ScreenSpaceUI/2.png"
         }
       },
       "is_incremental": false,
@@ -2451,10 +2540,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/ScreenSpaceUI/3.png",
+      "source_relative_path": "LGUI/Rendering/ScreenSpaceUI/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/ScreenSpaceUI/3.png"
+          "relative_path": "LGUI/Rendering/ScreenSpaceUI/3.png"
         }
       },
       "is_incremental": false,
@@ -2462,10 +2551,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/ScreenSpaceUI/4.png",
+      "source_relative_path": "LGUI/Rendering/ScreenSpaceUI/4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/ScreenSpaceUI/4.png"
+          "relative_path": "LGUI/Rendering/ScreenSpaceUI/4.png"
         }
       },
       "is_incremental": false,
@@ -2473,10 +2562,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/ScreenSpaceUI/5.png",
+      "source_relative_path": "LGUI/Rendering/ScreenSpaceUI/5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/ScreenSpaceUI/5.png"
+          "relative_path": "LGUI/Rendering/ScreenSpaceUI/5.png"
         }
       },
       "is_incremental": false,
@@ -2484,10 +2573,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/ScreenSpaceUI/6.png",
+      "source_relative_path": "LGUI/Rendering/ScreenSpaceUI/6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/ScreenSpaceUI/6.png"
+          "relative_path": "LGUI/Rendering/ScreenSpaceUI/6.png"
         }
       },
       "is_incremental": false,
@@ -2495,11 +2584,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/ScreenSpaceUI/index.md",
+      "source_relative_path": "LGUI/Rendering/ScreenSpaceUI/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/ScreenSpaceUI/index.html",
-          "hash": "1+2jIu1BAY23rAzV7dFNZA=="
+          "relative_path": "LGUI/Rendering/ScreenSpaceUI/index.html",
+          "hash": "gyBZMNUkjBQJq0vVdGONbQ=="
         }
       },
       "is_incremental": false,
@@ -2507,10 +2596,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/1.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/1.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/1.png"
         }
       },
       "is_incremental": false,
@@ -2518,10 +2607,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/10.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/10.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/10.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/10.png"
         }
       },
       "is_incremental": false,
@@ -2529,10 +2618,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/2.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/2.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/2.png"
         }
       },
       "is_incremental": false,
@@ -2540,10 +2629,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/3.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/3.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/3.png"
         }
       },
       "is_incremental": false,
@@ -2551,10 +2640,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/4.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/4.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/4.png"
         }
       },
       "is_incremental": false,
@@ -2562,10 +2651,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/5.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/5.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/5.png"
         }
       },
       "is_incremental": false,
@@ -2573,10 +2662,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/6.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/6.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/6.png"
         }
       },
       "is_incremental": false,
@@ -2584,10 +2673,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/7.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/7.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/7.png"
         }
       },
       "is_incremental": false,
@@ -2595,10 +2684,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/8.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/8.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/8.png"
         }
       },
       "is_incremental": false,
@@ -2606,10 +2695,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/9.png",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/9.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/9.png"
+          "relative_path": "LGUI/Rendering/TextAnimation/9.png"
         }
       },
       "is_incremental": false,
@@ -2617,10 +2706,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/TextAnimation/TextAnimation.gif",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/TextAnimation.gif",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/TextAnimation/TextAnimation.gif"
+          "relative_path": "LGUI/Rendering/TextAnimation/TextAnimation.gif"
         }
       },
       "is_incremental": false,
@@ -2628,11 +2717,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/TextAnimation/index.md",
+      "source_relative_path": "LGUI/Rendering/TextAnimation/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/TextAnimation/index.html",
-          "hash": "740CWnY8oFqrzbLg6jvlKQ=="
+          "relative_path": "LGUI/Rendering/TextAnimation/index.html",
+          "hash": "opsxC08LkRrS6F+TJwvaag=="
         }
       },
       "is_incremental": false,
@@ -2640,10 +2729,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/1.png",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundBlur/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIBackgroundBlur/1.png"
+          "relative_path": "LGUI/Rendering/UIBackgroundBlur/1.png"
         }
       },
       "is_incremental": false,
@@ -2651,10 +2740,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/2.png",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundBlur/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIBackgroundBlur/2.png"
+          "relative_path": "LGUI/Rendering/UIBackgroundBlur/2.png"
         }
       },
       "is_incremental": false,
@@ -2662,10 +2751,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/icon.png",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundBlur/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIBackgroundBlur/icon.png"
+          "relative_path": "LGUI/Rendering/UIBackgroundBlur/icon.png"
         }
       },
       "is_incremental": false,
@@ -2673,11 +2762,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/UIBackgroundBlur/index.md",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundBlur/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/UIBackgroundBlur/index.html",
-          "hash": "58txEmibfkorbPGJjR8BWA=="
+          "relative_path": "LGUI/Rendering/UIBackgroundBlur/index.html",
+          "hash": "syC6zTAR3ERyni6GIebJEQ=="
         }
       },
       "is_incremental": false,
@@ -2685,10 +2774,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/1.png",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundPixelate/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIBackgroundPixelate/1.png"
+          "relative_path": "LGUI/Rendering/UIBackgroundPixelate/1.png"
         }
       },
       "is_incremental": false,
@@ -2696,10 +2785,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/2.png",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundPixelate/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIBackgroundPixelate/2.png"
+          "relative_path": "LGUI/Rendering/UIBackgroundPixelate/2.png"
         }
       },
       "is_incremental": false,
@@ -2707,10 +2796,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/icon.png",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundPixelate/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIBackgroundPixelate/icon.png"
+          "relative_path": "LGUI/Rendering/UIBackgroundPixelate/icon.png"
         }
       },
       "is_incremental": false,
@@ -2718,11 +2807,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/UIBackgroundPixelate/index.md",
+      "source_relative_path": "LGUI/Rendering/UIBackgroundPixelate/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/UIBackgroundPixelate/index.html",
-          "hash": "5QIuzXmj6Em4mXQ2PQJSDA=="
+          "relative_path": "LGUI/Rendering/UIBackgroundPixelate/index.html",
+          "hash": "I/1kO6S4fQlljJu9COki5w=="
         }
       },
       "is_incremental": false,
@@ -2730,10 +2819,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIItem/1.png",
+      "source_relative_path": "LGUI/Rendering/UIItem/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIItem/1.png"
+          "relative_path": "LGUI/Rendering/UIItem/1.png"
         }
       },
       "is_incremental": false,
@@ -2741,10 +2830,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIItem/2.png",
+      "source_relative_path": "LGUI/Rendering/UIItem/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIItem/2.png"
+          "relative_path": "LGUI/Rendering/UIItem/2.png"
         }
       },
       "is_incremental": false,
@@ -2752,11 +2841,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/UIItem/index.md",
+      "source_relative_path": "LGUI/Rendering/UIItem/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/UIItem/index.html",
-          "hash": "XoT+gDA8btejwxwy5u/t/A=="
+          "relative_path": "LGUI/Rendering/UIItem/index.html",
+          "hash": "uKYiGQ3lePfGN6IvsIPCiA=="
         }
       },
       "is_incremental": false,
@@ -2764,10 +2853,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIText/1.png",
+      "source_relative_path": "LGUI/Rendering/UIText/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIText/1.png"
+          "relative_path": "LGUI/Rendering/UIText/1.png"
         }
       },
       "is_incremental": false,
@@ -2775,10 +2864,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/UIText/icon.png",
+      "source_relative_path": "LGUI/Rendering/UIText/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/UIText/icon.png"
+          "relative_path": "LGUI/Rendering/UIText/icon.png"
         }
       },
       "is_incremental": false,
@@ -2786,11 +2875,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/UIText/index.md",
+      "source_relative_path": "LGUI/Rendering/UIText/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/UIText/index.html",
-          "hash": "uYguBKmzwutmfTUc0OWiTA=="
+          "relative_path": "LGUI/Rendering/UIText/index.html",
+          "hash": "2xDNnlWufhKclpPgp5Civg=="
         }
       },
       "is_incremental": false,
@@ -2798,10 +2887,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/1.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/1.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/1.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/1.png"
         }
       },
       "is_incremental": false,
@@ -2809,10 +2898,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/10.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/10.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/10.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/10.png"
         }
       },
       "is_incremental": false,
@@ -2820,10 +2909,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/2.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/2.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/2.png"
         }
       },
       "is_incremental": false,
@@ -2831,10 +2920,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/3.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/3.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/3.png"
         }
       },
       "is_incremental": false,
@@ -2842,10 +2931,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/4.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/4.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/4.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/4.png"
         }
       },
       "is_incremental": false,
@@ -2853,10 +2942,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/5.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/5.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/5.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/5.png"
         }
       },
       "is_incremental": false,
@@ -2864,10 +2953,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/6.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/6.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/6.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/6.png"
         }
       },
       "is_incremental": false,
@@ -2875,10 +2964,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/7.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/7.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/7.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/7.png"
         }
       },
       "is_incremental": false,
@@ -2886,10 +2975,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/8.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/8.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/8.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/8.png"
         }
       },
       "is_incremental": false,
@@ -2897,10 +2986,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/NormalMap.png",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/NormalMap.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/NormalMap.png"
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/NormalMap.png"
         }
       },
       "is_incremental": false,
@@ -2908,11 +2997,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/WorldSpaceUI/index.md",
+      "source_relative_path": "LGUI/Rendering/WorldSpaceUI/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/WorldSpaceUI/index.html",
-          "hash": "vW98IUqdHmdf1dWVUOijOQ=="
+          "relative_path": "LGUI/Rendering/WorldSpaceUI/index.html",
+          "hash": "Y3Rupq2irRcszHF+qtykMA=="
         }
       },
       "is_incremental": false,
@@ -2920,10 +3009,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/Rendering/icon.png",
+      "source_relative_path": "LGUI/Rendering/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/Rendering/icon.png"
+          "relative_path": "LGUI/Rendering/icon.png"
         }
       },
       "is_incremental": false,
@@ -2934,11 +3023,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/Rendering/index.md",
+      "source_relative_path": "LGUI/Rendering/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/Rendering/index.html",
-          "hash": "XbFKXEr74KfVgPhDL3+0GQ=="
+          "relative_path": "LGUI/Rendering/index.html",
+          "hash": "yzkWCo7rJQIvinIHgV4PuA=="
         }
       },
       "is_incremental": false,
@@ -2946,10 +3035,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/SampleProjects/icon.png",
+      "source_relative_path": "LGUI/SampleProjects/icon.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/SampleProjects/icon.png"
+          "relative_path": "LGUI/SampleProjects/icon.png"
         }
       },
       "is_incremental": false,
@@ -2957,10 +3046,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/SampleProjects/icon2.png",
+      "source_relative_path": "LGUI/SampleProjects/icon2.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/SampleProjects/icon2.png"
+          "relative_path": "LGUI/SampleProjects/icon2.png"
         }
       },
       "is_incremental": false,
@@ -2968,10 +3057,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "Manual/SampleProjects/icon3.png",
+      "source_relative_path": "LGUI/SampleProjects/icon3.png",
       "output": {
         "resource": {
-          "relative_path": "Manual/SampleProjects/icon3.png"
+          "relative_path": "LGUI/SampleProjects/icon3.png"
         }
       },
       "is_incremental": false,
@@ -2979,11 +3068,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Manual/SampleProjects/index.md",
+      "source_relative_path": "LGUI/SampleProjects/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/SampleProjects/index.html",
-          "hash": "VW5rz9tDzTlqe0lBj2NHEg=="
+          "relative_path": "LGUI/SampleProjects/index.html",
+          "hash": "K/m69wZquPUJ3+Uhw6ZPXA=="
         }
       },
       "is_incremental": false,
@@ -2994,11 +3083,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "Manual/index.md",
+      "source_relative_path": "LGUI/index.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/index.html",
-          "hash": "knJ5Gl7KYCVOftOvrB6z/g=="
+          "relative_path": "LGUI/index.html",
+          "hash": "rk5GPkuzPErvM+zhXoCJKw=="
         }
       },
       "is_incremental": false,
@@ -3009,10 +3098,10 @@
         "InvalidFileLink"
       ],
       "type": "Toc",
-      "source_relative_path": "Manual/toc.md",
+      "source_relative_path": "LGUI/toc.md",
       "output": {
         ".html": {
-          "relative_path": "Manual/toc.html",
+          "relative_path": "LGUI/toc.html",
           "hash": "v7S0NdoGuiof07WiqWKNVQ=="
         }
       },
@@ -3025,7 +3114,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "DR5soyzRLJItq8g2Ss13Hg=="
+          "hash": "k8/S2MoW2s6gB9+0HXt/Pw=="
         }
       },
       "is_incremental": false,
@@ -3059,7 +3148,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "udgfp5KPJ1Dv7QkUrLBjlA=="
+          "hash": "OZJir00HSIEOYUT3QR+GYw=="
         }
       },
       "is_incremental": false,
@@ -3078,13 +3167,13 @@
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
