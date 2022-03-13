@@ -113,73 +113,6 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "Effect/2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "Effect/2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Effect/3.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "Effect/3.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Effect/4.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "Effect/4.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Effect/5.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "Effect/5.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Effect/icon.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "Effect/icon.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "Effect/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Effect/index.html",
-          "hash": "4YsUUOjgpblp4dS0mAJK8w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "LGUI/GetStarted/CreateButton/index.md",
       "output": {
@@ -2178,7 +2111,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/ReleaseNotes/v3/index.html",
-          "hash": "lUJdHvbjq40N+w2TXYKgQQ=="
+          "hash": "OvhIgowNE+OANu0bSI7kYg=="
         }
       },
       "is_incremental": false,
@@ -3192,7 +3125,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "J4w4y7stWwVtJPljSrs/kA=="
+          "hash": "k8/S2MoW2s6gB9+0HXt/Pw=="
         }
       },
       "is_incremental": false,
@@ -3226,7 +3159,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "BFSipgVNXAEb3ewRCSRnfA=="
+          "hash": "OZJir00HSIEOYUT3QR+GYw=="
         }
       },
       "is_incremental": false,
@@ -3236,22 +3169,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }
