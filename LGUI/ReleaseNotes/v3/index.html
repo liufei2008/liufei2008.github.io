@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>3.1.2 | LGUI Documentation </title>
+    <title>3.1.3 | LGUI Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="3.1.2 | LGUI Documentation ">
+    <meta name="title" content="3.1.3 | LGUI Documentation ">
     <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -83,16 +83,21 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="312">3.1.2</h2>
+<h2 id="313">3.1.3</h2>
 
 <h4 id="newfeature">NewFeature:</h4>
+<p>LGUICanvas RenderTarget mode now production ready! With LGUIRenderTargetGeometrySource and LGUIRenderTargetInteraction components, we can make curved UI for VR!  </p>
+<h4 id="performanceupgrade">PerformanceUpgrade:</h4>
+<p>Directly render to backbuffer, so we can save two RenderTarget and two CopyRenderTarget. If android GLES3.1 and we need some LGUI&#39;s prostprocess effects (UIBackgroundBlur &amp; UIBackgroundPixelate), we need to check &quot;ProjectSettings/Platforms/Android/Build/Support Backbuffer Sampling on OpenGL&quot;.  </p>
+<h2 id="312">3.1.2</h2>
+<h4 id="newfeature-1">NewFeature:</h4>
 <p>LGUICanvas can prevent drawcall batch if reach max vertex count.<br>LGUIPrefabSequence can fix missing bad track reference, based on actor label and actor hierarchy.  </p>
 <h4 id="fix">Fix:</h4>
 <p>LGUIPrefab: Add more check and hint to prevent crash when missing some class reference.<br>UIScrollbar: Wrong value when click UIScrollbar&#39;s background area.  </p>
-<h4 id="performanceupgrade">PerformanceUpgrade:</h4>
+<h4 id="performanceupgrade-1">PerformanceUpgrade:</h4>
 <p>AutoBatch now take less cpu resource, check <a href="https://blog.csdn.net/lf2007hf/article/details/123529163">this article</a>.  </p>
 <h2 id="311">3.1.1</h2>
-<h4 id="newfeature-1">NewFeature:</h4>
+<h4 id="newfeature-2">NewFeature:</h4>
 <p>LGUIPrefab compatible with UE5.<br>Add <em>SelectorOffset</em> property for UIEffectTextAnimation, make it easier for LGUIPrefaSequence animation.  </p>
 <h4 id="fix-1">Fix:</h4>
 <p>Crash if missing some class reference on LGUIPrefab, now a hint message-box will popup.<br>Crash when rename LGUIPrefabSequence&#39;s animation.<br>Missing track when rename LGUIPrefabSequence&#39;s animation.  </p>
@@ -101,22 +106,22 @@
 <h2 id="310">3.1.0</h2>
 <h4 id="improvement">Improvement:</h4>
 <p>Modify UI geometry generation, now the update process is simple &amp; easy &amp; fast. Easy for blueprint to extend custom UI element, easy for blueprint to implement custom GeometryModifier.  </p>
-<h4 id="newfeature-2">NewFeature:</h4>
+<h4 id="newfeature-3">NewFeature:</h4>
 <p><strong>LGUIPrefabSequence</strong> is out! Easy to make animation with UE&#39;s sequence tool, not just for UI objects, all objects that can stay in LGUIPrefab are good to use.<br>UISpriteData and UIFontData editor can pick and typein packingTag.<br>Add &quot;Enable&quot; property for UIGeometryModifier (UIEffectShadow/ UIEffectOutliner/ UIEffectLongShadow...), so we can enable or disable the effect by set this value.<br>Add blueprint event &quot;ReceiveModifyUIGeometry&quot; for UIGeometryModifier, so we can make our UIEffectXXX in blueprint.  </p>
 <h4 id="fix-2">Fix:</h4>
 <p>Fix bug: ULGUICanvasScaler.ConvertPositionFromLGUICanvasToViewport calculation wrong.<br>LGUIPrefab system, wrong attachment/detachment message.  </p>
 <h2 id="302">3.0.2</h2>
-<h4 id="newfeature-3">NewFeature:</h4>
+<h4 id="newfeature-4">NewFeature:</h4>
 <p>If multiple LGUILifeCycleBehaviour in same prefab, then these scripts will execute by actor&#39;s hierarchy order; This can make the execution predictable.  </p>
 <h4 id="fix-3">Fix:</h4>
 <p>Fix bug: When load nested prefab, sub prefab sometimes not attach to the correct parent.  </p>
 <h2 id="301">3.0.1</h2>
-<h4 id="newfeature-4">NewFeature:</h4>
+<h4 id="newfeature-5">NewFeature:</h4>
 <p>WorldSpace-LGUI Renderer support UE5.<br>PrefabSystem support nested sub-object.  </p>
 <h4 id="fix-4">Fix:</h4>
 <p>Fix bug: LGUILifeCycleBehaviour.SetCanExecuteUpdate not wroking.  </p>
 <h2 id="300">3.0.0</h2>
-<h4 id="newfeature-5">NewFeature:</h4>
+<h4 id="newfeature-6">NewFeature:</h4>
 <p>Use hierarchy order for UI element&#39;s render order, no noring &quot;Depth&quot; property anymore.<br>Prefab workflow upgrade: Standalone prefab editor, support <strong>Nested Prefab</strong>, support property redirect, faster load speed. (Many thanks to &quot;马志愿&quot;, great inspire)  </p>
 <h4 id="change">Change:</h4>
 <p>Coornidate system: from Unity-like (x-right, y-up, z-forward) to UE-like (x-forward, y-right, z-up) coordinate system.<br>Color property: UIItem.Widget.Color moved to UIBaseRenderable.Color.
