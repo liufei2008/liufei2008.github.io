@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Update project to LGUI version 2.13.0 | LGUI Documentation </title>
+    <title>Update project from LGUI2 to LGUI3 | LGUI Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Update project to LGUI version 2.13.0 | LGUI Documentation ">
+    <meta name="title" content="Update project from LGUI2 to LGUI3 | LGUI Documentation ">
     <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -83,16 +83,18 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="update-project-to-lgui-version-2130">Update project to LGUI version 2.13.0</h2>
+<h2 id="update-project-from-lgui2-to-lgui3">Update project from LGUI2 to LGUI3</h2>
 
-<p>Follow this page to make your existing project to fit LGUI 2.13.0.</p>
-<p>The main differences of version 2.13.0 are:  </p>
-<ol>
-<li><p><em>LGUISpriteData</em> now inherit from <em>LGUISpriteData_BaseObject</em>, <em>LGUISpriteData_BaseObject</em> represent a base class and interface for a sprite-atlas-data, so we can implement our own packing method(eg: offline packing with mipmap support).  Most of LGUI&#39;s default sprite-data variable now switch to <em>LGUISpriteData_BaseObject</em>, eg: UISprite and UISpriteSequencePlayer.<br>So if there are compile errors related to <em>LGUISpriteData</em>, you may need to change variable type from <em>LGUISpriteData</em> to <em>LGUISpriteData_BaseObject</em>.  </p>
-</li>
-<li><p><em>LGUIFontData</em> now inherit from <em>LGUIFontData_BaseObject</em>, <em>LGUIFontData_BaseObject</em> represent a base class and interface for a font-data, so we can implement our own character texture(eg: import font from <a href="https://www.angelcode.com/products/bmfont/"><em>Bitmap Font Generator</em></a>).<br>UIText now use <em>LGUIFontData_BaseObject</em>.<br>So if thare are compile errors related to <em>LGUIFontData</em>, you may need to change variable type from <em>LGUIFontData</em> to <em>LGUIFontData_BaseObject</em>.  </p>
-</li>
-</ol>
+<p>Follow this page to upgrade your LGUI2 project to LGUI3.  </p>
+<p><strong>CAUTION!!!</strong> LGUI3 is not fully compatible with LGUI2, follow this video to upgrade your project to LGUI3: <a href="https://youtu.be/PSFG3nAJRHE">Youtube</a> <a href="https://www.bilibili.com/video/BV1sa411y7Zf?share_source=copy_web">Bilibili</a> , but I can&#39;t guarantee this convertion is good for every project.</p>
+<h4 id="changes-in-lgui3">Changes in LGUI3:</h4>
+<ul>
+<li><strong>Coornidate system</strong>: from Unity-like (x-right, y-up, z-forward) to UE-like (x-forward, y-right, z-up) coordinate system.</li>
+<li><strong>Color property</strong>: UIItem.Widget.Color moved to UIBaseRenderable.Color.</li>
+<li><strong>UICanvasGroup</strong>: Handle children UI element&#39;s opacity and interactable.</li>
+<li><strong>Anchor system</strong>: LGUI3 use AnchorMin/AnchorMax/AnchoredPosition/SizeDelta anchor system, just like Unity&#39;s, clean and predictable.</li>
+<li><strong>Name redirect</strong>: eg. LGUIDrawableEvent to LGUIEventDelegate, AwakeBP to ReceiveAwake, StartBP to ReceiveStart, XXXBP to ReceiveXXX. Blueprint can automatic convert with no extral work, C++ can check LGUI/Config/DefaultLGUI.ini to see all these changes.</li>
+</ul>
 </article>
           </div>
           
@@ -101,7 +103,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/LGUI/HowTos/UpdateTo2.13.0/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/LGUI/HowTos/UpdateTo3/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
