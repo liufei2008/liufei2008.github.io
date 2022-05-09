@@ -2108,7 +2108,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/ReleaseNotes/v3/index.html",
-          "hash": "d6zOAjweFqk/nXgtp4vdfg=="
+          "hash": "FLms85Shgt3vguOqR3SUKA=="
         }
       },
       "is_incremental": false,
@@ -3175,13 +3175,13 @@
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }

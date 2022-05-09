@@ -88,13 +88,15 @@
 <h4 id="newfeature">NewFeature:</h4>
 <p>ScreenSpaceUI can draw selection helper frame, with a toggle box in <em>LGUI Tools</em> menu.<br>Mobile can use external joystick input, just like standalone platform.<br>Add visualization arrow for UISelectable navigation.  </p>
 <h4 id="fix">Fix:</h4>
-<p>Fix crash when create custom font.<br>Fix crash when delete LGUIPrefabHelperActor, add some hints.<br>Remove extra wrong vertex data in UIEffect.<br>Fix UIText font size change unnormally.<br>Fix navigation input get wrong UISelectable.<br>UE5 LGUIEditor&#39;s outliner can&#39;t modify hierarchy or select multiple.  </p>
+<p>Fix crash when create custom font.<br>Fix crash when delete LGUIPrefabHelperActor, add some hints.<br>Remove extra wrong vertex data in UIEffect.<br>Fix UIText font size change unnormally.<br>Fix navigation input get wrong UISelectable.<br>Fix <em>Active Viewport as LGUI Preview</em> not working.<br>Fix UE5 LGUIEditor&#39;s outliner can&#39;t modify hierarchy or select multiple.<br>Fix UE5 LGUIPrefabSequence crash when add new animation.  </p>
+<h4 id="modify">Modify:</h4>
+<p>Remove <em>DefaltTraceChannel</em> in LGUI Settings.  </p>
 <h2 id="318">3.1.8</h2>
 <h4 id="newfeature-1">NewFeature:</h4>
 <p><strong>UIRecyclableScrollView</strong> ready now.<br>UIScrollView add new function <em>GetVelocity</em> <em>SetVelocity</em> <em>GetScrollProgress</em>, add new property <em>DecelerateRate</em> <em>OutOfRangeDamper</em>.  </p>
 <h4 id="fix-1">Fix:</h4>
 <p>Fix LGUICanvas sorting error when render type is WorldSpace-LGUIRenderer.  </p>
-<h4 id="modify">Modify:</h4>
+<h4 id="modify-1">Modify:</h4>
 <p>Remove ILGUIPointerDownUpInterface from UIScrollView.  </p>
 <h2 id="317">3.1.7</h2>
 <h4 id="newfeature-2">NewFeature:</h4>
@@ -102,7 +104,7 @@
 <h4 id="fix-2">Fix:</h4>
 <p>Fix crash when create child LGUICanvas or UIPostProcess.  </p>
 <h2 id="316">3.1.6</h2>
-<h4 id="modify-1">Modify:</h4>
+<h4 id="modify-2">Modify:</h4>
 <p>Cleanup code and fix some bugs for UE5.  </p>
 <h4 id="newfeature-3">NewFeature:</h4>
 <p>PrefabEditor now can restore RootAgent actor&#39;s size and render mode.  </p>
@@ -118,7 +120,7 @@
 <p>Officially support MacOSX and IOS!<br>Add <em>SetCanvas</em> blueprint function for LGUIRenderTargetGeometry.  </p>
 <h4 id="fix-5">Fix:</h4>
 <p>Fix linux compile error.<br>Fix black screen on android with vulkan, caused by wrong RenderTargetActions.<br>Fix UIText and UISprite atlas packing error in some specific case, which can result in misplaced text character or sprite.<br>Fix PostProcess clip error.  </p>
-<h4 id="modify-2">Modify:</h4>
+<h4 id="modify-3">Modify:</h4>
 <p>Strip K2Node from LGUIEditor to LGUIK2Nodes module.  </p>
 <h2 id="313">3.1.3</h2>
 <h4 id="newfeature-6">NewFeature:</h4>
@@ -137,7 +139,7 @@
 <p>LGUIPrefab compatible with UE5.<br>Add <em>SelectorOffset</em> property for UIEffectTextAnimation, make it easier for LGUIPrefaSequence animation.  </p>
 <h4 id="fix-7">Fix:</h4>
 <p>Crash if missing some class reference on LGUIPrefab, now a hint message-box will popup.<br>Crash when rename LGUIPrefabSequence&#39;s animation.<br>Missing track when rename LGUIPrefabSequence&#39;s animation.  </p>
-<h4 id="modify-3">Modify:</h4>
+<h4 id="modify-4">Modify:</h4>
 <p><strong>Remove MSAA</strong>, because not work as intended.<br>Change some blueprint function of PrefabSequenceComponent.  </p>
 <h2 id="310">3.1.0</h2>
 <h4 id="improvement">Improvement:</h4>
