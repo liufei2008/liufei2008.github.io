@@ -2086,7 +2086,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/ReleaseNotes/v3/index.html",
-          "hash": "rUG7axtKZ/7dgfYe0fNqDg=="
+          "hash": "JehFNoNQPl2h9WBRNCDMIA=="
         }
       },
       "is_incremental": false,
@@ -3144,8 +3144,7 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
@@ -3160,7 +3159,7 @@
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
