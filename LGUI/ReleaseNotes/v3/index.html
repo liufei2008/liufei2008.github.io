@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>3.2.6 | LGUI Documentation </title>
+    <title>3.2.7 | LGUI Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="3.2.6 | LGUI Documentation ">
+    <meta name="title" content="3.2.7 | LGUI Documentation ">
     <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -83,36 +83,39 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="326">3.2.6</h2>
+<h2 id="327">3.2.7</h2>
 
 <h4 id="fix">Fix:</h4>
+<p>Fix bug that cannot drag prefab to level and create actor.  </p>
+<h2 id="326">3.2.6</h2>
+<h4 id="fix-1">Fix:</h4>
 <p>Fix crash when add LGUIRenderTargetGeometrySource component to a actor.  </p>
 <h4 id="change">Change:</h4>
 <p>Navigation input now relate to LGUIPointerEventData.<br>Default UISelectable for navigation input now return most left-top one.  </p>
 <h2 id="325">3.2.5</h2>
 <h4 id="performanceupgrade">PerformanceUpgrade:</h4>
 <p>Optimize raycast check on UIItem.  </p>
-<h4 id="fix-1">Fix:</h4>
+<h4 id="fix-2">Fix:</h4>
 <p>Fix object reference with PrepareDuplicateData node.<br>Fix spawn UIItem take too much time in UE5 editor.  </p>
 <h2 id="324">3.2.4</h2>
 <h4 id="newfeature">NewFeature:</h4>
 <p>Add a optimized version of DuplicateActor when duplicate a same actor multiple times, check <em>LGUIBPLibrary::PrepareDuplicateData</em> node.<br>Add some helper editor button for LGUIEventDelegate.  </p>
-<h4 id="fix-2">Fix:</h4>
+<h4 id="fix-3">Fix:</h4>
 <p>Fix a crash when prefab serialize a invalid actor.<br>Fix SDF font rendering issue in different camera fov and projection type.<br>Fix a crash when LGUIEventDelegate(float) in UE5.  </p>
 <h4 id="performanceupgrade-1">PerformanceUpgrade:</h4>
 <p>Optimize UIItem&#39;s intialization, save time when spawn any UI element.  </p>
 <h2 id="323">3.2.3</h2>
-<h4 id="fix-3">Fix:</h4>
+<h4 id="fix-4">Fix:</h4>
 <p>Fix sub-prefab&#39;s root actor&#39;s data error.<br>Fix crash when copy actor with sub-prefab.<br>Fix wrong hierarchy index with sub-prefab&#39;s root actor.  </p>
 <h2 id="322">3.2.2</h2>
 <h4 id="newfeature-1">NewFeature:</h4>
 <p>Enable <strong>DepthTest</strong> for ScreenSpaceUI and RenderTargetUI!  </p>
-<h4 id="fix-4">Fix:</h4>
+<h4 id="fix-5">Fix:</h4>
 <p>Fix crash caused by UIStaticMesh.<br>Fix update issue of UIStaticMesh.<br>Fix crash of LTween when MaterialInstanceDynamic have no world.<br>Fix crash when reset scrollbar parameter of UIScrollView.<br>For UE5, fix sprite become transparent in editor sometimes, this is because UE5 use async texture compile.  </p>
 <h2 id="321">3.2.1</h2>
 <h4 id="newfeature-2">NewFeature:</h4>
 <p>ScreenSpaceUI now support normal and tangent property, this is very useful for UIStaticMesh.<br>Add new depth-test mode for LGUICanvas&#39;s WorldSpace-LGUIRenderer mode, use depth buffer to direct test depth.  </p>
-<h4 id="fix-5">Fix:</h4>
+<h4 id="fix-6">Fix:</h4>
 <p>Fix android gles flipped face.<br>LGUIRenderTargetGeometrySource not create geometry.<br>Fix crash caused by UIStaticMesh.<br>Fix crash caused by LGUIPrefabEditor when perform GC at BeginPlay.<br>Fix package issue for UE5 because of old LGUIPrefab version.  </p>
 <h4 id="modify">Modify:</h4>
 <p>For UE5, change UIScrollbar&#39;s event from float to double. Same on UISlider.   </p>
@@ -121,45 +124,45 @@
 <h2 id="320">3.2.0</h2>
 <h4 id="newfeature-3">NewFeature:</h4>
 <p><strong>SDF(SignedDistanceField) text rendering</strong> now ready to use!<br>LGUIPrefabSequence now support curve editor.  </p>
-<h4 id="fix-6">Fix:</h4>
+<h4 id="fix-7">Fix:</h4>
 <p>Fix crash when undo in LGUIPrefabEditor (with LGUIPrefabSequence editor window opened).  </p>
 <h4 id="performanceupgrade-3">PerformanceUpgrade:</h4>
 <p>Optimize data passed from game-thread to render-thread, mesh update become more efficient.  </p>
 <h2 id="319">3.1.9</h2>
 <h4 id="newfeature-4">NewFeature:</h4>
 <p>ScreenSpaceUI can draw selection helper frame, with a toggle box in <em>LGUI Tools</em> menu.<br>Mobile can use external joystick input, just like standalone platform.<br>Add visualization arrow for UISelectable navigation.  </p>
-<h4 id="fix-7">Fix:</h4>
+<h4 id="fix-8">Fix:</h4>
 <p>Fix crash when create custom font.<br>Fix crash when delete LGUIPrefabHelperActor, add some hints.<br>Remove extra wrong vertex data in UIEffect.<br>Fix UIText font size change unnormally.<br>Fix navigation input get wrong UISelectable.<br>Fix <em>Active Viewport as LGUI Preview</em> not working.<br>Fix UE5 LGUIEditor&#39;s outliner can&#39;t modify hierarchy or select multiple.<br>Fix UE5 LGUIPrefabSequence crash when add new animation.  </p>
 <h4 id="modify-1">Modify:</h4>
 <p>Remove <em>DefaltTraceChannel</em> in LGUI Settings.  </p>
 <h2 id="318">3.1.8</h2>
 <h4 id="newfeature-5">NewFeature:</h4>
 <p><strong>UIRecyclableScrollView</strong> ready now.<br>UIScrollView add new function <em>GetVelocity</em> <em>SetVelocity</em> <em>GetScrollProgress</em>, add new property <em>DecelerateRate</em> <em>OutOfRangeDamper</em>.  </p>
-<h4 id="fix-8">Fix:</h4>
+<h4 id="fix-9">Fix:</h4>
 <p>Fix LGUICanvas sorting error when render type is WorldSpace-LGUIRenderer.  </p>
 <h4 id="modify-2">Modify:</h4>
 <p>Remove ILGUIPointerDownUpInterface from UIScrollView.  </p>
 <h2 id="317">3.1.7</h2>
 <h4 id="newfeature-6">NewFeature:</h4>
 <p>UIPostProcess can render <em>MaskTexture</em> as sliced.  </p>
-<h4 id="fix-9">Fix:</h4>
+<h4 id="fix-10">Fix:</h4>
 <p>Fix crash when create child LGUICanvas or UIPostProcess.  </p>
 <h2 id="316">3.1.6</h2>
 <h4 id="modify-3">Modify:</h4>
 <p>Cleanup code and fix some bugs for UE5.  </p>
 <h4 id="newfeature-7">NewFeature:</h4>
 <p>PrefabEditor now can restore RootAgent actor&#39;s size and render mode.  </p>
-<h4 id="fix-10">Fix:</h4>
+<h4 id="fix-11">Fix:</h4>
 <p>Fix crash when add new ActorComponent to sub prefab&#39;s actor then apply, now popup a hint message.  </p>
 <h2 id="315">3.1.5</h2>
 <h4 id="newfeature-8">NewFeature:</h4>
 <p>ClipTexture now support UI&#39;s LineTrace.  </p>
-<h4 id="fix-11">Fix:</h4>
+<h4 id="fix-12">Fix:</h4>
 <p>Fix crash when multiple user editing on LGUIEventDelegate.<br>SetSprite could have no effect in some condition.<br>UIPolygon and UI2DLineRendererBase my not update as desired.<br>UIRoundedLayout wrong coordinate.<br>Nested LGUICanvas may result in soring issue.  </p>
 <h2 id="314">3.1.4</h2>
 <h4 id="newfeature-9">NewFeature:</h4>
 <p>Officially support MacOSX and IOS!<br>Add <em>SetCanvas</em> blueprint function for LGUIRenderTargetGeometry.  </p>
-<h4 id="fix-12">Fix:</h4>
+<h4 id="fix-13">Fix:</h4>
 <p>Fix linux compile error.<br>Fix black screen on android with vulkan, caused by wrong RenderTargetActions.<br>Fix UIText and UISprite atlas packing error in some specific case, which can result in misplaced text character or sprite.<br>Fix PostProcess clip error.  </p>
 <h4 id="modify-4">Modify:</h4>
 <p>Strip K2Node from LGUIEditor to LGUIK2Nodes module.  </p>
@@ -171,14 +174,14 @@
 <h2 id="312">3.1.2</h2>
 <h4 id="newfeature-11">NewFeature:</h4>
 <p>LGUICanvas can prevent drawcall batch if reach max vertex count.<br>LGUIPrefabSequence can fix missing bad track reference, based on actor label and actor hierarchy.  </p>
-<h4 id="fix-13">Fix:</h4>
+<h4 id="fix-14">Fix:</h4>
 <p>LGUIPrefab: Add more check and hint to prevent crash when missing some class reference.<br>UIScrollbar: Wrong value when click UIScrollbar&#39;s background area.  </p>
 <h4 id="performanceupgrade-5">PerformanceUpgrade:</h4>
 <p>AutoBatch now take less cpu resource, check <a href="https://blog.csdn.net/lf2007hf/article/details/123529163">this article</a>.  </p>
 <h2 id="311">3.1.1</h2>
 <h4 id="newfeature-12">NewFeature:</h4>
 <p>LGUIPrefab compatible with UE5.<br>Add <em>SelectorOffset</em> property for UIEffectTextAnimation, make it easier for LGUIPrefaSequence animation.  </p>
-<h4 id="fix-14">Fix:</h4>
+<h4 id="fix-15">Fix:</h4>
 <p>Crash if missing some class reference on LGUIPrefab, now a hint message-box will popup.<br>Crash when rename LGUIPrefabSequence&#39;s animation.<br>Missing track when rename LGUIPrefabSequence&#39;s animation.  </p>
 <h4 id="modify-5">Modify:</h4>
 <p><strong>Remove MSAA</strong>, because not work as intended.<br>Change some blueprint function of PrefabSequenceComponent.  </p>
@@ -187,17 +190,17 @@
 <p>Modify UI geometry generation, now the update process is simple &amp; easy &amp; fast. Easy for blueprint to extend custom UI element, easy for blueprint to implement custom GeometryModifier.  </p>
 <h4 id="newfeature-13">NewFeature:</h4>
 <p><strong>LGUIPrefabSequence</strong> is out! Easy to make animation with UE&#39;s sequence tool, not just for UI objects, all objects that can stay in LGUIPrefab are good to use.<br>UISpriteData and UIFontData editor can pick and typein packingTag.<br>Add &quot;Enable&quot; property for UIGeometryModifier (UIEffectShadow/ UIEffectOutliner/ UIEffectLongShadow...), so we can enable or disable the effect by set this value.<br>Add blueprint event &quot;ReceiveModifyUIGeometry&quot; for UIGeometryModifier, so we can make our UIEffectXXX in blueprint.  </p>
-<h4 id="fix-15">Fix:</h4>
+<h4 id="fix-16">Fix:</h4>
 <p>Fix bug: ULGUICanvasScaler.ConvertPositionFromLGUICanvasToViewport calculation wrong.<br>LGUIPrefab system, wrong attachment/detachment message.  </p>
 <h2 id="302">3.0.2</h2>
 <h4 id="newfeature-14">NewFeature:</h4>
 <p>If multiple LGUILifeCycleBehaviour in same prefab, then these scripts will execute by actor&#39;s hierarchy order; This can make the execution predictable.  </p>
-<h4 id="fix-16">Fix:</h4>
+<h4 id="fix-17">Fix:</h4>
 <p>Fix bug: When load nested prefab, sub prefab sometimes not attach to the correct parent.  </p>
 <h2 id="301">3.0.1</h2>
 <h4 id="newfeature-15">NewFeature:</h4>
 <p>WorldSpace-LGUI Renderer support UE5.<br>PrefabSystem support nested sub-object.  </p>
-<h4 id="fix-17">Fix:</h4>
+<h4 id="fix-18">Fix:</h4>
 <p>Fix bug: LGUILifeCycleBehaviour.SetCanExecuteUpdate not wroking.  </p>
 <h2 id="300">3.0.0</h2>
 <h4 id="newfeature-16">NewFeature:</h4>
