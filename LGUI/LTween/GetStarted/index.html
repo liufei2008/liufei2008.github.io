@@ -127,12 +127,12 @@ Right click on empty area of Content, choose &quot;Miscellaneous&quot;-&gt;&quot
 <p>Click &quot;New Loop Type&quot; and you will find 4 options:<br><strong>Once</strong>- No loop<br><strong>Restart</strong>- Each loop cycle restarts from beginning<br><strong>Yoyo</strong>- The tween move forward and backward at alternate cycles<br><strong>Incremental</strong>- Continuously increments the tween at the end of each loop cycle (A to B, B to B+(A-B), and so on)
 <img src="step16.png" alt=""></p>
 <p>Don&#39;t forget to set &quot;New Loop Count&quot;, 0 or 1 means no loop, -1 means infinite loop, change these parameters and hit play.</p>
-<h4 id="4-callback">4. Callback</h4>
-<p>Callback function is also a can&#39;t-missing feature in tween animation.
-LTween provide these callbacks:<br><strong>OnStart</strong>- Execute when animation start (if have delay, then execute after delay)<br><strong>OnUpdate</strong>- Execute every frame if is tweening<br><strong>OnComplete</strong>- Execute when animation complete<br><strong>OnCycleComplete</strong>- Exeucte every cycle complete when use loop<br>Setup callback function is easy. eg OnComplete, drag out the &quot;Return Value&quot; and add new node &quot;On Update&quot;, drag out &quot;New Update&quot; and add a custom event, the event will execute as you want:
+<h4 id="4-events">4. Events</h4>
+<p>Event function is also a can&#39;t-missing feature in tween animation.
+LTween provide these events:<br><strong>OnStart</strong>- Execute when animation start (if have delay, then execute after delay)<br><strong>OnUpdate</strong>- Execute every frame if is tweening<br><strong>OnComplete</strong>- Execute when animation complete<br><strong>OnCycleStart</strong>- Exeucte every cycle start when use loop<br><strong>OnCycleComplete</strong>- Exeucte every cycle complete when use loop<br>Setup event function is easy. eg OnComplete, drag out the &quot;Return Value&quot; and add new node &quot;On Update&quot;, drag out &quot;New Update&quot; and add a custom event, the event will execute as you want:
 <img src="step17.png" alt=""></p>
 <h2 id="functions">Functions</h2>
-<p><strong>Pause/Resume</strong>- Pause/Resume this animation<br><strong>Kill/KillIfIsTweening</strong>- Kill the tween if the animation already start<br><strong>ForceComplete</strong>- Force complete this animation at this frame, call OnComplete  </p>
+<p><strong>Pause/Resume</strong>- Pause/Resume this animation<br><strong>Restart</strong>- Restart animation<br><strong>Goto</strong>- Send the tween to the given position in time<br><strong>Kill/KillIfIsTweening</strong>- Kill the tween if the animation already start<br><strong>ForceComplete</strong>- Force complete this animation at this frame, call OnComplete  </p>
 <h2 id="use-ltween-for-material">Use LTween for Material</h2>
 <p>LTween provide &quot;Material Vector Parameter To&quot; and &quot;Material Scalar Parameter To&quot; nodes for &quot;Material Instance Dynamic&quot; objects:
 <img src="step18.png" alt=""></p>

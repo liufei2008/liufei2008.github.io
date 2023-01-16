@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Deproject LGUI's screen position to world | LGUI Documentation </title>
+    <title>LTweenerSequence | LGUI Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Deproject LGUI's screen position to world | LGUI Documentation ">
+    <meta name="title" content="LTweenerSequence | LGUI Documentation ">
     <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -83,38 +83,89 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="deproject-lguis-screen-position-to-world">Deproject LGUI&#39;s screen position to world</h2>
+<h2 id="ltweenersequence">LTweenerSequence</h2>
 
-<p>Usecase: use a UIItem to control a object location on world.</p>
-<p>The main point is to use two nodes: One is <strong>Convert Position from LGUICanvas to Viewport</strong>, which is proviced by LGUICanvasScaler:
-<img src="1.png" alt=""></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Property:</th>
-<th style="text-align:left">Function:</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Target</td>
-<td style="text-align:left">A reference to LGUICanvasScaler object.</td>
-</tr>
-<tr>
-<td style="text-align:left">Position</td>
-<td style="text-align:left">Input position in LGUICanvas&#39;s space. Note left bottom is zero position, so for UIItem who provide this value, should set <em>Anchors</em> to <em>Left Bottom</em>.</td>
-</tr>
-<tr>
-<td style="text-align:left">Return Value</td>
-<td style="text-align:left">Result screen space position, left top is zero position. Note left bottom is zero position.</td>
-</tr>
-</tbody>
-</table>
-<p>Another is <strong>Deproject Screen to World</strong>, which is UnrealEngine&#39;s default node:
-<img src="2.png" alt=""></p>
-<p>We can link these nodes like the screen shot below: 
-<img src="3.png" alt="">
-We can use the result <em>World Position</em> and <em>World Direction</em> to generate line trace.</p>
+<p>LTweenerSequence is a tween type that controls a group of other tween animations as a single tween.  </p>
+<p>First of all, it is still a tweener, so it inherits normal tweener&#39;s all properties and functions. And it has it&#39;s own properties and functions too.</p>
+<h4 id="functions">Functions</h4>
+<pre><code class="lang-c++">/**
+ * Adds the given tween to the end of the Sequence.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ */
+ULTweenerSequence* Append(UObject* WorldContextObject, ULTweener* tweener);
+/**
+ * Adds the given interval to the end of the Sequence.
+ * Has no effect if the Sequence has already started.
+ * @param interval The interval duration
+ */
+ULTweenerSequence* AppendInterval(UObject* WorldContextObject, float interval);
+/**
+ * Inserts the given tween at the given time position in the Sequence, automatically adding an interval if needed.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ * @param timePosition The time position where the tween will be placed
+ */
+ULTweenerSequence* Insert(UObject* WorldContextObject, float timePosition, ULTweener* tweener);
+/**
+ * Adds the given tween to the beginning of the Sequence, pushing forward the other nested content.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ */
+ULTweenerSequence* Prepend(UObject* WorldContextObject, ULTweener* tweener);
+/**
+ * Adds the given interval to the beginning of the Sequence, pushing forward the other nested content.
+ * Has no effect if the Sequence has already started.
+ * @param interval The interval duration
+ */
+ULTweenerSequence* PrependInterval(UObject* WorldContextObject, float interval);
+/**
+ * Inserts the given tween at the same time position of the last tween added to the Sequence.
+ * Note that, in case of a Join after an interval, the insertion time will be the time where the interval starts, not where it finishes.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ */
+ULTweenerSequence* Join(UObject* WorldContextObject, ULTweener* tweener);
+</code></pre><h4 id="how-to-use">How to use</h4>
+<h5 id="1-create-a-ltweenersequence">1. Create a LTweenerSequence</h5>
+<p>C++:</p>
+<pre><code class="lang-c++">auto Sequence = ULTweenBPLibrary::CreateSequence(this);
+</code></pre><p>Blueprint:<br>Just find <strong>Create Sequence</strong> node under LTween category
+<img src="CreateSequence.jpg" alt=""></p>
+<h5 id="2-add-other-tweener">2. Add other tweener</h5>
+<p>C++:</p>
+<pre><code class="lang-c++">Sequence-&gt;Append(this, ULTweenBPLibrary::LocalPositionXTo(Actor1-&gt;GetRootComponent(), 100, 1.0f));
+Sequence-&gt;Insert(this, 0.5f, ULTweenBPLibrary::LocalPositionYTo(Actor1-&gt;GetRootComponent(), 100, 1.0f));
+Sequence-&gt;Prepend(this, ULTweenBPLibrary::LocalPositionZTo(Actor1-&gt;GetRootComponent(), 100, 1.0f));
+Sequence-&gt;Join(this, ULTweenBPLibrary::LocalPositionXTo(Actor2-&gt;GetRootComponent(), 100, 1.0f));
+</code></pre><p>Blueprint:
+<img src="AddTweener.jpg" alt=""></p>
+<h5 id="3-properties-events-functions">3. Properties, Events, Functions</h5>
+<p><strong>Properties:</strong>
+C++:</p>
+<pre><code class="lang-c++">Sequence-&gt;SetDelay(0.5f);
+Sequence-&gt;SetEase(LTweenEase::InOutSine);
+Sequence-&gt;SetLoop(LTweenLoop::Restart, -1);
+Sequence-&gt;GetLoopCycleCount();
+</code></pre><p>Blueprint:
+<img src="Properties.jpg" alt="">
+<strong>Events:</strong>
+C++:</p>
+<pre><code class="lang-c++">Sequence-&gt;OnStart([=]{...});
+Sequence-&gt;OnUpdate([=](float progress){...});
+Sequence-&gt;OnComplete([=]{...});
+Sequence-&gt;OnCycleStart([=]{...});
+Sequence-&gt;OnCycleComplete([=]{...});
+</code></pre><p>Blueprint:
+<img src="Events.jpg" alt="">
+<strong>Functions:</strong>
+C++:</p>
+<pre><code class="lang-c++">Sequence-&gt;Pause();
+Sequence-&gt;Resume();
+Sequence-&gt;Restart();
+Sequence-&gt;Goto(0.5f);
+</code></pre><p>Blueprint:
+<img src="Functions.jpg" alt=""></p>
 </article>
           </div>
           
@@ -123,7 +174,7 @@ We can use the result <em>World Position</em> and <em>World Direction</em> to ge
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/LGUI/HowTos/DeprojectScreenToWorld/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/liufei2008/LGUI_Document_Source/blob/master/LGUI/LTween/Sequence/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
