@@ -2110,7 +2110,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/LTween/index.html",
-          "hash": "s+tpBGao0P5faY+eDKQYzQ=="
+          "hash": "0QqcO8XIV3Ax22BSsDzR0g=="
         }
       },
       "is_incremental": false,
@@ -2144,6 +2144,40 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "LGUI/Performance/StatItems.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/Performance/StatItems.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LGUI/Performance/TurnOnStat.png",
+      "output": {
+        "resource": {
+          "relative_path": "LGUI/Performance/TurnOnStat.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LGUI/Performance/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "LGUI/Performance/index.html",
+          "hash": "Tphvb+IdTSTc15phWwUDIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -2164,7 +2198,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/ReleaseNotes/v3/index.html",
-          "hash": "lCqL05Ewgwt4FwjnOUsC3g=="
+          "hash": "/NqaQwMwUej7gXZcwWAULg=="
         }
       },
       "is_incremental": false,
@@ -3166,7 +3200,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/toc.html",
-          "hash": "TDlxMOuKnAcH5QPLycEg+w=="
+          "hash": "aNWl8J1D3zkHgyuAaVQ/hA=="
         }
       },
       "is_incremental": false,
@@ -3226,14 +3260,14 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
