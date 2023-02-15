@@ -1169,6 +1169,18 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "LGUI/HowTos/AntialiasedLine/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "LGUI/HowTos/AntialiasedLine/index.html",
+          "hash": "4VLozzw+tqtikpAwPFnp8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "LGUI/HowTos/CustomMaterial/1.1.png",
       "output": {
@@ -2198,7 +2210,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/ReleaseNotes/v3/index.html",
-          "hash": "/NqaQwMwUej7gXZcwWAULg=="
+          "hash": "e6XJBI1BN9Ue9kKlVkDwzw=="
         }
       },
       "is_incremental": false,
