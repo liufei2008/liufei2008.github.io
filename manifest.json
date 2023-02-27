@@ -1162,7 +1162,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/GetStarted/index.html",
-          "hash": "+wDLUsseULroTOyBGDnMew=="
+          "hash": "DaLgmm4mdzi4qxymT8O28g=="
         }
       },
       "is_incremental": false,
@@ -2210,7 +2210,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/ReleaseNotes/v3/index.html",
-          "hash": "e6XJBI1BN9Ue9kKlVkDwzw=="
+          "hash": "RqdjDTtcCCIXeSoIKWylEg=="
         }
       },
       "is_incremental": false,
@@ -3212,7 +3212,7 @@
       "output": {
         ".html": {
           "relative_path": "LGUI/toc.html",
-          "hash": "aNWl8J1D3zkHgyuAaVQ/hA=="
+          "hash": "mgRHZ9z/SB+x7egVgqSJXw=="
         }
       },
       "is_incremental": false,
@@ -3272,11 +3272,6 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -3284,6 +3279,11 @@
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
