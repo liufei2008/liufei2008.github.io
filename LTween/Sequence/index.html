@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LTweenerSequence | LGUI Document</title>
+    <meta name="description" content="LGUI (Lex GUI) - 3D UI System for UnrealEngine">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.c9120bc4.css" as="style"><link rel="preload" href="/assets/js/app.99887aa6.js" as="script"><link rel="preload" href="/assets/js/25.0367cbd9.js" as="script"><link rel="prefetch" href="/assets/js/10.8d4fb8e9.js"><link rel="prefetch" href="/assets/js/11.ed871a3f.js"><link rel="prefetch" href="/assets/js/12.f53696ce.js"><link rel="prefetch" href="/assets/js/13.4bd036f3.js"><link rel="prefetch" href="/assets/js/14.0253342f.js"><link rel="prefetch" href="/assets/js/15.6615806a.js"><link rel="prefetch" href="/assets/js/16.298ca5f9.js"><link rel="prefetch" href="/assets/js/17.9637838e.js"><link rel="prefetch" href="/assets/js/18.b8dfefa9.js"><link rel="prefetch" href="/assets/js/19.4aa30cce.js"><link rel="prefetch" href="/assets/js/2.a6e5914f.js"><link rel="prefetch" href="/assets/js/20.18dcf59d.js"><link rel="prefetch" href="/assets/js/21.a5d8546c.js"><link rel="prefetch" href="/assets/js/22.3ed29a99.js"><link rel="prefetch" href="/assets/js/23.bab931e1.js"><link rel="prefetch" href="/assets/js/24.9ee1e21e.js"><link rel="prefetch" href="/assets/js/26.600f119d.js"><link rel="prefetch" href="/assets/js/27.4c42ad71.js"><link rel="prefetch" href="/assets/js/28.ac530dff.js"><link rel="prefetch" href="/assets/js/29.929fd3b9.js"><link rel="prefetch" href="/assets/js/3.0ca92bb5.js"><link rel="prefetch" href="/assets/js/30.7646bdf2.js"><link rel="prefetch" href="/assets/js/31.be5cf6df.js"><link rel="prefetch" href="/assets/js/32.1ebe4dd4.js"><link rel="prefetch" href="/assets/js/33.665e3928.js"><link rel="prefetch" href="/assets/js/34.d79c499e.js"><link rel="prefetch" href="/assets/js/35.ddc74dff.js"><link rel="prefetch" href="/assets/js/36.ec494434.js"><link rel="prefetch" href="/assets/js/37.3f06eccd.js"><link rel="prefetch" href="/assets/js/38.eb00cb13.js"><link rel="prefetch" href="/assets/js/39.94f17e41.js"><link rel="prefetch" href="/assets/js/4.5082ea60.js"><link rel="prefetch" href="/assets/js/40.ba5d9dfe.js"><link rel="prefetch" href="/assets/js/41.05826d9e.js"><link rel="prefetch" href="/assets/js/42.df27fda2.js"><link rel="prefetch" href="/assets/js/43.fbd3f34f.js"><link rel="prefetch" href="/assets/js/44.8c951c53.js"><link rel="prefetch" href="/assets/js/45.d875617f.js"><link rel="prefetch" href="/assets/js/46.1c5fb40b.js"><link rel="prefetch" href="/assets/js/47.6a681978.js"><link rel="prefetch" href="/assets/js/48.4cb2a2e5.js"><link rel="prefetch" href="/assets/js/49.90f063ba.js"><link rel="prefetch" href="/assets/js/5.7fcc88d1.js"><link rel="prefetch" href="/assets/js/50.42f8265f.js"><link rel="prefetch" href="/assets/js/51.aaad8888.js"><link rel="prefetch" href="/assets/js/52.388028bb.js"><link rel="prefetch" href="/assets/js/53.3fdbef7d.js"><link rel="prefetch" href="/assets/js/54.b7f0286b.js"><link rel="prefetch" href="/assets/js/55.6e26e119.js"><link rel="prefetch" href="/assets/js/56.e6a158f8.js"><link rel="prefetch" href="/assets/js/57.c001dd4b.js"><link rel="prefetch" href="/assets/js/58.12a0b6c3.js"><link rel="prefetch" href="/assets/js/59.0136694e.js"><link rel="prefetch" href="/assets/js/6.9dda09e4.js"><link rel="prefetch" href="/assets/js/60.a1583d8d.js"><link rel="prefetch" href="/assets/js/61.f0f3dd45.js"><link rel="prefetch" href="/assets/js/62.04d96cb7.js"><link rel="prefetch" href="/assets/js/63.7df0cb54.js"><link rel="prefetch" href="/assets/js/64.bfc98225.js"><link rel="prefetch" href="/assets/js/7.52c22c5b.js"><link rel="prefetch" href="/assets/js/8.1b4f696e.js"><link rel="prefetch" href="/assets/js/9.d34ee9a0.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.c9120bc4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">LGUI Document</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/LTween/Sequence/" aria-current="page" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/zh-cn/LTween/Sequence/" class="nav-link">中文</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/LTween/Sequence/" aria-current="page" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/zh-cn/LTween/Sequence/" class="nav-link">中文</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading"><span>Get Started</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Sample Projects</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Prefab Workflow</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Rendering</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Visual Components</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Events</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Interaction Components</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Layout</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading open"><span>Tween Animation</span> <span class="arrow down"></span></p> <ul class="sidebar-group-items"><li><a href="/LTween/GetStarted/" class="sidebar-link">Use LTween for SceneComponent</a></li><li><a href="/LTween/LGUI/" class="sidebar-link">Use LTween for UI element</a></li><li><a href="/LTween/Custom/" class="sidebar-link">Create tween for your own</a></li><li><a href="/LTween/Functions/" class="sidebar-link">Other functions</a></li><li><a href="/LTween/Sequence/" aria-current="page" class="active sidebar-link">LTweenerSequence</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/LTween/Sequence/#functions" class="sidebar-link">Functions</a></li><li class="sidebar-sub-header"><a href="/LTween/Sequence/#how-to-use" class="sidebar-link">How to use</a></li></ul></li></ul></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Performance</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>ReleaseNotes</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>FAQ</span> <span class="arrow right"></span></p> <!----></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="ltweenersequence"><a href="#ltweenersequence" class="header-anchor">#</a> LTweenerSequence</h1> <p>LTweenerSequence is a tween type that controls a group of other tween animations as a single tween.</p> <p>First of all, it is still a tweener, so it inherits normal tweener's all properties and functions. And it has it's own properties and functions too.</p> <h2 id="functions"><a href="#functions" class="header-anchor">#</a> Functions</h2> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>/**
+ * Adds the given tween to the end of the Sequence.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ */
+ULTweenerSequence* Append(UObject* WorldContextObject, ULTweener* tweener);
+/**
+ * Adds the given interval to the end of the Sequence.
+ * Has no effect if the Sequence has already started.
+ * @param interval The interval duration
+ */
+ULTweenerSequence* AppendInterval(UObject* WorldContextObject, float interval);
+/**
+ * Inserts the given tween at the given time position in the Sequence, automatically adding an interval if needed.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ * @param timePosition The time position where the tween will be placed
+ */
+ULTweenerSequence* Insert(UObject* WorldContextObject, float timePosition, ULTweener* tweener);
+/**
+ * Adds the given tween to the beginning of the Sequence, pushing forward the other nested content.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ */
+ULTweenerSequence* Prepend(UObject* WorldContextObject, ULTweener* tweener);
+/**
+ * Adds the given interval to the beginning of the Sequence, pushing forward the other nested content.
+ * Has no effect if the Sequence has already started.
+ * @param interval The interval duration
+ */
+ULTweenerSequence* PrependInterval(UObject* WorldContextObject, float interval);
+/**
+ * Inserts the given tween at the same time position of the last tween added to the Sequence.
+ * Note that, in case of a Join after an interval, the insertion time will be the time where the interval starts, not where it finishes.
+ * Not support Tweener type: Delay/ DelayFrame/ Virtual.
+ * Has no effect if the Sequence has already started.
+ */
+ULTweenerSequence* Join(UObject* WorldContextObject, ULTweener* tweener);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div><h2 id="how-to-use"><a href="#how-to-use" class="header-anchor">#</a> How to use</h2> <h3 id="create-a-ltweenersequence"><a href="#create-a-ltweenersequence" class="header-anchor">#</a> Create a LTweenerSequence</h3> <p>C++:</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>auto Sequence = ULTweenBPLibrary::CreateSequence(this);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>Blueprint:<br>
+Just find <strong>Create Sequence</strong> node under LTween category
+<img src="/assets/img/CreateSequence.297360a6.jpg" alt></p> <h3 id="add-other-tweener"><a href="#add-other-tweener" class="header-anchor">#</a> Add other tweener</h3> <p>C++:</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>Sequence-&gt;Append(this, ULTweenBPLibrary::LocalPositionXTo(Actor1-&gt;GetRootComponent(), 100, 1.0f));
+Sequence-&gt;Insert(this, 0.5f, ULTweenBPLibrary::LocalPositionYTo(Actor1-&gt;GetRootComponent(), 100, 1.0f));
+Sequence-&gt;Prepend(this, ULTweenBPLibrary::LocalPositionZTo(Actor1-&gt;GetRootComponent(), 100, 1.0f));
+Sequence-&gt;Join(this, ULTweenBPLibrary::LocalPositionXTo(Actor2-&gt;GetRootComponent(), 100, 1.0f));
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>Blueprint:
+<img src="/assets/img/AddTweener.f4c1be8e.jpg" alt></p> <h3 id="properties-events-functions"><a href="#properties-events-functions" class="header-anchor">#</a> Properties, Events, Functions</h3> <p><strong>Properties:</strong>
+C++:</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>Sequence-&gt;SetDelay(0.5f);
+Sequence-&gt;SetEase(LTweenEase::InOutSine);
+Sequence-&gt;SetLoop(LTweenLoop::Restart, -1);
+Sequence-&gt;GetLoopCycleCount();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>Blueprint:
+<img src="/assets/img/Properties.1ce847ac.jpg" alt> <strong>Events:</strong>
+C++:</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>Sequence-&gt;OnStart([=]{...});
+Sequence-&gt;OnUpdate([=](float progress){...});
+Sequence-&gt;OnComplete([=]{...});
+Sequence-&gt;OnCycleStart([=]{...});
+Sequence-&gt;OnCycleComplete([=]{...});
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>Blueprint:
+<img src="/assets/img/Events.2f166bac.jpg" alt> <strong>Functions:</strong>
+C++:</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>Sequence-&gt;Pause();
+Sequence-&gt;Resume();
+Sequence-&gt;Restart();
+Sequence-&gt;Goto(0.5f);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>Blueprint:
+<img src="/assets/img/Functions.b9dc0e27.jpg" alt></p></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/LTween/Functions/" class="prev">
+          Other functions
+        </a></span> <span class="next"><a href="/Performance/">
+          LGUI Stat
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.99887aa6.js" defer></script><script src="/assets/js/25.0367cbd9.js" defer></script>
+  </body>
+</html>
