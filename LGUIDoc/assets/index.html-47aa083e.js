@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-5dd2cfc1","path":"/PrefabWorkflow/PrefabVariant/","title":"Prefab Variant","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1685139705000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"PrefabWorkflow/PrefabVariant/index.md"}');export{a as data};

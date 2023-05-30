@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-17d6afd6","path":"/GetStarted/CreateButton/","title":"Button from scratch","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1684225726000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"GetStarted/CreateButton/index.md"}');export{t as data};

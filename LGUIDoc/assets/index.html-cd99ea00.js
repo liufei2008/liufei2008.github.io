@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eb400524","path":"/zh-cn/LTween/LGUI/","title":"Use LTween for UI element","lang":"中文","frontmatter":{},"headers":[],"git":{"updatedTime":1685139705000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"zh-cn/LTween/LGUI/index.md"}');export{e as data};
