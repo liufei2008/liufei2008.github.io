@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-5ff4dda9","path":"/LTween/LGUI/","title":"Use LTween for UI element","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1684225726000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"LTween/LGUI/index.md"}');export{e as data};

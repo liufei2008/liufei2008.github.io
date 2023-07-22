@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-79276ab6","path":"/FAQ/CustomMaterial/","title":"Use custom material for UI elements","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1684327319000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":2}]},"filePathRelative":"FAQ/CustomMaterial/index.md"}');export{e as data};
