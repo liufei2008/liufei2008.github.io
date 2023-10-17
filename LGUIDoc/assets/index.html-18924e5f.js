@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-57ab400e","path":"/FAQ/DisableInteractionComponent/","title":"Disable interaction component","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1685406463000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"FAQ/DisableInteractionComponent/index.md"}');export{e as data};
