@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9577e56e","path":"/InteractionComponents/UIButton/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1685406463000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"InteractionComponents/UIButton/index.md"}');export{t as data};
