@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ac550cc8","path":"/PrefabWorkflow/LGUIPrefabInterface/","title":"LGUIPrefabInterface","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1697610425000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"PrefabWorkflow/LGUIPrefabInterface/index.md"}');export{e as data};
