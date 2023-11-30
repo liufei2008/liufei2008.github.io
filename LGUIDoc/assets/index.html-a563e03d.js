@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as o,b as e,d as c}from"./app-10b32d7c.js";const n={},r=e("h1",{id:"auto-layout",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#auto-layout","aria-hidden":"true"},"#"),c(" Auto Layout")],-1),s=[r];function d(_,i){return a(),o("div",null,s)}const u=t(n,[["render",d],["__file","index.html.vue"]]);export{u as default};
