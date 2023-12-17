@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-4172a1e5","path":"/zh-cn/FAQ/FindChildByDisplayName/","title":"根据名字查找子物体","lang":"中文","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-cn/FAQ/FindChildByDisplayName/index.md"}');export{e as data};
