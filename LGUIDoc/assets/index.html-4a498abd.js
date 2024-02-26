@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-45dd2abd","path":"/LTween/Document/","title":"LTween","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1707550332000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"LTween/Document/index.md"}');export{e as data};
