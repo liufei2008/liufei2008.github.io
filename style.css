@@ -1,20 +1,63 @@
 :root{
     background-color: #22272e;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 body{
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.frontpage-section{
-    top: 50%;
+.title-text{
+    position:relative;
+    top: 10%;
+    color:rgb(225, 248, 243);
+    font-size: 2em;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
 }
+.container{
+    width: 80%;
+    height: 20em;
+    position:relative;
+    left: 50%;
+    top: 20%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.frontpage-section{
+    position:absolute;
+    width: 33.33%;
+    top: 3em;
+}
+.section1{
+    left: 0%;
+}
+.section2{
+    left: 33.33%;
+}
+.section3{
+    left: 66.66%;
+}
+
 .frontpage-section a img{
     width: 10em;
     height: 10em;
+    box-shadow: 0.1em 0.1em 0.5em 0.1em #141414;
+}
+.frontpage-section a img:hover{
     box-shadow: 0.2em 0.2em 1em 0.1em #141414;
 }
-.frontpage-section a h3 a{
-    color:black;
+.frontpage-section h3{
+    color:rgb(54, 158, 111);
 }
