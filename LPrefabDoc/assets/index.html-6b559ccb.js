@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-54b4505a","path":"/PrefabInterface/","title":"LPrefabInterface","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Execute order in LPrefab","slug":"execute-order-in-lprefab","link":"#execute-order-in-lprefab","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"PrefabInterface/index.md"}');export{e as data};

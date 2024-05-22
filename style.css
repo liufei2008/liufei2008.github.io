@@ -37,17 +37,20 @@ body{
 }
 .frontpage-section{
     position:absolute;
-    width: 33.33%;
+    width: 25%;
     top: 3em;
 }
 .section1{
     left: 0%;
 }
 .section2{
-    left: 33.33%;
+    left: 25%;
 }
 .section3{
-    left: 66.66%;
+    left: 50%;
+}
+.section4{
+    left: 75%;
 }
 
 .frontpage-section a img{
