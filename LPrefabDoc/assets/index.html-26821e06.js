@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-42c48fc5","path":"/PrefabEditor/","title":"PrefabEditor","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Assign actor variable","slug":"assign-actor-variable","link":"#assign-actor-variable","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"PrefabEditor/index.md"}');export{a as data};
