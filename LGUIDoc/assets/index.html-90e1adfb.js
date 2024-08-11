@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-79781026","path":"/zh-cn/LTween/Functions/","title":"其他一些方法","lang":"中文","frontmatter":{},"headers":[],"git":{"updatedTime":1685406463000,"contributors":[{"name":"lf2007hf","email":"707908214@qq.com","commits":1}]},"filePathRelative":"zh-cn/LTween/Functions/index.md"}');export{e as data};

@@ -1,33 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="generator" content="VuePress 2.0.0-beta.62">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
     <style>
       :root {
         --c-bg: #fff;
       }
+
       html.dark {
         --c-bg: #22272e;
       }
-      html, body {
+
+      html,
+      body {
         background-color: var(--c-bg);
       }
     </style>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme');
-			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-				document.documentElement.classList.toggle('dark', true);
-			}
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
     </script>
     <title></title><meta name="description" content="">
-    <link rel="preload" href="/LTweenDoc/assets/style-66425d5a.css" as="style"><link rel="stylesheet" href="/LTweenDoc/assets/style-66425d5a.css">
-    <link rel="modulepreload" href="/LTweenDoc/assets/app-b22688e5.js"><link rel="modulepreload" href="/LTweenDoc/assets/404.html-cdb302c4.js"><link rel="modulepreload" href="/LTweenDoc/assets/404.html-60b35caa.js"><link rel="prefetch" href="/LTweenDoc/assets/index.html-5a03ebc7.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-6ab4c477.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-d0113c28.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-a8486314.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-d763e244.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-141dfd24.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-082f1dc4.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-974ab714.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-90a0320b.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-31f9d017.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-3b52e4f6.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-a000c2e1.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-622d2470.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-1f4c8d17.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-1d2856e6.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-08c9404e.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-02f825b7.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-7c7d1ed7.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-45cc5430.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-fe00ea60.js" as="script">
+    <link rel="preload" href="/LTweenDoc/assets/style-BeCOVMr8.css" as="style"><link rel="stylesheet" href="/LTweenDoc/assets/style-BeCOVMr8.css">
+    <link rel="modulepreload" href="/LTweenDoc/assets/app-_l_BygEn.js"><link rel="modulepreload" href="/LTweenDoc/assets/404.html-EM-Rkxds.js">
+    <link rel="prefetch" href="/LTweenDoc/assets/index.html-CJICqT6d.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-of0aYHCJ.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-CCwiWgk0.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-B87MxZYe.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-Bq5z2Rfs.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-BxVSQIVa.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-KW3WrjdI.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-CsT1xfv4.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-s0I42oFB.js" as="script"><link rel="prefetch" href="/LTweenDoc/assets/index.html-B3fY9aHE.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/LTweenDoc/GetStarted/" class="">Take me home</a></div></main></div><!----><!--]--></div>
-    <script type="module" src="/LTweenDoc/assets/app-b22688e5.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-303656ba><main class="page" data-v-303656ba><div class="theme-default-content" data-v-303656ba><h1 data-v-303656ba>404</h1><blockquote data-v-303656ba>There&#39;s nothing here.</blockquote><a class="route-link" href="/LTweenDoc/GetStarted/" data-v-303656ba>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/LTweenDoc/assets/app-_l_BygEn.js" defer></script>
   </body>
 </html>
